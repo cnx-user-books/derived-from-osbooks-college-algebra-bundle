@@ -1,0 +1,59 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11871</md:content-id>
+    <md:title>Essential Precalculus, Part 1</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>977ffc66-5462-4966-b1a9-ed62f798136f</md:uuid>
+<md:slug>essential-precalculus-part-1</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m50919"/>
+    <col:subcollection>
+      <md:title>Functions</md:title>
+      <col:content>
+        <col:module document="m49301"/>
+        <col:module document="m49304"/>
+        <col:module document="m49306"/>
+        <col:module document="m49308"/>
+        <col:module document="m49312"/>
+        <col:module document="m49314"/>
+        <col:module document="m49320"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Linear Functions</md:title>
+      <col:content>
+        <col:module document="m49324"/>
+        <col:module document="m50389"/>
+        <col:module document="m49326"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Polynomial and Rational Functions</md:title>
+      <col:content>
+        <col:module document="m49335"/>
+        <col:module document="m49337"/>
+        <col:module document="m49346"/>
+        <col:module document="m49347"/>
+        <col:module document="m49348"/>
+        <col:module document="m49349"/>
+        <col:module document="m49351"/>
+        <col:module document="m49352"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Exponential and Logarithmic Functions</md:title>
+      <col:content>
+        <col:module document="m49361"/>
+        <col:module document="m49362"/>
+        <col:module document="m49363"/>
+        <col:module document="m49364"/>
+        <col:module document="m49365"/>
+        <col:module document="m49366"/>
+        <col:module document="m49367"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m50414"/>
+  </col:content>
+</col:collection>
