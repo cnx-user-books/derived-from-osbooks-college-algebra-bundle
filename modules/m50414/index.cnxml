@@ -8,7 +8,7 @@
   <md:uuid>132a89e8-5b84-443a-ad57-4b66c6dfaedf</md:uuid>
 </metadata>
 
-<content class="appendix">
+<content>
 <section id="fs-id1751942">
 
 <title>Graphs of the Parent Functions</title>
@@ -47,7 +47,7 @@
 <tbody>
 <row>
 <entry>Pythagorean Identities</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mtable columnalign="left">
   <m:mtr>
    <m:mtd>
@@ -55,11 +55,11 @@
      <m:mi>cos</m:mi>
      <m:mn>2</m:mn>
     </m:msup>
-    <m:mi>θ</m:mi><m:mo>+</m:mo><m:msup>
+    <m:mi>t</m:mi><m:mo>+</m:mo><m:msup>
      <m:mi>sin</m:mi>
      <m:mn>2</m:mn>
     </m:msup>
-    <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+    <m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
    </m:mtd>
   </m:mtr>
   <m:mtr>
@@ -68,11 +68,11 @@
      <m:mi>tan</m:mi>
      <m:mn>2</m:mn>
     </m:msup>
-    <m:mi>θ</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mi>t</m:mi><m:mo>=</m:mo><m:msup>
      <m:mi>sec</m:mi>
      <m:mn>2</m:mn>
     </m:msup>
-    <m:mi>θ</m:mi>
+    <m:mi>t</m:mi>
    </m:mtd>
   </m:mtr>
   <m:mtr>
@@ -81,65 +81,65 @@
      <m:mi>cot</m:mi>
      <m:mn>2</m:mn>
     </m:msup>
-    <m:mi>θ</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mi>t</m:mi><m:mo>=</m:mo><m:msup>
      <m:mi>csc</m:mi>
      <m:mn>2</m:mn>
     </m:msup>
-    <m:mi>θ</m:mi>
+    <m:mi>t</m:mi>
    </m:mtd>
   </m:mtr>
  </m:mtable>
-
-</m:math> </entry>
+ 
+</m:math></entry>
 </row>
 <row>
 <entry>Even-Odd Identities</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+      <m:mi>cos</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sec</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sec</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+      <m:mi>sec</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sec</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+      <m:mi>sin</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>tan</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+      <m:mi>tan</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>csc</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>csc</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+      <m:mi>csc</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>csc</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cot</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+      <m:mi>cot</m:mi><m:mo stretchy="false">(−</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -147,19 +147,19 @@
 </row>
 <row>
 <entry>Cofunction Identities</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mi>π</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-        <m:mo>−</m:mo><m:mi>θ</m:mi>
+        <m:mo>−</m:mo><m:mi>t</m:mi>
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -168,13 +168,13 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mi>π</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-        <m:mo>−</m:mo><m:mi>θ</m:mi>
+        <m:mo>−</m:mo><m:mi>t</m:mi>
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -183,13 +183,13 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>cot</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>cot</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mi>π</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-        <m:mo>−</m:mo><m:mi>θ</m:mi>
+        <m:mo>−</m:mo><m:mi>t</m:mi>
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -198,13 +198,13 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>tan</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>tan</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mi>π</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-        <m:mo>−</m:mo><m:mi>θ</m:mi>
+        <m:mo>−</m:mo><m:mi>t</m:mi>
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -213,13 +213,13 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sec</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>csc</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>sec</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>csc</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mi>π</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-        <m:mo>−</m:mo><m:mi>θ</m:mi>
+        <m:mo>−</m:mo><m:mi>t</m:mi>
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -228,19 +228,19 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>csc</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>sec</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>csc</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>sec</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mi>π</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-        <m:mo>−</m:mo><m:mi>θ</m:mi>
+        <m:mo>−</m:mo><m:mi>t</m:mi>
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -248,72 +248,72 @@
 </row>
 <row>
 <entry>Fundamental Identities</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
        <m:mrow>
-        <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+        <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sec</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>sec</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mrow>
-        <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+        <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>csc</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>csc</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mtext>cot</m:mtext><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>cot</m:mtext><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mrow>
-        <m:mtext>tan</m:mtext><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+        <m:mtext>tan</m:mtext><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mtext>cos</m:mtext><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+        <m:mtext>cos</m:mtext><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
        <m:mrow>
-        <m:mtext>sin</m:mtext><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+        <m:mtext>sin</m:mtext><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -321,34 +321,34 @@
 </row>
 <row>
 <entry>Sum and Difference Identities</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+      <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+      <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+      <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+      <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -357,13 +357,13 @@
      <m:mrow>
       <m:mi>tan</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+        <m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
        </m:mrow>
        <m:mrow>
-        <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+        <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -372,17 +372,17 @@
      <m:mrow>
       <m:mi>tan</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+        <m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
        </m:mrow>
        <m:mrow>
-        <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+        <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -390,13 +390,13 @@
 </row>
 <row>
 <entry>Double-Angle Formulas</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+      <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -422,7 +422,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:msup>
+      <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:msup>
        <m:mrow>
         <m:mi>sin</m:mi>
        </m:mrow>
@@ -435,7 +435,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:msup>
+      <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:msup>
        <m:mrow>
         <m:mi>cos</m:mi>
        </m:mrow>
@@ -450,7 +450,7 @@
      <m:mrow>
       <m:mi>tan</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+        <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi>
        </m:mrow>
        <m:mrow>
         <m:mn>1</m:mn><m:mo>−</m:mo><m:msup>
@@ -462,11 +462,11 @@
         <m:mi>θ</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -474,13 +474,13 @@
 </row>
 <row>
 <entry>Half-Angle Formulas</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mfrac>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mfrac>
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -488,21 +488,21 @@
        <m:mrow>
         <m:mfrac>
          <m:mrow>
-          <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+          <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mfrac>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mfrac>
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -510,21 +510,21 @@
        <m:mrow>
         <m:mfrac>
          <m:mrow>
-          <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+          <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mfrac>
+      <m:mi>tan</m:mi><m:mtext> </m:mtext><m:mfrac>
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -532,58 +532,58 @@
        <m:mrow>
         <m:mfrac>
          <m:mrow>
-          <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+          <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
          </m:mrow>
          <m:mrow>
-          <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+          <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mfrac>
+      <m:mi>tan</m:mi><m:mtext> </m:mtext><m:mfrac>
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
        </m:mrow>
        <m:mrow>
-        <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+        <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mfrac>
+      <m:mi>tan</m:mi><m:mtext> </m:mtext><m:mfrac>
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+        <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
        </m:mrow>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -591,7 +591,7 @@
 </row>
 <row>
 <entry>Reduction Formulas</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mtable columnalign="left">
   <m:mtr>
    <m:mtd>
@@ -609,7 +609,7 @@
      </m:mrow>
      <m:mn>2</m:mn>
     </m:mfrac>
-
+    
    </m:mtd>
   </m:mtr>
   <m:mtr>
@@ -628,7 +628,7 @@
      </m:mrow>
      <m:mn>2</m:mn>
     </m:mfrac>
-
+    
    </m:mtd>
   </m:mtr>
   <m:mtr>
@@ -653,23 +653,23 @@
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mtd>
   </m:mtr>
  </m:mtable>
-
+ 
 </m:math>
 </entry>
 </row>
 <row>
 <entry>Product-to-Sum Formulas</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -682,7 +682,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -695,7 +695,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -708,7 +708,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -718,7 +718,7 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -726,13 +726,13 @@
 </row>
 <row>
 <entry>Sum-to-Product Formulas</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -740,9 +740,9 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -750,7 +750,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -759,7 +759,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -767,9 +767,9 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -777,7 +777,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -786,7 +786,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -794,9 +794,9 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -804,7 +804,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -813,7 +813,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -821,9 +821,9 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -831,13 +831,13 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -845,7 +845,7 @@
 </row>
 <row>
 <entry>Law of Sines</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -853,23 +853,23 @@
      <m:mrow>
       <m:mfrac>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
        </m:mrow>
        <m:mi>a</m:mi>
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
        </m:mrow>
        <m:mi>b</m:mi>
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>γ</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>γ</m:mi>
        </m:mrow>
        <m:mi>c</m:mi>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -879,26 +879,26 @@
       <m:mfrac>
        <m:mi>a</m:mi>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
        </m:mrow>
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mi>b</m:mi>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
        </m:mrow>
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mi>c</m:mi>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>γ</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>γ</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -906,7 +906,7 @@
 </row>
 <row>
 <entry>Law of Cosines</entry>
-<entry> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -924,7 +924,7 @@
        <m:mi>c</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>c</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>c</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -943,7 +943,7 @@
        <m:mi>c</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -962,15 +962,23 @@
        <m:mi>b</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mspace width="0.5em"/><m:mtext>cos</m:mtext><m:mspace width="0.3em"/><m:mi>γ</m:mi>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mtext> </m:mtext><m:mtext>cos</m:mtext><m:mtext> </m:mtext><m:mi>γ</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </entry>
 </row>
-</tbody></tgroup>
+</tbody>
+
+
+
+
+
+</tgroup>
 </table></section></content>
+
 </document>
