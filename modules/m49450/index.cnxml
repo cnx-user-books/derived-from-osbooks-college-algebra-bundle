@@ -4,7 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m49450</md:content-id>
   <md:title>Probability</md:title>
-  <md:abstract><para id="para-00001">In this section, you will:</para><list id="list-00001">
+  <md:abstract>In this section, you will:
+<list>
 <item>Construct probability models.</item>
 <item>Compute probabilities of equally likely outcomes.</item>
 <item>Compute probabilities of the union of two events.</item>
@@ -15,110 +16,15 @@
 </metadata>
 
 <content>
-<section id="eip-7" class="coreq-skills"><section id="eip-204" class="learning-objectives"><title>Learning Objectives</title><list id="eip-122"><item>Introduction to Sample Spaces and Computing Basic Probabilities.
-</item>
-</list></section><section id="eip-784"><title>Objective 1: Introduction to Sample Spaces and Computing Basic Probabilities.</title><para id="eip-13">
-Many events in life are inherently uncertain: will it snow tomorrow? Am I going to get an ‘A’ in this course? None of these questions can be answered with certainty, however, we might say that some are unlikely, and others are more likely.
-
-</para><para id="eip-512">The <term id="term-00001">probability of an event</term> is a description of how likely it is that an event will happen. A probability is a number between <emphasis>0</emphasis> and <emphasis>1</emphasis> (that is, between 0% and 100%), where probabilities closer to 100% are very likely to occur, and probabilities closer to 0% are very unlikely to occur. A probability of 0% means the event is impossible, and a probability of 100% means the event will certainly occur.
-</para><para id="eip-745">A <term id="term-00002">probability model</term> is a mathematical description of an experiment listing all possible outcomes and their associated probabilities. It is defined by its sample space, events within the sample space, and probabilities associated with each event.
-</para><para id="eip-347">The <term id="term-00003">sample space S</term> for a probability model is the set of all possible outcomes. For example, the sample space for rolling a dice is the set 1,2,3,4,5,6.This notation is referred to as <term id="term-00004">roster notation</term>.
-</para><para id="eip-966">An event A is a subset of the sample space S. For example, the event “Rolling an even number” is the subset 2,4,6.
-</para><para id="eip-521">To calculate the probability of an event, we divide the number of possible outcomes of the event by the number of possible outcomes of the sample space.
-</para><equation id="eip-807" class="unnumbered"><label/> <m:math><m:mi mathvariant="normal">P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>outcome</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>Number</m:mi><m:mo> </m:mo><m:mi>of</m:mi><m:mo> </m:mo><m:mi>ways</m:mi><m:mo> </m:mo><m:mi>that</m:mi><m:mo> </m:mo><m:mi>outcome</m:mi><m:mo> </m:mo><m:mi>can</m:mi><m:mo> </m:mo><m:mi>occur</m:mi></m:mrow><m:mrow><m:mi>Total</m:mi><m:mo> </m:mo><m:mi>number</m:mi><m:mo> </m:mo><m:mi>of</m:mi><m:mo> </m:mo><m:mi>outcomes</m:mi></m:mrow></m:mfrac></m:math> </equation><para id="eip-783">It is important to note that in order to use this formula, <emphasis>all outcomes must be equally likely to happen</emphasis>.
-</para><para id="eip-665">For example, the probability of rolling an even number with a standard dice is:
-</para><equation id="eip-963" class="unnumbered"><label/> <m:math><m:mi mathvariant="normal">P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>even numbers</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo> </m:mo><m:mi>even</m:mi><m:mo> </m:mo><m:mi>numbers</m:mi></m:mrow><m:mrow><m:mn>6</m:mn><m:mo> </m:mo><m:mi>total</m:mi><m:mo> </m:mo><m:mi>numbers</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math> </equation><example id="eip-701"><exercise id="eip-51"><problem id="eip-670"><title>Basic Probability. (Simple intro to sample spaces)</title>
-  <para id="eip-355">
-Tossing a coin:
-
-  </para>
-<list id="eip-idm539345184" list-type="labeled-item"><item><span class="token">ⓐ</span> Describe in set notation the sample space of tossing a coin.</item>
-<item><span class="token">ⓑ</span> Find the probability of “Coin lands on heads.”</item>
-</list>
-  <para id="eip-696">
-Rolling a die:
-
-  </para>
-<list id="eip-idm256378880" list-type="labeled-item"><item><span class="token">ⓐ</span> Describe in set notation the event “Rolling an odd number.”</item>
-<item><span class="token">ⓑ</span> Find the probability of “Rolling an odd number.”</item>
-
-</list>
-  <para id="eip-717">
-Drawing a card:
-  </para>
-
-<list id="eip-idm341738352" list-type="labeled-item"><item><span class="token">ⓐ</span> Describe in set notation the event “Drawing an Ace.”</item>
-<item><span class="token">ⓑ</span> Find the probability of “Drawing an Ace.”</item>
-
-</list></problem>
-<solution id="eip-idm370126608"><para id="eip-idm370126480">Tossing a coin: 
-<list id="eip-idm370126224" list-type="labeled-item"><item><span class="token">ⓐ</span> When you toss a coin, there are two outcomes. The sample space is: Heads, Tails. </item>
-<item><span class="token">ⓑ</span> There is only one outcome for the coin landing on heads, so P(Lands on Heads)=12. </item></list></para>
-<para id="eip-idm642268320">Rolling a die: 
-	<list id="eip-idm642268064" list-type="labeled-item"><item><span class="token">ⓐ</span> When you roll a dice, there are six outcomes. The event "Rolling an odd number" has three outcomes. The event is set notation is: 1,3,5. </item>
-	<item><span class="token">ⓑ</span> P(rolling an odd number)=36=12. </item></list></para>
-<para id="eip-idm352040080">Drawing a card: 
-<list id="eip-idm352039824" list-type="labeled-item"><item><span class="token">ⓐ</span> When you draw a card, there are 52 outcomes. The event "Drawing an Ace" has four outcomes. The event in set notation is:Ace of hearts, Ace of diamonds, Ace of clubs, Ace of spades. </item>
-<item><span class="token">ⓑ</span> P(Drawing an Ace)=452=113.</item></list></para></solution></exercise></example><section id="fs-idm212457888" class="practice-perfect"><title>Practice Makes Perfect</title>
-<exercise id="eip-450"><problem id="eip-401">
-<para id="eip-idm388337072">Spinning a dial:
-</para>
-<media id="eip-idm213642992" alt="."><image mime-type="image/jpg" src="../../media/CNX_Coreq_Figure_09_07_001.jpg"/></media>
-<list id="eip-idm414862864" list-type="labeled-item"><item><span class="token">ⓐ</span>
-
-Describe the sample space in set notation.
-</item>
-
-<item><span class="token">ⓑ</span>
-Find the probability of “Dial stops on a yellow slice.”
-</item>
-
-<item><span class="token">ⓒ</span>
-Find the probability of “Dial stops on a red slice.”
-</item>
-
-<item><span class="token">ⓓ</span>
-Find the probability of “Dial stops on a blue slice.”
-</item>
-
-</list></problem>
-
-</exercise><exercise id="eip-124"><problem id="eip-247">
-<list id="eip-idm412511696" list-type="labeled-item"><item>Draw a diagram showing the sample space of a standard deck of 52 cards. Begin by distinguishing between red and black cards showing the number of each. Next show the suits: diamonds, hearts, clubs and spades.  Below this list the number or face card appearing in each suit. Use your diagram to help you find the following.
-</item>
-<item><span class="token">ⓐ</span>
-Describe in set notation the event “Drawing a king.”
-</item>
-
-<item><span class="token">ⓑ</span>
-Find the probability of “Drawing a king.”
-</item>
-
-<item><span class="token">ⓒ</span>
-Describe in set notation the event “Drawing a club.”
-</item>
-
-<item><span class="token">ⓓ</span>
-Find the probability of “Drawing a club.”
-</item>
-
-<item><span class="token">ⓔ</span>
-Find the probability of “Drawing a red six.”
-</item>
-
-<item><span class="token">ⓕ</span>
-Find the probability of “Drawing a black queen.”
-</item>
-</list></problem>
-
-
-</exercise></section></section></section><figure id="CNX_Precalc_Figure_11_07_001"><media id="fs-id1585419" alt="Spaghetti map of the possible paths for a hurricane over the Southeastern United States">
+<figure id="CNX_Precalc_Figure_11_07_001"><media id="fs-id1585419" alt="Spaghetti map of the possible paths for a hurricane over the Southeastern United States">
 <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_11_07_001.jpg"/>
 </media>
 
 <caption>An example of a “spaghetti model,” which can be used to predict possible paths of a tropical storm.<footnote id="eip-id1165135209268">The figure is for illustrative purposes only and does not model any particular storm.</footnote></caption></figure><para id="fs-id1648117">Residents of the Southeastern United States are all too familiar with charts, known as spaghetti models, such as the one in <link target-id="CNX_Precalc_Figure_11_07_001"/>. They combine a collection of weather data to predict the most likely path of a hurricane. Each colored line represents one possible path. The group of squiggly lines can begin to resemble strands of spaghetti, hence the name. In this section, we will investigate methods for making these types of predictions.</para>
 
-<section id="fs-id1629254"><title>Constructing Probability Models</title><para id="fs-id1599191">Suppose we roll a six-sided number cube. Rolling a number cube is an example of an <term id="term-00005">experiment</term>, or an activity with an observable result. The numbers on the cube are possible results, or <term id="term-00006">outcomes</term>, of this experiment. The set of all possible outcomes of an experiment is called the <term id="term-00007">sample space</term> of the experiment. The sample space for this experiment is <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow> <m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> An <term id="term-00008">event</term> is any subset of a sample space.</para><para id="fs-id1587181">The likelihood of an event is known as <term id="term-00009">probability</term>. The probability of an event <m:math>
+<section id="fs-id1629254">
+<title>Constructing Probability Models</title>
+<para id="fs-id1599191">Suppose we roll a six-sided number cube. Rolling a number cube is an example of an <term>experiment</term>, or an activity with an observable result. The numbers on the cube are possible results, or <term>outcomes</term>, of this experiment. The set of all possible outcomes of an experiment is called the <term>sample space</term> of the experiment. The sample space for this experiment is <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow> <m:mo>}</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow></m:math>An <term>event</term> is any subset of a sample space.</para><para id="fs-id1587181">The likelihood of an event is known as <term>probability</term>. The probability of an event <m:math>
 <m:mrow>
 <m:mi>p</m:mi>
 </m:mrow>
@@ -126,35 +32,32 @@ Find the probability of “Drawing a black queen.”
  <m:mrow>
   <m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>p</m:mi><m:mo>≤</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
  </m:mrow>
-</m:math> where 0 indicates an impossible event and 1 indicates a certain event. A <term id="term-00010">probability model</term> is a mathematical description of an experiment listing all possible outcomes and their associated probabilities. For instance, if there is a 1% chance of winning a raffle and a 99% chance of losing the raffle, a probability model would look much like <link target-id="Table_11_07_01"/>.</para><table id="Table_11_07_01" summary="..">
+</m:math> where 0 indicates an impossible event and 1 indicates a certain event. A <term>probability model</term> is a mathematical description of an experiment listing all possible outcomes and their associated probabilities. For instance, if there is a 1% chance of winning a raffle and a 99% chance of losing the raffle, a probability model would look much like <link target-id="Table_11_07_01"/>.</para><table id="Table_11_07_01" summary="..">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
 
 <row>
-<entry align="center">Outcome</entry>
-<entry align="center">Probability</entry>
+<entry>Outcome</entry>
+<entry>Probability</entry>
 </row>
 </thead>
 <tbody>
 <row>
-<entry align="center">Winning the raffle</entry>
-<entry align="center">1%</entry>
+<entry>Winning the raffle</entry>
+<entry>1%</entry>
 </row>
 <row>
-<entry align="center">Losing the raffle</entry>
-<entry align="center">99%</entry>
+<entry>Losing the raffle</entry>
+<entry>99%</entry>
 </row>
 </tbody>
-
-
-
 
 
 </tgroup>
 </table><para id="fs-id1697257">The sum of the probabilities listed in a probability model must equal 1, or 100%.</para>
 
-<note id="fs-id1586893" class="how-to-notitle">
+<note id="fs-id1586893" class="precalculus howto">
 <label>How To</label>
 <para id="fs-id1644742"><emphasis effect="bold">Given a probability event where each event is equally likely, construct a probability model.</emphasis></para>
 <list id="fs-id934544" list-type="enumerated" number-style="arabic">
@@ -172,9 +75,9 @@ Find the probability of “Drawing a black queen.”
 </problem>
 <solution id="fs-id1288582">
 <para id="fs-id934643">Begin by making a list of all possible outcomes for the experiment. The possible outcomes are the numbers that can be rolled: 1, 2, 3, 4, 5, and 6. There are six possible outcomes that make up the sample space.</para>
-<para id="fs-id1261808">Assign probabilities to each outcome in the sample space by determining a ratio of the outcome to the number of possible outcomes. There is one of each of the six numbers on the cube, and there is no reason to think that any particular face is more likely to show up than any other one, so the probability of rolling any number is <m:math>
+<para id="fs-id1261808">Assign probabilities to each outcome in the sample space by determining a ratio of the outcome to the number of possible outcomes. There is one of each of the six numbers on the cube, and there is no reason to think that any particular face is more likely to show up than any other one, so the probability of rolling any number is<m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
@@ -191,84 +94,81 @@ Find the probability of “Drawing a black queen.”
 <colspec colnum="7" colname="c7"/>
 <tbody>
 <row>
-<entry align="center"><emphasis>Outcome</emphasis></entry>
-<entry align="center">Roll of 1</entry>
-<entry align="center">Roll of 2</entry>
-<entry align="center">Roll of 3</entry>
-<entry align="center">Roll of 4</entry>
-<entry align="center">Roll of 5</entry>
-<entry align="center">Roll of 6</entry>
+<entry><emphasis>Outcome</emphasis></entry>
+<entry>Roll of 1</entry>
+<entry>Roll of 2</entry>
+<entry>Roll of 3</entry>
+<entry>Roll of 4</entry>
+<entry>Roll of 5</entry>
+<entry>Roll of 6</entry>
 </row>
 
 
 <row>
-<entry align="center"><emphasis>Probability</emphasis></entry>
-<entry align="center"> <m:math>
+<entry><emphasis>Probability</emphasis></entry>
+<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
-<entry align="center">
- <m:math>
+<entry>
+<m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
 </row>
 </tbody>
-
-
-
 
 
 </tgroup>
@@ -291,18 +191,18 @@ Find the probability of “Drawing a black queen.”
 <colspec colnum="2" colname="c2"/>
 <thead>
 <row>
-<entry align="center">Outcome</entry>
-<entry align="center">Probability</entry>
+<entry>Outcome</entry>
+<entry>Probability</entry>
 </row>
 </thead>
 <tbody>
 <row>
-<entry align="center">Heads</entry>
-<entry align="center"> <m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math> </entry>
+<entry>Heads</entry>
+<entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math></entry>
 </row>
 <row>
-<entry align="center">Tails</entry>
-<entry align="center"> <m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math> </entry>
+<entry>Tails</entry>
+<entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math></entry>
 </row>
 </tbody>
 
@@ -311,27 +211,29 @@ Find the probability of “Drawing a black queen.”
 </tgroup>
 </table></solution>
 </exercise></note>
-</section><section id="fs-id1361118">
+</section>
+
+<section id="fs-id1361118">
 <title>Computing Probabilities of Equally Likely Outcomes</title>
-<para id="fs-id1300748">Let <m:math>
+<para id="fs-id1300748">Let<m:math>
 <m:mrow>
-<m:mi>S</m:mi>
+<m:mtext> </m:mtext><m:mi>S</m:mi><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> be a sample space for an experiment. When investigating probability, an event is any subset of <m:math>
+</m:math>be a sample space for an experiment. When investigating probability, an event is any subset of<m:math>
 <m:mrow>
-<m:mi>S</m:mi><m:mo>.</m:mo>
+<m:mtext> </m:mtext><m:mi>S</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> When the outcomes of an experiment are all equally likely, we can find the probability of an event by dividing the number of outcomes in the event by the total number of outcomes in <m:math>
+</m:math>When the outcomes of an experiment are all equally likely, we can find the probability of an event by dividing the number of outcomes in the event by the total number of outcomes in<m:math>
 <m:mrow>
-<m:mi>S</m:mi><m:mo>.</m:mo>
+<m:mtext> </m:mtext><m:mi>S</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> Suppose a number cube is rolled, and we are interested in finding the probability of the event “rolling a number less than or equal to 4.” There are 4 possible outcomes in the event and 6 possible outcomes in <m:math>
+</m:math>Suppose a number cube is rolled, and we are interested in finding the probability of the event “rolling a number less than or equal to 4.” There are 4 possible outcomes in the event and 6 possible outcomes in<m:math>
 <m:mrow>
-<m:mi>S</m:mi><m:mo>,</m:mo>
+<m:mtext> </m:mtext><m:mi>S</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> so the probability of the event is <m:math>
+</m:math>so the probability of the event is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>4</m:mn>
 <m:mn>6</m:mn>
 </m:mfrac>
@@ -339,11 +241,11 @@ Find the probability of “Drawing a black queen.”
 <m:mn>2</m:mn>
 <m:mn>3</m:mn>
 </m:mfrac>
-<m:mo>.</m:mo>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </para>
+</m:math></para>
 <note id="fs-id1424935">
-
+<label>A General Note</label>
 <title>Computing the Probability of an Event with Equally Likely Outcomes</title>
 <para id="fs-id1348125">The probability of an event <m:math>
  <m:mrow>
@@ -354,9 +256,9 @@ Find the probability of “Drawing a black queen.”
   <m:mi>S</m:mi>
  </m:mrow>
 </m:math> with equally likely outcomes is given by
-<equation id="Equation_11_07_01" class="unnumbered"><label/> <m:math display="block">
+<equation id="Equation_11_07_01"><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mi>E</m:mi>
 <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -378,11 +280,11 @@ Find the probability of “Drawing a black queen.”
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation></para><para id="fs-id1594823"> <m:math>
+</m:math></equation></para><para id="fs-id1594823"><m:math>
 <m:mrow>
-<m:mi>E</m:mi>
+<m:mtext> </m:mtext><m:mi>E</m:mi>
 </m:mrow>
 </m:math> is a subset of <m:math>
 <m:mrow>
@@ -390,9 +292,9 @@ Find the probability of “Drawing a black queen.”
 </m:mrow>
 </m:math> so it is always true that <m:math>
 <m:mrow>
-<m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>≤</m:mo><m:mn>1.</m:mn>
+<m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>≤</m:mo><m:mn>1.</m:mn><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </para></note>
+</m:math></para></note>
 
 <example id="Example_11_07_02">
 <exercise id="fs-id1588667"><problem id="fs-id1445522">
@@ -400,9 +302,9 @@ Find the probability of “Drawing a black queen.”
 <para id="fs-id1451755">A six-sided number cube is rolled. Find the probability of rolling an odd number.</para></problem>
 <solution id="fs-id918553">
 <para id="fs-id1643786">The event “rolling an odd number” contains three outcomes. There are 6 equally likely outcomes in the sample space. Divide to find the probability of the event.</para>
-<equation id="eip-id1165137794350" class="unnumbered"><label/> <m:math display="block">
+<equation id="eip-id1165137794350" class="unnumbered"><label/><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>3</m:mn>
 <m:mn>6</m:mn>
 </m:mfrac>
@@ -410,9 +312,9 @@ Find the probability of “Drawing a black queen.”
 <m:mn>1</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation>
+</m:math></equation>
 </solution>
 </exercise></example>
 
@@ -420,39 +322,39 @@ Find the probability of “Drawing a black queen.”
 <label>Try It</label>
 <exercise id="ti_11_07_02">
 <problem id="fs-id1422591"><para id="fs-id899264">A number cube is rolled. Find the probability of rolling a number greater than 2.</para></problem>
-<solution id="fs-id1677674"><para id="fs-id1370831"> <m:math>
+<solution id="fs-id1677674"><para id="fs-id1370831"><m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>2</m:mn>
 <m:mn>3</m:mn>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 </note>
 </section>
 
 <section id="fs-id1086429">
 <title>Computing the Probability of the Union of Two Events</title>
-<para id="fs-id1316365">We are often interested in finding the probability that one of multiple events occurs. Suppose we are playing a card game, and we will win if the next card drawn is either a heart or a king. We would be interested in finding the probability of the next card being a heart or a king. The <term id="term-00011">union of two events</term> <m:math>
+<para id="fs-id1316365">We are often interested in finding the probability that one of multiple events occurs. Suppose we are playing a card game, and we will win if the next card drawn is either a heart or a king. We would be interested in finding the probability of the next card being a heart or a king. The <term>union of two events</term><m:math>
  <m:mrow>
-  <m:mi>E</m:mi><m:mspace width="0.5em"/><m:mtext>and </m:mtext><m:mi>F</m:mi><m:mo>,</m:mo><m:mtext>written </m:mtext><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo>,</m:mo>
+  <m:mtext> </m:mtext><m:mi>E</m:mi><m:mtext> and </m:mtext><m:mi>F</m:mi><m:mo>,</m:mo><m:mtext>written </m:mtext><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> is the event that occurs if either or both events occur.</para><equation id="Equation_11_07_02" class="unnumbered"><label/> <m:math display="block">
+</m:math>is the event that occurs if either or both events occur.</para><equation id="Equation_11_07_02" class="unnumbered"><label/><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∩</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∩</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation><para id="fs-id1509253">Suppose the spinner in <link target-id="Figure_11_07_002"/> is spun. We want to find the probability of spinning orange or spinning a <m:math>
+</m:math></equation><para id="fs-id1509253">Suppose the spinner in <link target-id="Figure_11_07_002"/> is spun. We want to find the probability of spinning orange or spinning a<m:math>
  <m:mrow>
-  <m:mi>b</m:mi><m:mo>.</m:mo>
+  <m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para><figure id="Figure_11_07_002" class="small"><media id="fs-id1327158" alt="A pie chart with six pieces with two a's colored orange, one b colored orange and another b colored red, one d colored blue, and one c colored green.">
+</m:math></para><figure id="Figure_11_07_002" class="small"><media id="fs-id1327158" alt="A pie chart with six pieces with two a's colored orange, one b colored orange and another b colored red, one d colored blue, and one c colored green.">
 <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_11_07_002.jpg"/>
 </media>
-</figure><para id="fs-id1432292">There are a total of 6 sections, and 3 of them are orange. So the probability of spinning orange is <m:math>
+</figure><para id="fs-id1432292">There are a total of 6 sections, and 3 of them are orange. So the probability of spinning orange is<m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>3</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
@@ -460,15 +362,15 @@ Find the probability of “Drawing a black queen.”
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> There are a total of 6 sections, and 2 of them have a <m:math>
+</m:math>There are a total of 6 sections, and 2 of them have a<m:math>
 <m:mrow>
-<m:mi>b</m:mi><m:mo>.</m:mo>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> So the probability of spinning a <m:math>
+</m:math>So the probability of spinning a<m:math>
 <m:mrow>
-<m:mi>b</m:mi>
+<m:mtext> </m:mtext><m:mi>b</m:mi>
 </m:mrow>
 </m:math> is <m:math>
  <m:mrow>
@@ -494,9 +396,9 @@ Find the probability of “Drawing a black queen.”
 <m:mrow>
 <m:mi>b</m:mi><m:mo>.</m:mo>
 </m:mrow>
-</m:math> </para><equation id="eip-558" class="unnumbered"><label/> <m:math display="block">
+</m:math></para><equation id="eip-558" class="unnumbered"><label/><m:math display="block">
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>
@@ -512,11 +414,11 @@ Find the probability of “Drawing a black queen.”
 <m:mn>2</m:mn>
 <m:mn>3</m:mn>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation><para id="fs-id1586194">The probability of spinning orange or a <m:math>
+</m:math></equation><para id="fs-id1586194">The probability of spinning orange or a <m:math>
 <m:mrow>
-<m:mi>b</m:mi>
+<m:mi>b</m:mi><m:mtext> </m:mtext>
 </m:mrow>
 </m:math> is <m:math>
 <m:mrow>
@@ -526,8 +428,8 @@ Find the probability of “Drawing a black queen.”
 </m:mfrac>
 <m:mo>.</m:mo>
 </m:mrow>
-</m:math> </para><note id="fs-id1656986">
-
+</m:math></para><note id="fs-id1656986">
+<label>A General Note</label>
 <title>Probability of the Union of Two Events</title>
 <para id="fs-id1658947">The probability of the union of two events <m:math>
 <m:mrow>
@@ -537,9 +439,9 @@ Find the probability of “Drawing a black queen.”
 <m:mi>F</m:mi>
 </m:math> (written <m:math>
 <m:mrow>
-<m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi>
+<m:mtext> </m:mtext><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi>
 </m:mrow>
-</m:math> ) equals the sum of the probability of <m:math>
+</m:math>) equals the sum of the probability of <m:math>
 <m:mrow>
 <m:mi>E</m:mi>
 </m:mrow>
@@ -555,7 +457,7 @@ Find the probability of “Drawing a black queen.”
 <m:mrow>
 <m:mi>F</m:mi>
 </m:mrow>
-</m:math> occurring together <m:math><m:mtext>(</m:mtext></m:math> which is called the <term class="no-emphasis" id="term-00012">intersection</term> of <m:math>
+</m:math> occurring together <m:math><m:mtext>(</m:mtext></m:math>which is called the <term class="no-emphasis">intersection</term> of <m:math>
 <m:mrow>
 <m:mi>E</m:mi>
 </m:mrow>
@@ -567,11 +469,11 @@ Find the probability of “Drawing a black queen.”
  <m:mrow>
   <m:mi>E</m:mi><m:mo>∩</m:mo><m:mi>F</m:mi>
  </m:mrow>
-</m:math> ).</para><equation id="eip-579" class="unnumbered"><label/> <m:math display="block">
+</m:math>).</para><equation id="eip-579"><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∩</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∩</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation></note>
+</m:math></equation></note>
 
 <example id="Example_11_07_03">
 <exercise id="fs-id1518999"><problem id="fs-id1034489">
@@ -579,17 +481,17 @@ Find the probability of “Drawing a black queen.”
 <para id="fs-id1356448">A card is drawn from a standard deck. Find the probability of drawing a heart or a 7.</para>
 </problem>
 <solution id="fs-id1530303">
-<para id="fs-id1586017">A standard deck contains an equal number of hearts, diamonds, clubs, and spades. So the probability of drawing a heart is <m:math>
+<para id="fs-id1586017">A standard deck contains an equal number of hearts, diamonds, clubs, and spades. So the probability of drawing a heart is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>4</m:mn>
 </m:mfrac>
-<m:mo>.</m:mo>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> There are four 7s in a standard deck, and there are a total of 52 cards. So the probability of drawing a 7 is <m:math>
+</m:math>There are four 7s in a standard deck, and there are a total of 52 cards. So the probability of drawing a 7 is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mn>13</m:mn>
@@ -597,20 +499,20 @@ Find the probability of “Drawing a black queen.”
 </m:mfrac>
 <m:mo>.</m:mo>
 </m:mrow>
-</m:math> </para>
-<para id="fs-id1702376">The only card in the deck that is both a heart and a 7 is the 7 of hearts, so the probability of drawing both a heart and a 7 is <m:math>
+</m:math></para>
+<para id="fs-id1702376">The only card in the deck that is both a heart and a 7 is the 7 of hearts, so the probability of drawing both a heart and a 7 is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mn>52</m:mn>
 </m:mrow>
 </m:mfrac>
-<m:mo>.</m:mo>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> Substitute <m:math>
+</m:math>Substitute<m:math>
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>H</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>H</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>4</m:mn>
 </m:mfrac>
@@ -626,10 +528,10 @@ Find the probability of “Drawing a black queen.”
 <m:mn>52</m:mn>
 </m:mrow>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> into the formula.</para>
-<equation id="eip-id1165137834138" class="unnumbered"><label/> <m:math>
+</m:math>into the formula.</para>
+<equation id="eip-id1165137834138" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -650,7 +552,7 @@ Find the probability of “Drawing a black queen.”
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mspace width="0.5em"/><m:mtext>              </m:mtext><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>               </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>4</m:mn>
       </m:mfrac>
@@ -666,31 +568,31 @@ Find the probability of “Drawing a black queen.”
         <m:mn>52</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mspace width="0.5em"/><m:mtext>              </m:mtext><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>               </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mn>4</m:mn>
        <m:mrow>
         <m:mn>13</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
-</m:math> </equation>
+</m:math></equation>
 
-<para id="fs-id1429192">The probability of drawing a heart or a 7 is <m:math>
+<para id="fs-id1429192">The probability of drawing a heart or a 7 is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>4</m:mn>
 <m:mrow>
 <m:mn>13</m:mn>
@@ -698,7 +600,7 @@ Find the probability of “Drawing a black queen.”
 </m:mfrac>
 <m:mo>.</m:mo>
 </m:mrow>
-</m:math> </para>
+</m:math></para>
 </solution>
 </exercise></example>
 
@@ -708,44 +610,46 @@ Find the probability of “Drawing a black queen.”
 <problem id="fs-id1000024">
 <para id="fs-id1648053">A card is drawn from a standard deck. Find the probability of drawing a red card or an ace.</para></problem>
 <solution id="fs-id1583916">
-<para id="fs-id1345700"> <m:math>
+<para id="fs-id1345700"><m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>7</m:mn>
 <m:mrow>
 <m:mn>13</m:mn>
 </m:mrow>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </para>
+</m:math></para>
 </solution>
 </exercise>
 </note>
 </section>
-<section id="fs-id1116713"><title>Computing the Probability of Mutually Exclusive Events</title><para id="fs-id1585848">Suppose the spinner in <link target-id="Figure_11_07_002"/> is spun again, but this time we are interested in the probability of spinning an orange or a <m:math>
+<section id="fs-id1116713">
+<title>Computing the Probability of Mutually Exclusive Events</title>
+<para id="fs-id1585848">Suppose the spinner in <link target-id="Figure_11_07_002"/> is spun again, but this time we are interested in the probability of spinning an orange or a<m:math>
 <m:mrow>
-<m:mi>d</m:mi><m:mo>.</m:mo>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> There are no sectors that are both orange and contain a <m:math>
+</m:math>There are no sectors that are both orange and contain a<m:math>
 <m:mrow>
-<m:mi>d</m:mi><m:mo>,</m:mo>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> so these two events have no outcomes in common. Events are said to be <term id="term-00013">mutually exclusive events</term> when they have no outcomes in common. Because there is no overlap, there is nothing to subtract, so the general formula is</para><equation id="eip-78" class="unnumbered"><label/> <m:math display="block">
+</m:math>so these two events have no outcomes in common. Events are said to be <term>mutually exclusive events</term> when they have no outcomes in common. Because there is no overlap, there is nothing to subtract, so the general formula is</para><equation id="eip-78" class="unnumbered"><label/><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation><para id="fs-id1615913">Notice that with mutually exclusive events, the intersection of <m:math>
+</m:math></equation><para id="fs-id1615913">Notice that with mutually exclusive events, the intersection of<m:math>
 <m:mrow>
-<m:mi>E</m:mi>
+<m:mtext> </m:mtext><m:mi>E</m:mi><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> and <m:math>
+</m:math>and<m:math>
 <m:mrow>
-<m:mi>F</m:mi>
+<m:mtext> </m:mtext><m:mi>F</m:mi><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> is the empty set. The probability of spinning an orange is <m:math>
+</m:math>is the empty set. The probability of spinning an orange is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>3</m:mn>
 <m:mn>6</m:mn>
 </m:mfrac>
@@ -753,32 +657,32 @@ Find the probability of “Drawing a black queen.”
 <m:mn>1</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> and the probability of spinning a <m:math>
+</m:math>and the probability of spinning a <m:math>
 <m:mrow>
 <m:mi>d</m:mi>
 </m:mrow>
-</m:math> is <m:math>
+</m:math> is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>6</m:mn>
 </m:mfrac>
-<m:mo>.</m:mo>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> We can find the probability of spinning an orange or a <m:math>
+</m:math>We can find the probability of spinning an orange or a <m:math>
 <m:mrow>
 <m:mi>d</m:mi>
 </m:mrow>
-</m:math> simply by adding the two probabilities.</para><equation id="eip-339" class="unnumbered"><label/> <m:math display="block">
+</m:math> simply by adding the two probabilities.</para><equation id="eip-339" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
       <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:msup>
-       <m:mstyle displaystyle="true" mathsize="140%"><m:mo>∪</m:mo></m:mstyle>
+       <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∪</m:mo></m:mstyle>
        <m:mtext>​</m:mtext>
       </m:msup>
       <m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo>
@@ -788,7 +692,7 @@ Find the probability of “Drawing a black queen.”
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mspace width="0.5em"/><m:mtext>              </m:mtext><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>               </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -796,22 +700,22 @@ Find the probability of “Drawing a black queen.”
        <m:mn>1</m:mn>
        <m:mn>6</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mspace width="0.5em"/><m:mtext>              </m:mtext><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>               </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mn>2</m:mn>
        <m:mn>3</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -819,28 +723,28 @@ Find the probability of “Drawing a black queen.”
 <m:mrow>
 <m:mi>d</m:mi>
 </m:mrow>
-</m:math> is <m:math>
+</m:math> is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>2</m:mn>
 <m:mn>3</m:mn>
 </m:mfrac>
 <m:mo>.</m:mo>
 </m:mrow>
-</m:math> </para><note id="fs-id1637610">
-
+</m:math></para><note id="fs-id1637610">
+<label>A General Note</label>
 <title>Probability of the Union of Mutually Exclusive Events</title>
-<para id="fs-id1670450">The probability of the union of two <emphasis effect="italics">mutually exclusive</emphasis> events <m:math>
+<para id="fs-id1670450">The probability of the union of two <emphasis effect="italics">mutually exclusive</emphasis> events<m:math>
  <m:mrow>
-  <m:mi>E</m:mi><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="0.5em"/><m:mi>F</m:mi>
+  <m:mtext> </m:mtext><m:mi>E</m:mi><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mi>F</m:mi><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> is given by</para><equation id="Equation_11_07_03" class="unnumbered"><label/> <m:math display="block">
+</m:math>is given by</para><equation id="Equation_11_07_03"><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation></note>
+</m:math></equation></note>
 
-<note id="fs-id1638090" class="how-to-notitle">
+<note id="fs-id1638090" class="precalculus howto">
 <label>How To</label>
 <para id="fs-id1584623"><emphasis>Given a set of events, compute the probability of the union of mutually exclusive events.</emphasis></para>
 <list id="fs-id1646963" list-type="enumerated" number-style="arabic">
@@ -858,26 +762,26 @@ Find the probability of “Drawing a black queen.”
 <para id="fs-id1537558">A card is drawn from a standard deck. Find the probability of drawing a heart or a spade.</para>
 </problem>
 <solution id="fs-id1358498">
-<para id="fs-id1267481">The events “drawing a heart” and “drawing a spade” are mutually exclusive because they cannot occur at the same time. The probability of drawing a heart is <m:math>
+<para id="fs-id1267481">The events “drawing a heart” and “drawing a spade” are mutually exclusive because they cannot occur at the same time. The probability of drawing a heart is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>4</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo>
+<m:mo>,</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> and the probability of drawing a spade is also <m:math>
+</m:math>and the probability of drawing a spade is also<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>4</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo>
+<m:mo>,</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> so the probability of drawing a heart or a spade is</para>
-<equation id="eip-id1165137706007" class="unnumbered"><label/> <m:math display="block">
+</m:math>so the probability of drawing a heart or a spade is</para>
+<equation id="eip-id1165137706007" class="unnumbered"><label/><m:math display="block">
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>4</m:mn>
 </m:mfrac>
@@ -889,9 +793,9 @@ Find the probability of “Drawing a black queen.”
 <m:mn>1</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation>
+</m:math></equation>
 </solution>
 </exercise></example>
 
@@ -902,67 +806,69 @@ Find the probability of “Drawing a black queen.”
 <para id="fs-id1663132">A card is drawn from a standard deck. Find the probability of drawing an ace or a king.</para>
 </problem>
 <solution id="fs-id1351045">
-<para id="fs-id1116307"> <m:math>
+<para id="fs-id1116307"><m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>2</m:mn>
 <m:mrow>
 <m:mn>13</m:mn>
 </m:mrow>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </para>
+</m:math></para>
 </solution>
 </exercise>
 </note>
-</section><section id="fs-id1293187">
+</section>
+
+<section id="fs-id1293187">
 <title>Using the Complement Rule to Compute Probabilities</title>
-<para id="fs-id1374658">We have discussed how to calculate the probability that an event will happen. Sometimes, we are interested in finding the probability that an event will <emphasis effect="italics">not</emphasis> happen. The <emphasis>complement of an event</emphasis> <m:math>
+<para id="fs-id1374658">We have discussed how to calculate the probability that an event will happen. Sometimes, we are interested in finding the probability that an event will <emphasis effect="italics">not</emphasis> happen. The <emphasis>complement of an event</emphasis><m:math>
 <m:mrow>
-<m:mi>E</m:mi><m:mo>,</m:mo>
+<m:mtext> </m:mtext><m:mi>E</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> denoted <m:math>
+</m:math>denoted<m:math>
  <m:mrow>
-  <m:msup>
+  <m:mtext> </m:mtext><m:msup>
    <m:mi>E</m:mi>
    <m:mo>′</m:mo>
   </m:msup>
-  <m:mo>,</m:mo>
+  <m:mo>,</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> is the set of outcomes in the sample space that are not in <m:math>
+</m:math>is the set of outcomes in the sample space that are not in<m:math>
 <m:mrow>
-<m:mi>E</m:mi><m:mo>.</m:mo>
+<m:mtext> </m:mtext><m:mi>E</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> For example, suppose we are interested in the probability that a horse will lose a race. If event <m:math>
+</m:math>For example, suppose we are interested in the probability that a horse will lose a race. If event<m:math>
 <m:mrow>
-<m:mi>W</m:mi>
+<m:mtext> </m:mtext><m:mi>W</m:mi><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> is the horse winning the race, then the complement of event <m:math>
+</m:math>is the horse winning the race, then the complement of event<m:math>
 <m:mrow>
-<m:mi>W</m:mi>
+<m:mtext> </m:mtext><m:mi>W</m:mi><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> is the horse losing the race.</para><para id="fs-id1333236">To find the probability that the horse loses the race, we need to use the fact that the sum of all probabilities in a probability model must be 1.</para>
-<equation id="eip-394" class="unnumbered"><label/> <m:math display="block">
+</m:math>is the horse losing the race.</para><para id="fs-id1333236">To find the probability that the horse loses the race, we need to use the fact that the sum of all probabilities in a probability model must be 1.</para> 
+<equation id="eip-394" class="unnumbered"><label/><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
 <m:mi>E</m:mi>
 <m:mo>′</m:mo>
 </m:msup>
-<m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+<m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation><para id="fs-id1421502">The probability of the horse winning added to the probability of the horse losing must be equal to 1. Therefore, if the probability of the horse winning the race is <m:math>
+</m:math></equation><para id="fs-id1421502">The probability of the horse winning added to the probability of the horse losing must be equal to 1. Therefore, if the probability of the horse winning the race is<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>9</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo>
+<m:mo>,</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> the probability of the horse losing the race is simply</para>
-<equation id="eip-754" class="unnumbered"><label/> <m:math display="block">
+</m:math>the probability of the horse losing the race is simply</para>
+<equation id="eip-754" class="unnumbered"><label/><m:math display="block">
 <m:mrow>
-<m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+<m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>9</m:mn>
 </m:mfrac>
@@ -970,35 +876,35 @@ Find the probability of “Drawing a black queen.”
 <m:mn>8</m:mn>
 <m:mn>9</m:mn>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation>
+</m:math></equation>
 <note id="fs-id1430243">
-
+<label>A General Note</label>
 <title>The Complement Rule</title>
-<para id="fs-id1649416">The probability that the <term id="term-00014">complement of an event </term> will occur is given by</para>
-<equation id="Equation_11_07_04" class="unnumbered"><label/> <m:math display="block">
+<para id="fs-id1649416">The probability that the <term>complement of an event </term> will occur is given by</para>
+<equation id="Equation_11_07_04"><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
+<m:mtext> </m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
 <m:mi>E</m:mi>
 <m:mo>′</m:mo>
 </m:msup>
-<m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+<m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation>
+</m:math></equation>
 </note>
 
 <example id="Example_11_07_05"><exercise id="fs-id1322779">
 <problem id="fs-id1637726">
 <title>Using the Complement Rule to Calculate Probabilities</title>
 <para id="fs-id1392348">Two six-sided number cubes are rolled.</para>
-<list id="fs-id1537969" list-type="enumerated" number-style="arabic" class="circled">
-<item><span class="token">ⓐ</span>Find the probability that the sum of the numbers rolled is less than or equal to 3.</item>
-<item><span class="token">ⓑ</span>Find the probability that the sum of the numbers rolled is greater than 3.</item>
+<list id="fs-id1537969" list-type="enumerated" number-style="lower-alpha">
+<item>Find the probability that the sum of the numbers rolled is less than or equal to 3.</item>
+<item>Find the probability that the sum of the numbers rolled is greater than 3.</item>
 </list>
 </problem>
 <solution id="fs-id1615996">
-<para id="fs-id1692884">The first step is to identify the sample space, which consists of all the possible outcomes. There are two number cubes, and each number cube has six possible outcomes. Using the Multiplication Principle, we find that there are <m:math><m:mrow><m:mn>6</m:mn><m:mo>×</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mrow><m:mspace width="0.5em"/><m:mtext>36 </m:mtext></m:mrow></m:math> total possible outcomes. So, for example, 1-1 represents a 1 rolled on each number cube. </para><table id="eip-id1165135680167" summary="..">
+<para id="fs-id1692884">The first step is to identify the sample space, which consists of all the possible outcomes. There are two number cubes, and each number cube has six possible outcomes. Using the Multiplication Principle, we find that there are <m:math><m:mrow><m:mn>6</m:mn><m:mo>×</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow></m:math>or<m:math><m:mrow><m:mtext> 36 </m:mtext></m:mrow></m:math>total possible outcomes. So, for example, 1-1 represents a 1 rolled on each number cube. </para><table id="eip-id1165135680167" summary="..">
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1007,213 +913,209 @@ Find the probability of “Drawing a black queen.”
 <colspec colnum="6" colname="c6"/>
 <tbody>
 <row>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtext>1-1</m:mtext>
  </m:mrow>
 </m:math>
 </entry>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtext>1-2</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>1-3</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>1-4</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>1-5</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>1-6</m:mtext>
  </m:mrow>
-</m:math> </entry>
+</m:math></entry>
 </row>
 <row>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtext>2-1</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>2-2</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>2-3</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext/>
  </m:mrow>
-</m:math> <m:math>
+</m:math><m:math>
  <m:mrow>
   <m:mtext>2-4</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>2-5</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>2-6</m:mtext>
  </m:mrow>
-</m:math> </entry>
+</m:math></entry>
 </row>
 <row>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtext>3-1</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>3-2</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>3-3</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>3-4</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>3-5</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>3-6</m:mtext>
  </m:mrow>
-</m:math> </entry>
+</m:math></entry>
 </row>
 <row>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtext>4-1</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>4-2</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>4-3</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>4-4</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>4-5</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>4-6</m:mtext>
  </m:mrow>
-</m:math> </entry>
+</m:math></entry>
 </row>
 <row>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtext>5-1</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>5-2</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>5-3</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>5-4</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>5-5</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>5-6</m:mtext>
  </m:mrow>
-</m:math> </entry>
+</m:math></entry>
 </row>
 <row>
-<entry align="center"> <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtext>6-1</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>6-2</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>6-3</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>6-4</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>6-5</m:mtext>
  </m:mrow>
-</m:math> </entry>
-<entry align="center"> <m:math>
+</m:math></entry>
+<entry><m:math>
  <m:mrow>
   <m:mtext>6-6</m:mtext>
  </m:mrow>
-</m:math> </entry>
+</m:math></entry>
 </row></tbody>
 
 
 
-
-
-
 </tgroup>
-</table><list id="fs-id1702517" list-type="enumerated" number-style="arabic" class="circled">
-<item><span class="token">ⓐ</span>We need to count the number of ways to roll a sum of 3 or less. These would include the following outcomes: 1-1, 1-2, and 2-1. So there are only three ways to roll a sum of 3 or less. The probability is<equation id="eip-id1165134074995" class="unnumbered"><label/> <m:math>
+</table><list id="fs-id1702517" list-type="enumerated" number-style="lower-alpha"><item>We need to count the number of ways to roll a sum of 3 or less. These would include the following outcomes: 1-1, 1-2, and 2-1. So there are only three ways to roll a sum of 3 or less. The probability is<equation id="eip-id1165134074995" class="unnumbered"><label/><m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>3</m:mn>
 <m:mrow>
 <m:mn>36</m:mn>
@@ -1225,12 +1127,12 @@ Find the probability of “Drawing a black queen.”
 <m:mn>12</m:mn>
 </m:mrow>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </equation></item>
+</m:math></equation></item> 
 
-<item><span class="token">ⓑ</span>Rather than listing all the possibilities, we can use the Complement Rule. Because we have already found the probability of the complement of this event, we can simply subtract that probability from 1 to find the probability that the sum of the numbers rolled is greater than 3.
-<equation id="eip-id1165137635131" class="unnumbered"><label/> <m:math display="block">
+<item>Rather than listing all the possibilities, we can use the Complement Rule. Because we have already found the probability of the complement of this event, we can simply subtract that probability from 1 to find the probability that the sum of the numbers rolled is greater than 3.
+<equation id="eip-id1165137635131" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -1247,20 +1149,20 @@ Find the probability of “Drawing a black queen.”
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mspace width="0.5em"/><m:mtext>        </m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+      <m:mtext>         </m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mrow>
         <m:mn>12</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mspace width="0.5em"/><m:mtext>        </m:mtext><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>         </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mrow>
         <m:mn>11</m:mn>
        </m:mrow>
@@ -1268,11 +1170,11 @@ Find the probability of “Drawing a black queen.”
         <m:mn>12</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -1284,15 +1186,15 @@ Find the probability of “Drawing a black queen.”
 <label>Try It</label>
 <exercise id="ti_11_07_05">
 <problem id="fs-id1380784"><para id="fs-id1380785">Two number cubes are rolled. Use the Complement Rule to find the probability that the sum is less than 10.</para></problem>
-<solution id="fs-id1261250"><para id="fs-id1261251"> <m:math>
+<solution id="fs-id1261250"><para id="fs-id1261251"><m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>5</m:mn>
 <m:mn>6</m:mn>
 </m:mfrac>
-
+<m:mtext> </m:mtext>
 </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 </note>
 </section>
@@ -1300,16 +1202,16 @@ Find the probability of “Drawing a black queen.”
 <section id="fs-id1637173">
 <title>Computing Probability Using Counting Theory</title>
 <para id="fs-id1457106">Many interesting probability problems involve counting principles, permutations, and combinations. In these problems, we will use permutations and combinations to find the number of elements in events and sample spaces. These problems can be complicated, but they can be made easier by breaking them down into smaller counting problems.</para>
-<para id="fs-id1033498">Assume, for example, that a store has 8 cellular phones and that 3 of those are defective. We might want to find the probability that a couple purchasing 2 phones receives 2 phones that are not defective. To solve this problem, we need to calculate all of the ways to select 2 phones that are not defective as well as all of the ways to select 2 phones. There are 5 phones that are not defective, so there are <m:math>
+<para id="fs-id1033498">Assume, for example, that a store has 8 cellular phones and that 3 of those are defective. We might want to find the probability that a couple purchasing 2 phones receives 2 phones that are not defective. To solve this problem, we need to calculate all of the ways to select 2 phones that are not defective as well as all of the ways to select 2 phones. There are 5 phones that are not defective, so there are<m:math>
 <m:mrow>
-<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> ways to select 2 phones that are not defective. There are 8 phones, so there are <m:math>
+</m:math>ways to select 2 phones that are not defective. There are 8 phones, so there are<m:math>
 <m:mrow>
-<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> ways to select 2 phones. The probability of selecting 2 phones that are not defective is:</para>
-<equation id="eip-546" class="unnumbered"><label/> <m:math display="block">
+</m:math>ways to select 2 phones. The probability of selecting 2 phones that are not defective is:</para>
+<equation id="eip-546" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -1331,14 +1233,14 @@ Find the probability of “Drawing a black queen.”
         <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mspace width="16.5em"/><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>                                                                        </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mrow>
         <m:mn>10</m:mn>
        </m:mrow>
@@ -1346,24 +1248,24 @@ Find the probability of “Drawing a black queen.”
         <m:mn>28</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mspace width="16.5em"/><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>                                                                        </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mn>5</m:mn>
        <m:mrow>
         <m:mn>14</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -1371,26 +1273,25 @@ Find the probability of “Drawing a black queen.”
 <exercise id="fs-id1425116"><problem id="fs-id1425119">
 <title>Computing Probability Using Counting Theory</title>
 <para id="fs-id1583226">A child randomly selects 5 toys from a bin containing 3 bunnies, 5 dogs, and 6 bears.</para>
-<list id="fs-id1693582" list-type="enumerated" number-style="arabic" class="circled">
-<item><span class="token">ⓐ</span>Find the probability that only bears are chosen.</item>
-<item><span class="token">ⓑ</span>Find the probability that 2 bears and 3 dogs are chosen.</item>
-<item><span class="token">ⓒ</span>Find the probability that at least 2 dogs are chosen.</item>
+<list id="fs-id1693582" list-type="enumerated" number-style="lower-alpha">
+<item>Find the probability that only bears are chosen.</item>
+<item>Find the probability that 2 bears and 3 dogs are chosen.</item>
+<item>Find the probability that at least 2 dogs are chosen.</item>
 </list>
 </problem>
 <solution id="fs-id1428640">
-<list id="fs-id1693584" list-type="enumerated" number-style="arabic" class="circled">
-<item><span class="token">ⓐ</span>We need to count the number of ways to choose only bears and the total number of possible ways to select 5 toys. There are 6 bears, so there are <m:math>
+<list id="fs-id1693584" list-type="enumerated" number-style="lower-alpha"><item>We need to count the number of ways to choose only bears and the total number of possible ways to select 5 toys. There are 6 bears, so there are<m:math>
 <m:mrow>
-<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> ways to choose 5 bears. There are 14 toys, so there are <m:math>
+</m:math>ways to choose 5 bears. There are 14 toys, so there are<m:math>
 <m:mrow>
-<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> ways to choose any 5 toys.
-<equation id="eip-id1165135359779" class="unnumbered"><label/> <m:math display="block">
+</m:math>ways to choose any 5 toys.
+<equation id="eip-id1165135359779" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mtext>,</m:mtext><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
@@ -1410,28 +1311,28 @@ Find the probability of “Drawing a black queen.”
     <m:mn>1</m:mn><m:mtext>,</m:mtext><m:mn>001</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </equation>
 </item>
 
-<item><span class="token">ⓑ</span>We need to count the number of ways to choose 2 bears and 3 dogs and the total number of possible ways to select 5 toys. There are 6 bears, so there are <m:math>
+<item>We need to count the number of ways to choose 2 bears and 3 dogs and the total number of possible ways to select 5 toys. There are 6 bears, so there are<m:math>
 <m:mrow>
-<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> ways to choose 2 bears. There are 5 dogs, so there are <m:math>
+</m:math>ways to choose 2 bears. There are 5 dogs, so there are<m:math>
 <m:mrow>
-<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> ways to choose 3 dogs. Since we are choosing both bears and dogs at the same time, we will use the Multiplication Principle. There are <m:math>
+</m:math>ways to choose 3 dogs. Since we are choosing both bears and dogs at the same time, we will use the Multiplication Principle. There are<m:math>
 <m:mrow>
-<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> ways to choose 2 bears and 3 dogs. We can use this result to find the probability.
-<equation id="eip-id1165135582005" class="unnumbered"><label/> <m:math display="block">
+</m:math>ways to choose 2 bears and 3 dogs. We can use this result to find the probability.
+<equation id="eip-id1165135582005" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mtext>,</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtext>,</m:mtext><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
@@ -1455,24 +1356,24 @@ Find the probability of “Drawing a black queen.”
     <m:mn>1</m:mn><m:mtext>,</m:mtext><m:mn>001</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </equation></item>
-<item><span class="token">ⓒ</span>It is often easiest to solve “at least” problems using the Complement Rule. We will begin by finding the probability that fewer than 2 dogs are chosen. If less than 2 dogs are chosen, then either no dogs could be chosen, or 1 dog could be chosen.
+<item>It is often easiest to solve “at least” problems using the Complement Rule. We will begin by finding the probability that fewer than 2 dogs are chosen. If less than 2 dogs are chosen, then either no dogs could be chosen, or 1 dog could be chosen.
 
-<para id="fs-id1654573">When no dogs are chosen, all 5 toys come from the 9 toys that are not dogs. There are <m:math>
+<para id="fs-id1654573">When no dogs are chosen, all 5 toys come from the 9 toys that are not dogs. There are<m:math>
  <m:mrow>
-  <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+  <m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> ways to choose toys from the 9 toys that are not dogs. Since there are 14 toys, there are <m:math>
+</m:math>ways to choose toys from the 9 toys that are not dogs. Since there are 14 toys, there are<m:math>
  <m:mrow>
-  <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+  <m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> ways to choose the 5 toys from all of the toys.</para>
-<equation id="eip-id1165134081456" class="unnumbered"><label/> <m:math display="block">
+</m:math>ways to choose the 5 toys from all of the toys.</para>
+<equation id="eip-id1165134081456" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>,</m:mtext><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
@@ -1488,17 +1389,17 @@ Find the probability of “Drawing a black queen.”
     <m:mn>1</m:mn><m:mtext>,</m:mtext><m:mn>001</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </equation>
-<para id="fs-id1655062">If there is 1 dog chosen, then 4 toys must come from the 9 toys that are not dogs, and 1 must come from the 5 dogs. Since we are choosing both dogs and other toys at the same time, we will use the Multiplication Principle. There are <m:math>
+<para id="fs-id1655062">If there is 1 dog chosen, then 4 toys must come from the 9 toys that are not dogs, and 1 must come from the 5 dogs. Since we are choosing both dogs and other toys at the same time, we will use the Multiplication Principle. There are<m:math>
  <m:mrow>
-  <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+  <m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> ways to choose 1 dog and 1 other toy.</para><equation id="eip-746" class="unnumbered"><label/> <m:math display="block">
+</m:math>ways to choose 1 dog and 1 other toy.</para><equation id="eip-746" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtext>,</m:mtext><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>,</m:mtext><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
@@ -1522,13 +1423,13 @@ Find the probability of “Drawing a black queen.”
     <m:mn>1</m:mn><m:mtext>,</m:mtext><m:mn>001</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </equation><para id="fs-id1609258">Because these events would not occur together and are therefore mutually exclusive, we add the probabilities to find the probability that fewer than 2 dogs are chosen.</para>
-<equation id="eip-844" class="unnumbered"><label/> <m:math display="block">
+<equation id="eip-844" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mn>63</m:mn>
    </m:mrow>
@@ -1552,13 +1453,13 @@ Find the probability of “Drawing a black queen.”
     <m:mn>1</m:mn><m:mtext>,</m:mtext><m:mn>001</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </equation><para id="fs-id1586387">We then subtract that probability from 1 to find the probability that at least 2 dogs are chosen.</para>
-<equation id="eip-418" class="unnumbered"><label/> <m:math display="block">
+<equation id="eip-418" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
-  <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+  <m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
    <m:mrow>
     <m:mn>378</m:mn>
    </m:mrow>
@@ -1574,7 +1475,7 @@ Find the probability of “Drawing a black queen.”
     <m:mn>1</m:mn><m:mtext>,</m:mtext><m:mn>001</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </equation></item>
@@ -1585,16 +1486,16 @@ Find the probability of “Drawing a black queen.”
 <label>Try It</label>
 <exercise id="ti_11_07_06">
 <problem id="fs-id1503478"><para id="fs-id1503479">A child randomly selects 3 gumballs from a container holding 4 purple gumballs, 8 yellow gumballs, and 2 green gumballs.</para>
-<list id="fs-id1464583" list-type="enumerated" number-style="arabic" class="circled">
-<item><span class="token">ⓐ</span>Find the probability that all 3 gumballs selected are purple.</item>
-<item><span class="token">ⓑ</span>Find the probability that no yellow gumballs are selected.</item>
-<item><span class="token">ⓒ</span>Find the probability that at least 1 yellow gumball is selected.</item>
+<list id="fs-id1464583" list-type="enumerated" number-style="lower-alpha">
+<item>Find the probability that all 3 gumballs selected are purple.</item>
+<item>Find the probability that no yellow gumballs are selected.</item>
+<item>Find the probability that at least 1 yellow gumball is selected.</item>
 </list>
 </problem>
 <solution id="fs-id1699278">
-<para id="fs-id1699280"> <m:math>
+<para id="fs-id1699280"><m:math>
  <m:mrow>
-  <m:mtable columnalign="left">
+  <m:mtext> </m:mtext><m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
@@ -1628,37 +1529,36 @@ Find the probability of “Drawing a black queen.”
         <m:mn>91</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
-  </m:mtable>
+   
+  </m:mtable><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 </note>
 
-<note id="fs-id1616333" class="media-notitle">
+<note id="fs-id1616333" class="precalculus media">
 <label>Media</label>
 <para id="fs-id1659455">Access these online resources for additional instruction and practice with probability.</para>
 <list id="fs-id1582738" list-type="bulleted">
-<item><link url="http://openstax.org/l/introprob">Introduction to Probability</link></item>
-<item><link url="http://openstax.org/l/determineprob">Determining Probability</link></item>
-
+<item><link url="http://openstaxcollege.org/l/introprob">Introduction to Probability</link></item>
+<item><link url="http://openstaxcollege.org/l/determineprob">Determining Probability</link></item>
 </list>
-</note>
+</note><para id="eip-313">Visit <link url="http://openstaxcollege.org/l/PreCalcLPC11">this website</link> for additional practice questions from Learningpod.</para>
 </section>
 
 <section id="fs-id1164480" class="key-equations">
 <title>Key Equations</title>
-<table id="eip-id1165134166592" summary=".." class="unnumbered unstyled"><label/>
+<table id="eip-id1165134166592" summary="..">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <tbody>
 <row>
-<entry align="center">probability of an event with equally likely outcomes</entry>
-<entry align="center"> <m:math>
+<entry>probability of an event with equally likely outcomes</entry>
+<entry><m:math display="block">
  <m:mrow>
   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -1668,14 +1568,14 @@ Find the probability of “Drawing a black queen.”
     <m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>S</m:mi><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
 </row>
 <row>
-<entry align="center">probability of the union of two events</entry>
-<entry align="center"> <m:math>
+<entry>probability of the union of two events</entry>
+<entry><m:math display="block">
  <m:mrow>
   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∩</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo>
  </m:mrow>
@@ -1683,8 +1583,8 @@ Find the probability of “Drawing a black queen.”
 </entry>
 </row>
 <row>
-<entry align="center">probability of the union of mutually exclusive events</entry>
-<entry align="center"> <m:math>
+<entry>probability of the union of mutually exclusive events</entry>
+<entry><m:math display="block">
  <m:mrow>
   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>∪</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo>
  </m:mrow>
@@ -1692,8 +1592,8 @@ Find the probability of “Drawing a black queen.”
 </entry>
 </row>
 <row>
-<entry align="center">probability of the complement of an event</entry>
-<entry align="center"> <m:math>
+<entry>probability of the complement of an event</entry>
+<entry><m:math display="block">
  <m:mrow>
   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>'</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
  </m:mrow>
@@ -1702,10 +1602,6 @@ Find the probability of “Drawing a black queen.”
 </row>
 </tbody>
 
-
-
-
-
 </tgroup>
 </table></section>
 <section id="fs-id1457229" class="key-concepts">
@@ -1713,7 +1609,7 @@ Find the probability of “Drawing a black queen.”
 <list id="fs-id1457233" list-type="bulleted"><item>Probability is always a number between 0 and 1, where 0 means an event is impossible and 1 means an event is certain.</item>
 <item>The probabilities in a probability model must sum to 1. See <link target-id="Example_11_07_01"/>.</item>
 <item>When the outcomes of an experiment are all equally likely, we can find the probability of an event by dividing the number of outcomes in the event by the total number of outcomes in the sample space for the experiment. See <link target-id="Example_11_07_02"/>.</item>
-<item>To find the probability of the union of two events, we add the probabilities of the two events and subtract the probability that both events occur simultaneously. See <link target-id="Example_11_07_03"/>.</item>
+<item>To find the probability of the union of two events, we add the probabilities of the two events and subtract the probability that both events occur simultaneously. See <link target-id="Example_11_07_03"/>.</item> 
 <item>To find the probability of the union of two mutually exclusive events, we add the probabilities of each of the events. See <link target-id="Example_11_07_04"/>.</item>
 <item>The probability of the complement of an event is the difference between 1 and the probability that the event occurs. See <link target-id="Example_11_07_05"/>.</item>
 <item>In some probability problems, we need to use permutations and combinations to find the number of elements in events and sample spaces. See <link target-id="Example_11_07_06"/>.</item>
@@ -1725,23 +1621,23 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1446155">
 <problem id="fs-id1446157"><para id="fs-id1446158">What term is used to express the likelihood of an event occurring? Are there restrictions on its values? If so, what are they? If not, explain.</para></problem>
-<solution id="fs-id1220681"><para id="fs-id1220682">probability; The probability of an event is restricted to values between <m:math>
+<solution id="fs-id1220681"><para id="fs-id1220682">probability; The probability of an event is restricted to values between<m:math>
  <m:mrow>
-  <m:mn>0</m:mn>
+  <m:mtext> </m:mtext><m:mn>0</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> and <m:math>
+</m:math>and<m:math>
  <m:mrow>
-  <m:mn>1</m:mn><m:mo>,</m:mo>
+  <m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> inclusive of <m:math>
+</m:math>inclusive of<m:math>
  <m:mrow>
-  <m:mn>0</m:mn>
+  <m:mtext> </m:mtext><m:mn>0</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> and <m:math>
+</m:math>and<m:math>
  <m:mrow>
-  <m:mn>1.</m:mn>
+  <m:mtext> </m:mtext><m:mn>1.</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1108090">
@@ -1759,31 +1655,33 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1268584">
 <problem id="fs-id1268586"><para id="fs-id1268588">The <emphasis effect="italics">union of two sets</emphasis> is defined as a set of elements that are present in at least one of the sets. How is this similar to the definition used for the <emphasis effect="italics">union of two events</emphasis> from a probability model? How is it different?</para></problem>
-<solution id="fs-id1696914"><para id="fs-id1696915">The probability of the <emphasis effect="italics">union of two events</emphasis> occurring is a number that describes the likelihood that at least one of the events from a probability model occurs. In both a union of sets <m:math>
+<solution id="fs-id1696914"><para id="fs-id1696915">The probability of the <emphasis effect="italics">union of two events</emphasis> occurring is a number that describes the likelihood that at least one of the events from a probability model occurs. In both a union of sets<m:math>
  <m:mrow>
-  <m:mi>A</m:mi><m:mspace width="0.5em"/><m:mtext/><m:mo> </m:mo><m:mtext>and </m:mtext><m:mi>B</m:mi>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mtext> </m:mtext><m:mo> </m:mo><m:mtext>and </m:mtext><m:mi>B</m:mi><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> and a union of events <m:math>
+</m:math>and a union of events<m:math>
  <m:mrow>
-  <m:mi>A</m:mi><m:mo> </m:mo><m:mtext>and</m:mtext><m:mo> </m:mo><m:mi>B</m:mi><m:mo>,</m:mo>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mo> </m:mo><m:mtext>and</m:mtext><m:mo> </m:mo><m:mi>B</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> the union includes either <m:math>
+</m:math>the union includes either<m:math>
  <m:mrow>
-  <m:mi>A</m:mi><m:mo> </m:mo><m:mtext>or</m:mtext><m:mo> </m:mo><m:mi>B</m:mi>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mo> </m:mo><m:mtext>or</m:mtext><m:mo> </m:mo><m:mi>B</m:mi><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> or both. The difference is that a union of sets results in another set, while the union of events is a probability, so it is always a numerical value between <m:math>
+</m:math>or both. The difference is that a union of sets results in another set, while the union of events is a probability, so it is always a numerical value between<m:math>
  <m:mrow>
-  <m:mn>0</m:mn>
+  <m:mtext> </m:mtext><m:mn>0</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> and <m:math>
+</m:math>and<m:math>
  <m:mrow>
-  <m:mn>1.</m:mn>
+  <m:mtext> </m:mtext><m:mn>1.</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 </section>
 
-<section id="fs-id1655573"><title>Numeric</title><para id="fs-id1210672">For the following exercises, use the spinner shown in <link target-id="CNX_Precalc_Figure_11_07_201"/> to find the probabilities indicated.</para>
+<section id="fs-id1655573">
+<title>Numeric</title>
+<para id="fs-id1210672">For the following exercises, use the spinner shown in <link target-id="CNX_Precalc_Figure_11_07_201"/> to find the probabilities indicated.</para>
 <figure id="CNX_Precalc_Figure_11_07_201" class="small"><media id="fs-id1460534" alt="A pie chart with eight pieces with one A colored blue, one B colored purple, once C colored orange, one D colored blue, one E colored red, one F colored green, one I colored green, and one O colored yellow.">
 <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_11_07_201n.jpg"/>
 </media>
@@ -1793,15 +1691,15 @@ Find the probability of “Drawing a black queen.”
 </exercise>
 <exercise id="fs-id1644305">
 <problem id="fs-id1644307"><para id="fs-id1644308">Landing on a vowel</para></problem>
-<solution id="fs-id1647332"><para id="fs-id1647333"> <m:math>
+<solution id="fs-id1647332"><para id="fs-id1647333"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1665488">
@@ -1809,15 +1707,15 @@ Find the probability of “Drawing a black queen.”
 </exercise>
 <exercise id="fs-id1428664">
 <problem id="fs-id1428666"><para id="fs-id1428667">Landing on purple or a vowel</para></problem>
-<solution id="fs-id1506341"><para id="fs-id1506342"> <m:math>
+<solution id="fs-id1506341"><para id="fs-id1506342"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>5</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1060716">
@@ -1827,15 +1725,15 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1689897">
 <problem id="fs-id988742"><para id="fs-id988743">Landing on green or blue</para></problem>
-<solution id="fs-id988746"><para id="fs-id988747"> <m:math>
+<solution id="fs-id988746"><para id="fs-id988747"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1431222">
@@ -1844,35 +1742,35 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1407726">
 <problem id="fs-id1433092"><para id="fs-id1433094">Not landing on yellow or a consonant</para></problem>
-<solution id="fs-id1433097"><para id="fs-id1433098"> <m:math>
+<solution id="fs-id1433097"><para id="fs-id1433098"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>3</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 
 <para id="fs-id1126554">For the following exercises, two coins are tossed.</para>
-<exercise id="fs-id1394248">
+<exercise id="fs-id1394248"> 
 <problem id="fs-id1394250"><para id="fs-id1394252">What is the sample space?</para></problem>
 </exercise>
 
 
 <exercise id="fs-id1505434">
 <problem id="fs-id942285"><para id="fs-id942286">Find the probability of tossing two heads.</para></problem>
-<solution id="fs-id942289"><para id="fs-id942290"> <m:math>
+<solution id="fs-id942289"><para id="fs-id942290"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>4</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1456266">
@@ -1880,15 +1778,15 @@ Find the probability of “Drawing a black queen.”
 </exercise>
 <exercise id="fs-id1149123">
 <problem id="fs-id1409445"><para id="fs-id1409446">Find the probability of tossing at least one tail.</para></problem>
-<solution id="fs-id1409449"><para id="fs-id1409450"> <m:math>
+<solution id="fs-id1409449"><para id="fs-id1409450"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>3</m:mn>
    <m:mn>4</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <para id="fs-id1527976">For the following exercises, four coins are tossed.</para>
@@ -1898,15 +1796,15 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1107735">
 <problem id="fs-id1459068"><para id="fs-id1459069">Find the probability of tossing exactly two heads.</para></problem>
-<solution id="fs-id1459072"><para id="fs-id1459073"> <m:math>
+<solution id="fs-id1459072"><para id="fs-id1459073"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>3</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1417348">
@@ -1916,15 +1814,15 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1435199">
 <problem id="fs-id1435201"><para id="fs-id1435202">Find the probability of tossing four heads or four tails.</para></problem>
-<solution id="fs-id981942"><para id="fs-id981943"> <m:math>
+<solution id="fs-id981942"><para id="fs-id981943"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id981947">
@@ -1933,9 +1831,9 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1102277">
 <problem id="fs-id1102279"><para id="fs-id1102280">Find the probability of tossing not all tails.</para></problem>
-<solution id="fs-id1464063"><para id="fs-id1464064"> <m:math>
+<solution id="fs-id1464063"><para id="fs-id1464064"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mn>15</m:mn>
    </m:mrow>
@@ -1943,9 +1841,9 @@ Find the probability of “Drawing a black queen.”
     <m:mn>16</m:mn>
    </m:mrow>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1464068">
@@ -1954,38 +1852,38 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1407240">
 <problem id="fs-id1407242"><para id="fs-id1407244">Find the probability of tossing either two heads or three heads.</para></problem>
-<solution id="fs-id1655955"><para id="fs-id1655956"> <m:math>
+<solution id="fs-id1655955"><para id="fs-id1655956"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>5</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
-<para id="fs-id1655960">For the following exercises, one card is drawn from a standard deck of <m:math>
+<para id="fs-id1655960">For the following exercises, one card is drawn from a standard deck of<m:math>
  <m:mrow>
-  <m:mn>52</m:mn>
+  <m:mtext> </m:mtext><m:mn>52</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> cards. Find the probability of drawing the following:</para>
+</m:math>cards. Find the probability of drawing the following:</para>
 <exercise id="fs-id1380295">
 <problem id="fs-id1380297"><para id="fs-id1424450">A club</para></problem>
 </exercise>
 <exercise id="fs-id1424455">
 <problem id="fs-id1365055"><para id="fs-id1365056">A two</para></problem>
-<solution id="fs-id1365060"><para id="fs-id1165137639764"> <m:math>
+<solution id="fs-id1365060"><para id="fs-id1165137639764"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mrow>
     <m:mn>13</m:mn>
    </m:mrow>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1034744">
@@ -1993,17 +1891,17 @@ Find the probability of “Drawing a black queen.”
 </exercise>
 <exercise id="fs-id1158127">
 <problem id="fs-id1158129"><para id="fs-id951094">Red six</para></problem>
-<solution id="fs-id951098"><para id="fs-id951099"> <m:math>
+<solution id="fs-id951098"><para id="fs-id951099"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mrow>
     <m:mn>26</m:mn>
    </m:mrow>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id917934">
@@ -2012,9 +1910,9 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1435906">
 <problem id="fs-id1435908"><para id="fs-id1384812">A non-ace</para></problem>
-<solution id="fs-id1384815"><para id="fs-id1384816"> <m:math>
+<solution id="fs-id1384815"><para id="fs-id1384816"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mn>12</m:mn>
    </m:mrow>
@@ -2022,118 +1920,118 @@ Find the probability of “Drawing a black queen.”
     <m:mn>13</m:mn>
    </m:mrow>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 
 <exercise id="fs-id1424594">
 <problem id="fs-id1424596">
 <para id="fs-id1464390">A heart or a non-jack</para></problem>
-</exercise>
+</exercise>	
 
 <para id="fs-id1464396">For the following exercises, two dice are rolled, and the results are summed.</para>
-<exercise id="fs-id1426053" class="material-set-2"><problem id="fs-id1426055"><para id="fs-id1426056">Construct a table showing the sample space of outcomes and sums.</para></problem>
+<exercise id="fs-id1426053"><problem id="fs-id1426055"><para id="fs-id1426056">Construct a table showing the sample space of outcomes and sums.</para></problem>
 <solution id="fs-id1458634">
 <table id="fs-id1458636" class="unnumbered" summary=".."><label/>
-<tgroup cols="7"><colspec colnum="1" colname="c1"/>
+<title/>
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
 <colspec colnum="4" colname="c4"/>
 <colspec colnum="5" colname="c5"/>
 <colspec colnum="6" colname="c6"/>
 <colspec colnum="7" colname="c7"/>
-<tbody>
+<thead>
 <row>
 <entry/>
-<entry align="center">1</entry>
-<entry align="center">2</entry>
-<entry align="center">3</entry>
-<entry align="center">4</entry>
-<entry align="center">5</entry>
-<entry align="center">6</entry>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><emphasis>1</emphasis></entry>
+<entry>(1, 1)<newline count="1"/>2</entry>
+<entry>(1, 2)<newline count="1"/>3</entry>
+<entry>(1, 3)<newline count="1"/>4</entry>
+<entry>(1, 4)<newline count="1"/>5</entry>
+<entry>(1, 5)<newline count="1"/>6</entry>
+<entry>(1, 6)<newline count="1"/>7</entry>
 </row>
 <row>
-<entry align="center"><emphasis>1</emphasis></entry>
-<entry align="center">(1,1)<newline count="1"/>2</entry>
-<entry align="center">(1,2)<newline count="1"/>3</entry>
-<entry align="center">(1,3)<newline count="1"/>4</entry>
-<entry align="center">(1,4)<newline count="1"/>5</entry>
-<entry align="center">(1,5)<newline count="1"/>6</entry>
-<entry align="center">(1,6)<newline count="1"/>7</entry>
+<entry><emphasis>2</emphasis></entry>
+<entry>(2, 1)<newline count="1"/>3</entry>
+<entry>(2, 2)<newline count="1"/>4</entry>
+<entry>(2, 3)<newline count="1"/>5</entry>
+<entry>(2, 4)<newline count="1"/>6</entry>
+<entry>(2, 5)<newline count="1"/>7</entry>
+<entry>(2, 6)<newline count="1"/>8</entry>
 </row>
 <row>
-<entry align="center"><emphasis>2</emphasis></entry>
-<entry align="center">(2,1)<newline count="1"/>3</entry>
-<entry align="center">(2,2)<newline count="1"/>4</entry>
-<entry align="center">(2,3)<newline count="1"/>5</entry>
-<entry align="center">(2,4)<newline count="1"/>6</entry>
-<entry align="center">(2,5)<newline count="1"/>7</entry>
-<entry align="center">(2,6)<newline count="1"/>8</entry>
+<entry><emphasis>3</emphasis></entry>
+<entry>(3, 1)<newline count="1"/>4</entry>
+<entry>(3, 2)<newline count="1"/>5</entry>
+<entry>(3, 3)<newline count="1"/>6</entry>
+<entry>(3, 4)<newline count="1"/>7</entry>
+<entry>(3, 5)<newline count="1"/>8</entry>
+<entry>(3, 6)<newline count="1"/>9</entry>
 </row>
 <row>
-<entry align="center"><emphasis>3</emphasis></entry>
-<entry align="center">(3,1)<newline count="1"/>4</entry>
-<entry align="center">(3,2)<newline count="1"/>5</entry>
-<entry align="center">(3,3)<newline count="1"/>6</entry>
-<entry align="center">(3,4)<newline count="1"/>7</entry>
-<entry align="center">(3,5)<newline count="1"/>8</entry>
-<entry align="center">(3,6)<newline count="1"/>9</entry>
+<entry><emphasis>4</emphasis></entry>
+<entry>(4, 1)<newline count="1"/>5</entry>
+<entry>(4, 2)<newline count="1"/>6</entry>
+<entry>(4, 3)<newline count="1"/>7</entry>
+<entry>(4, 4)<newline count="1"/>8</entry>
+<entry>(4, 5)<newline count="1"/>9</entry>
+<entry>(4, 6)<newline count="1"/>10</entry>
 </row>
 <row>
-<entry align="center"><emphasis>4</emphasis></entry>
-<entry align="center">(4,1)<newline count="1"/>5</entry>
-<entry align="center">(4,2)<newline count="1"/>6</entry>
-<entry align="center">(4,3)<newline count="1"/>7</entry>
-<entry align="center">(4,4)<newline count="1"/>8</entry>
-<entry align="center">(4,5)<newline count="1"/>9</entry>
-<entry align="center">(4,6)<newline count="1"/>10</entry>
+<entry><emphasis>5</emphasis></entry>
+<entry>(5, 1)<newline count="1"/>6</entry>
+<entry>(5, 2)<newline count="1"/>7</entry>
+<entry>(5, 3)<newline count="1"/>8</entry>
+<entry>(5, 4)<newline count="1"/>9</entry>
+<entry>(5, 5)<newline count="1"/>10</entry>
+<entry>(5, 6)<newline count="1"/>11</entry>
 </row>
 <row>
-<entry align="center"><emphasis>5</emphasis></entry>
-<entry align="center">(5,1)<newline count="1"/>6</entry>
-<entry align="center">(5,2)<newline count="1"/>7</entry>
-<entry align="center">(5,3)<newline count="1"/>8</entry>
-<entry align="center">(5,4)<newline count="1"/>9</entry>
-<entry align="center">(5,5)<newline count="1"/>10</entry>
-<entry align="center">(5,6)<newline count="1"/>11</entry>
-</row>
-<row>
-<entry align="center"><emphasis>6</emphasis></entry>
-<entry align="center">(6,1)<newline count="1"/>7</entry>
-<entry align="center">(6,2)<newline count="1"/>8</entry>
-<entry align="center">(6,3)<newline count="1"/>9</entry>
-<entry align="center">(6,4)<newline count="1"/>10</entry>
-<entry align="center">(6,5)<newline count="1"/>11</entry>
-<entry align="center">(6,6)<newline count="1"/>12</entry>
+<entry><emphasis>6</emphasis></entry>
+<entry>(6, 1)<newline count="1"/>7</entry>
+<entry>(6, 2)<newline count="1"/>8</entry>
+<entry>(6, 3)<newline count="1"/>9</entry>
+<entry>(6, 4)<newline count="1"/>10</entry>
+<entry>(6, 5)<newline count="1"/>11</entry>
+<entry>(6, 6)<newline count="1"/>12</entry>
 </row>
 </tbody>
-
-
-
-
-
 </tgroup>
-</table></solution>
-</exercise><exercise id="fs-id1361265" class="material-set-2">
-<problem id="fs-id1361267"><para id="fs-id1361268">Find the probability of rolling a sum of <m:math>
+</table>
+</solution>
+</exercise><exercise id="fs-id1361265">
+<problem id="fs-id1361267"><para id="fs-id1361268">Find the probability of rolling a sum of<m:math>
  <m:mrow>
-  <m:mn>3.</m:mn>
+  <m:mtext> </m:mtext><m:mn>3.</m:mn><m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </para></problem>
 </exercise>
 
-<exercise id="fs-id1429776" class="material-set-2">
-<problem id="fs-id1429778"><para id="fs-id1429779">Find the probability of rolling at least one four or a sum of <m:math>
+<exercise id="fs-id1429776">
+<problem id="fs-id1429778"><para id="fs-id1429779">Find the probability of rolling at least one four or a sum of<m:math>
  <m:mrow>
-  <m:mn>8.</m:mn>
+  <m:mtext> </m:mtext><m:mn>8.</m:mn>
  </m:mrow>
-</m:math> </para></problem>
-<solution id="fs-id1700737"><para id="fs-id1700738"> <m:math>
+</m:math></para></problem>
+<solution id="fs-id1700737"><para id="fs-id1700738"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>5</m:mn>
    <m:mrow>
     <m:mn>12</m:mn>
@@ -2141,100 +2039,100 @@ Find the probability of “Drawing a black queen.”
   </m:mfrac>
   <m:mo>.</m:mo>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
-<exercise id="fs-id1417274" class="material-set-2">
-<problem id="fs-id1417276"><para id="fs-id1417278">Find the probability of rolling an odd sum less than <m:math>
+<exercise id="fs-id1417274">
+<problem id="fs-id1417276"><para id="fs-id1417278">Find the probability of rolling an odd sum less than<m:math>
  <m:mrow>
-  <m:mn>9.</m:mn>
+  <m:mtext> </m:mtext><m:mn>9.</m:mn>
  </m:mrow>
-</m:math> </para></problem>
+</m:math></para></problem>
 </exercise>
 
-<exercise id="fs-id1504285" class="material-set-2">
-<problem id="fs-id1504287"><para id="fs-id1504288">Find the probability of rolling a sum greater than or equal to <m:math>
+<exercise id="fs-id1504285">
+<problem id="fs-id1504287"><para id="fs-id1504288">Find the probability of rolling a sum greater than or equal to<m:math>
  <m:mrow>
-  <m:mn>15.</m:mn>
+  <m:mtext> </m:mtext><m:mn>15.</m:mn>
  </m:mrow>
-</m:math> </para></problem>
-<solution id="fs-id1505253"><para id="fs-id1505254"> <m:math>
+</m:math></para></problem>
+<solution id="fs-id1505253"><para id="fs-id1505254"><m:math>
  <m:mrow>
-  <m:mn>0.</m:mn>
+  <m:mtext> </m:mtext><m:mn>0.</m:mn>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1651817">
-<problem id="fs-id1651819"><para id="fs-id1651820">Find the probability of rolling a sum less than <m:math>
+<problem id="fs-id1651819"><para id="fs-id1651820">Find the probability of rolling a sum less than<m:math>
  <m:mrow>
-  <m:mn>15.</m:mn>
+  <m:mtext> </m:mtext><m:mn>15.</m:mn>
  </m:mrow>
-</m:math> </para></problem>
+</m:math></para></problem>
 </exercise>
 
 <exercise id="fs-id1352158">
-<problem id="fs-id1352160"><para id="fs-id1352161">Find the probability of rolling a sum less than <m:math>
+<problem id="fs-id1352160"><para id="fs-id1352161">Find the probability of rolling a sum less than<m:math>
  <m:mrow>
-  <m:mn>6</m:mn>
+  <m:mtext> </m:mtext><m:mn>6</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> or greater than <m:math>
+</m:math>or greater than<m:math>
  <m:mrow>
-  <m:mn>9.</m:mn>
+  <m:mtext> </m:mtext><m:mn>9.</m:mn>
  </m:mrow>
-</m:math> </para></problem>
-<solution id="fs-id1700478"><para id="fs-id1700479"> <m:math>
+</m:math></para></problem>
+<solution id="fs-id1700478"><para id="fs-id1700479"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>4</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1420867">
-<problem id="fs-id1420869"><para id="fs-id1420870">Find the probability of rolling a sum between <m:math>
+<problem id="fs-id1420869"><para id="fs-id1420870">Find the probability of rolling a sum between<m:math>
  <m:mrow>
-  <m:mn>6</m:mn>
+  <m:mtext> </m:mtext><m:mn>6</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> and <m:math>
+</m:math>and<m:math>
  <m:mrow>
-  <m:mn>9</m:mn><m:mtext>,</m:mtext>
+  <m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext>,</m:mtext><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> inclusive.</para></problem>
+</m:math>inclusive.</para></problem>
 </exercise>
 
 <exercise id="fs-id1405147">
-<problem id="fs-id1405149"><para id="fs-id1405150">Find the probability of rolling a sum of <m:math>
+<problem id="fs-id1405149"><para id="fs-id1405150">Find the probability of rolling a sum of<m:math>
  <m:mrow>
-  <m:mn>5</m:mn>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> or <m:math>
+</m:math>or<m:math>
  <m:mrow>
-  <m:mn>6.</m:mn>
+  <m:mtext> </m:mtext><m:mn>6.</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></problem>
-<solution id="fs-id1430279"><para id="fs-id1430280"> <m:math>
+</m:math></para></problem>
+<solution id="fs-id1430279"><para id="fs-id1430280"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>4</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1346920">
-<problem id="fs-id1346922"><para id="fs-id1346923">Find the probability of rolling any sum other than <m:math>
+<problem id="fs-id1346922"><para id="fs-id1346923">Find the probability of rolling any sum other than<m:math>
  <m:mrow>
-  <m:mn>5</m:mn>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> or <m:math>
+</m:math>or<m:math>
  <m:mrow>
-  <m:mn>6.</m:mn>
+  <m:mtext> </m:mtext><m:mn>6.</m:mn><m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </para></problem>
@@ -2244,13 +2142,13 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1403033">
 <problem id="fs-id1403036"><para id="fs-id1403037">A head on the coin or a club</para></problem>
-<solution id="fs-id1431354"><para id="fs-id1431355"> <m:math>
+<solution id="fs-id1431354"><para id="fs-id1431355"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mn>5</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
 </m:math>
 </para></solution>
@@ -2261,9 +2159,9 @@ Find the probability of “Drawing a black queen.”
 
 <exercise id="fs-id1406358">
 <problem id="fs-id1406360"><para id="fs-id1406361">A head on the coin or a face card</para></problem>
-<solution id="fs-id1375125"><para id="fs-id1375126"> <m:math>
+<solution id="fs-id1375125"><para id="fs-id1375126"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mn>8</m:mn>
    </m:mrow>
@@ -2271,44 +2169,44 @@ Find the probability of “Drawing a black queen.”
     <m:mn>13</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1375130">
 <problem id="fs-id1432523"><para id="fs-id1432524">No aces</para></problem>
 </exercise>
 
-<para id="fs-id962975">For the following exercises, use this scenario: a bag of M&amp;Ms contains <m:math>
+<para id="fs-id962975">For the following exercises, use this scenario: a bag of M&amp;Ms contains<m:math>
  <m:mrow>
-  <m:mn>12</m:mn>
+  <m:mtext> </m:mtext><m:mn>12</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> blue, <m:math>
+</m:math>blue,<m:math>
  <m:mrow>
-  <m:mn>6</m:mn>
+  <m:mtext> </m:mtext><m:mn>6</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> brown, <m:math>
+</m:math>brown,<m:math>
  <m:mrow>
-  <m:mn>10</m:mn>
+  <m:mtext> </m:mtext><m:mn>10</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> orange, <m:math>
+</m:math>orange,<m:math>
  <m:mrow>
-  <m:mn>8</m:mn>
+  <m:mtext> </m:mtext><m:mn>8</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> yellow, <m:math>
+</m:math>yellow,<m:math>
  <m:mrow>
-  <m:mn>8</m:mn>
+  <m:mtext> </m:mtext><m:mn>8</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> red, and <m:math>
+</m:math>red, and<m:math>
  <m:mrow>
-  <m:mn>4</m:mn>
+  <m:mtext> </m:mtext><m:mn>4</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> green M&amp;Ms. Reaching into the bag, a person grabs 5 M&amp;Ms.</para><exercise id="fs-id1375117">
-<problem id="fs-id1375119"><para id="fs-id1375120">What is the probability of getting all blue M&amp;Ms?</para></problem>
-<solution id="fs-id1451917"><para id="fs-id1451918"> <m:math>
+</m:math>green M&amp;Ms. Reaching into the bag, a person grabs 5 M&amp;Ms.</para><exercise id="fs-id1375117">
+<problem id="fs-id1375119"><para id="fs-id1375120">What is the probability of getting all blue M&amp;Ms?</para></problem> 
+<solution id="fs-id1451917"><para id="fs-id1451918"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
@@ -2322,26 +2220,26 @@ Find the probability of “Drawing a black queen.”
     <m:mn>2162</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  <m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1376955">
-<problem id="fs-id1376957"><para id="fs-id1376958">What is the probability of getting <m:math>
+<problem id="fs-id1376957"><para id="fs-id1376958">What is the probability of getting<m:math>
  <m:mrow>
-  <m:mn>4</m:mn>
+  <m:mtext> </m:mtext><m:mn>4</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> blue M&amp;Ms?</para></problem>
+</m:math>blue M&amp;Ms?</para></problem>
 </exercise>
 
 <exercise id="fs-id1137436">
-<problem id="fs-id1137438"><para id="fs-id1137439">What is the probability of getting <m:math>
+<problem id="fs-id1137438"><para id="fs-id1137439">What is the probability of getting<m:math>
  <m:mrow>
-  <m:mn>3</m:mn>
+  <m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> blue M&amp;Ms?</para></problem>
-<solution id="fs-id1392183"><para id="fs-id1392184"> <m:math>
+</m:math>blue M&amp;Ms?</para></problem>
+<solution id="fs-id1392183"><para id="fs-id1392184"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -2359,58 +2257,59 @@ Find the probability of “Drawing a black queen.”
     <m:mn>2162</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1587202">
 <problem id="fs-id1587204"><para id="fs-id1587205">What is the probability of getting no brown M&amp;Ms?</para></problem>
 </exercise>
 
-</section><section id="fs-id691394">
+</section>
+<section id="fs-id691394">
 <title>Extensions</title>
-<para id="fs-id1658091">Use the following scenario for the exercises that follow: In the game of Keno, a player starts by selecting <m:math>
+<para id="fs-id1658091">Use the following scenario for the exercises that follow: In the game of Keno, a player starts by selecting<m:math>
  <m:mrow>
-  <m:mn>20</m:mn>
+  <m:mtext> </m:mtext><m:mn>20</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> numbers from the numbers <m:math>
+</m:math>numbers from the numbers<m:math>
  <m:mrow>
-  <m:mn>1</m:mn>
+  <m:mtext> </m:mtext><m:mn>1</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> to <m:math>
+</m:math>to<m:math>
  <m:mrow>
-  <m:mn>80.</m:mn>
+  <m:mtext> </m:mtext><m:mn>80.</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> After the player makes his selections, <m:math>
+</m:math>After the player makes his selections,<m:math>
  <m:mrow>
-  <m:mn>20</m:mn>
+  <m:mtext> </m:mtext><m:mn>20</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> winning numbers are randomly selected from numbers <m:math>
+</m:math>winning numbers are randomly selected from numbers<m:math>
  <m:mrow>
-  <m:mn>1</m:mn>
+  <m:mtext> </m:mtext><m:mn>1</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> to <m:math>
+</m:math>to<m:math>
  <m:mrow>
-  <m:mn>80.</m:mn>
+  <m:mtext> </m:mtext><m:mn>80.</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> A win occurs if the player has correctly selected <m:math>
+</m:math>A win occurs if the player has correctly selected<m:math>
  <m:mrow>
-  <m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
+  <m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> or <m:math>
+</m:math>or<m:math>
  <m:mrow>
-  <m:mn>5</m:mn>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> of the <m:math>
+</m:math>of the<m:math>
  <m:mrow>
-  <m:mn>20</m:mn>
+  <m:mtext> </m:mtext><m:mn>20</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> winning numbers. (Round all answers to the nearest hundredth of a percent.)</para><exercise id="fs-id1658093">
+</m:math>winning numbers. (Round all answers to the nearest hundredth of a percent.)</para><exercise id="fs-id1658093">
 <problem id="fs-id1025336"><para id="fs-id1025337">What is the percent chance that a player selects exactly 3 winning numbers?</para></problem>
-<solution id="fs-id1025340"><para id="fs-id1025341"> <m:math>
+<solution id="fs-id1025340"><para id="fs-id1025341"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>60</m:mn><m:mo>,</m:mo><m:mn>17</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
@@ -2418,9 +2317,9 @@ Find the probability of “Drawing a black queen.”
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>80</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-  <m:mo>≈</m:mo><m:mn>12.49</m:mn><m:mi>%</m:mi>
+  <m:mo>≈</m:mo><m:mn>12.49</m:mn><m:mi>%</m:mi><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1410296">
@@ -2428,10 +2327,10 @@ Find the probability of “Drawing a black queen.”
 </exercise>
 
 <exercise id="fs-id1446738">
-<problem id="fs-id1432791"><para id="fs-id1432792">What is the percent chance that a player selects all 5 winning numbers?</para></problem>
-<solution id="fs-id1432795"><para id="fs-id1165135310596"> <m:math>
+<problem id="fs-id1432791"><para id="fs-id1432792">What is the percent chance that a player selects all 5 winning numbers?</para></problem> 
+<solution id="fs-id1432795"><para id="fs-id1165135310596"><m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>60</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
@@ -2439,9 +2338,9 @@ Find the probability of “Drawing a black queen.”
     <m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>80</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-  <m:mo>≈</m:mo><m:mn>23.33</m:mn><m:mi>%</m:mi>
+  <m:mo>≈</m:mo><m:mn>23.33</m:mn><m:mi>%</m:mi><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1451866">
@@ -2451,7 +2350,7 @@ Find the probability of “Drawing a black queen.”
 <exercise id="fs-id953004">
 <problem id="fs-id953006">
 <para id="fs-id1661742">How much less is a player’s chance of selecting 3 winning numbers than the chance of selecting either 4 or 5 winning numbers?</para></problem>
-<solution id="fs-id1165135693734"><para id="fs-id1402882"> <m:math>
+<solution id="fs-id1165135693734"><para id="fs-id1402882"><m:math>
  <m:mrow>
   <m:mn>20.50</m:mn><m:mo>+</m:mo><m:mn>23.33</m:mn><m:mo>−</m:mo><m:mn>12.49</m:mn><m:mo>=</m:mo><m:mn>31.34</m:mn><m:mi>%</m:mi>
  </m:mrow>
@@ -2462,14 +2361,14 @@ Find the probability of “Drawing a black queen.”
 </section>
 <section id="fs-id1402887">
 <title>Real-World Applications</title>
-<para id="fs-id1434249">Use this data for the exercises that follow: In 2013, there were roughly 317 million citizens in the United States, and about 40 million were elderly (aged 65 and over).<footnote id="fs-id1246430">United States Census Bureau. http://www.census.gov</footnote></para>
+<para id="fs-id1434249">Use this data for the exercises that follow: In 2013, there were roughly 317 million citizens in the United States, and about 40 million were elderly (aged 65 and over).<footnote id="fs-id1246430">United States Census Bureau. http://www.census.gov</footnote></para> 
 
 <exercise id="fs-id1246434">
 <problem id="fs-id1702772"><para id="fs-id1702774">If you meet a U.S. citizen, what is the percent chance that the person is elderly? (Round to the nearest tenth of a percent.)</para></problem>
 </exercise>
 <exercise id="fs-id1563356">
-<problem id="fs-id1563358"><para id="fs-id1563359">If you meet five U.S. citizens, what is the percent chance that exactly one is elderly? (Round to the nearest tenth of a percent.)</para></problem>
-<solution id="fs-id1430532"><para id="fs-id1430533"> <m:math>
+<problem id="fs-id1563358"><para id="fs-id1563359">If you meet five U.S. citizens, what is the percent chance that exactly one is elderly? (Round to the nearest tenth of a percent.)</para></problem> 
+<solution id="fs-id1430532"><para id="fs-id1430533"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -2490,8 +2389,8 @@ Find the probability of “Drawing a black queen.”
 </exercise>
 
 <exercise id="fs-id968129">
-<problem id="fs-id968131"><para id="fs-id1678373">If you meet five U.S. citizens, what is the percent chance that four are elderly? (Round to the nearest thousandth of a percent.)</para></problem>
-<solution id="fs-id1678377"><para id="fs-id1678378"> <m:math>
+<problem id="fs-id968131"><para id="fs-id1678373">If you meet five U.S. citizens, what is the percent chance that four are elderly? (Round to the nearest thousandth of a percent.)</para></problem> 
+<solution id="fs-id1678377"><para id="fs-id1678378"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -2515,16 +2414,16 @@ Find the probability of “Drawing a black queen.”
 <section id="fs-id1446766" class="review-exercises">
 <title>Chapter Review Exercises</title>
 <section id="fs-id1446770">
-<title><link document="m49444">Sequences and Their Notation</link></title>
+<title><link class="target-chapter" document="m49444">Sequences and Their Notation</link></title>
 <exercise id="fs-id1393290">
 <problem id="fs-id1563220">
-<para id="fs-id1563223">Write the first four terms of the sequence defined by the recursive formula <m:math>
+<para id="fs-id1563223">Write the first four terms of the sequence defined by the recursive formula<m:math>
  <m:mrow>
-  <m:msub>
+  <m:mtext> </m:mtext><m:msub>
    <m:mi>a</m:mi>
    <m:mn>1</m:mn>
   </m:msub>
-  <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub>
+  <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:msub>
    <m:mi>a</m:mi>
    <m:mi>n</m:mi>
   </m:msub>
@@ -2540,19 +2439,19 @@ Find the probability of “Drawing a black queen.”
 
 </para></problem>
 <solution id="fs-id1638207">
-<para id="fs-id1638210"> <m:math>
+<para id="fs-id1638210"><m:math>
 <m:mrow>
 <m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>11</m:mn>
 </m:mrow>
-</m:math> </para>
+</m:math></para>
 </solution>
 </exercise>
 
 <exercise id="fs-id1568943">
 <problem id="fs-id1506941">
-<para id="fs-id1506943">Evaluate <m:math>
+<para id="fs-id1506943">Evaluate<m:math>
  <m:mrow>
-  <m:mfrac>
+  <m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
     <m:mn>6</m:mn><m:mo>!</m:mo>
    </m:mrow>
@@ -2562,14 +2461,14 @@ Find the probability of “Drawing a black queen.”
   </m:mfrac>
   <m:mo>.</m:mo>
  </m:mrow>
-</m:math> </para></problem>
+</m:math></para></problem>
 </exercise>
 
 <exercise id="fs-id1530332">
 <problem id="fs-id1530334">
-<para id="fs-id1530336">Write the first four terms of the sequence defined by the explicit formula <m:math>
+<para id="fs-id1530336">Write the first four terms of the sequence defined by the explicit formula<m:math>
 <m:mrow>
-<m:msub>
+<m:mtext> </m:mtext><m:msub>
 <m:mi>a</m:mi>
 <m:mi>n</m:mi>
 </m:msub>
@@ -2581,21 +2480,21 @@ Find the probability of “Drawing a black queen.”
 </m:msup>
 <m:mo>+</m:mo><m:mn>3.</m:mn>
 </m:mrow>
-</m:math> </para></problem>
+</m:math></para></problem>
 <solution id="fs-id1512306">
-<para id="fs-id1512308"> <m:math>
+<para id="fs-id1512308"><m:math>
 <m:mrow>
 <m:mn>13</m:mn><m:mo>,</m:mo><m:mn>103</m:mn><m:mo>,</m:mo><m:mn>1003</m:mn><m:mo>,</m:mo><m:mn>10003</m:mn>
 </m:mrow>
-</m:math> </para>
+</m:math></para>
 </solution>
 </exercise>
 
 <exercise id="fs-id1569983">
 <problem id="fs-id1430054">
-<para id="fs-id1430056">Write the first four terms of the sequence defined by the explicit formula <m:math>
+<para id="fs-id1430056">Write the first four terms of the sequence defined by the explicit formula<m:math>
 <m:mrow>
-<m:msub>
+<m:mtext> </m:mtext><m:msub>
 <m:mi>a</m:mi>
 <m:mi>n</m:mi>
 </m:msub>
@@ -2609,16 +2508,16 @@ Find the probability of “Drawing a black queen.”
 </m:mfrac>
 <m:mo>.</m:mo>
 </m:mrow>
-</m:math> </para></problem>
+</m:math></para></problem>
 </exercise>
 </section>
 <section id="fs-id1646949">
-<title><link document="m49445">Arithmetic Sequences</link></title>
+<title><link class="target-chapter" document="m49445">Arithmetic Sequences</link></title>
 <exercise id="fs-id1646955">
 <problem id="fs-id1431642">
-<para id="fs-id1431644">Is the sequence <m:math>
+<para id="fs-id1431644">Is the sequence<m:math>
 <m:mrow>
-<m:mfrac>
+<m:mtext> </m:mtext><m:mfrac>
 <m:mn>4</m:mn>
 <m:mn>7</m:mn>
 </m:mfrac>
@@ -2644,53 +2543,53 @@ Find the probability of “Drawing a black queen.”
 </m:mrow>
 <m:mn>7</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.3em"/><m:mn>...</m:mn>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>...</m:mn>
 </m:mrow>
 </m:math> arithmetic? If so, find the common difference.</para></problem>
 <solution id="fs-id1503624">
-<para id="fs-id1503626">The sequence is arithmetic. The common difference is <m:math>
+<para id="fs-id1503626">The sequence is arithmetic. The common difference is<m:math>
 <m:mrow>
-<m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mn>5</m:mn>
 <m:mn>3</m:mn>
 </m:mfrac>
 <m:mo>.</m:mo>
 </m:mrow>
-</m:math> </para>
+</m:math></para>
 </solution>
 </exercise>
 
 <exercise id="fs-id1587145">
 <problem id="fs-id1587147">
-<para id="fs-id1587149">Is the sequence <m:math>
+<para id="fs-id1587149">Is the sequence<m:math>
 <m:mrow>
-<m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mn>...</m:mn>
+<m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>...</m:mn><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> arithmetic? If so, find the common difference.</para>
+</m:math>arithmetic? If so, find the common difference.</para>
 </problem>
 </exercise>
 
 <exercise id="fs-id1422414">
 <problem id="fs-id1464371">
-<para id="fs-id1464373">An arithmetic sequence has the first term <m:math>
+<para id="fs-id1464373">An arithmetic sequence has the first term<m:math>
 <m:mrow>
-<m:msub>
+<m:mtext> </m:mtext><m:msub>
 <m:mi>a</m:mi>
 <m:mn>1</m:mn>
 </m:msub>
-<m:mo>=</m:mo><m:mn>18</m:mn>
+<m:mo>=</m:mo><m:mn>18</m:mn><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> and common difference <m:math>
+</m:math>and common difference<m:math>
 <m:mrow>
-<m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8.</m:mn>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8.</m:mn><m:mtext> </m:mtext>
 </m:mrow>
-</m:math> What are the first five terms?</para></problem>
+</m:math>What are the first five terms?</para></problem>
 <solution id="fs-id1377396">
-<para id="fs-id1377398"> <m:math>
+<para id="fs-id1377398"><m:math>
 <m:mrow>
 <m:mn>18</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>14</m:mn>
 </m:mrow>
-</m:math> </para>
+</m:math></para>
 </solution>
 </exercise>
 
@@ -2728,13 +2627,13 @@ What is the first term?</para>
 
 </para></problem>
 <solution id="fs-id1081714">
-<para id="fs-id1081717"> <m:math>
+<para id="fs-id1081717"><m:math>
 <m:mrow>
 <m:msub>
 <m:mi>a</m:mi>
 <m:mn>1</m:mn>
 </m:msub>
-<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:msub>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:msub>
 <m:mi>a</m:mi>
 <m:mi>n</m:mi>
 </m:msub>
@@ -2755,11 +2654,11 @@ What is the first term?</para>
 <problem id="fs-id1407463">
 <para id="fs-id1407465">Write a recursive formula for the arithmetic sequence <m:math>
 <m:mrow>
-<m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
 <m:mn>3</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>
@@ -2776,7 +2675,7 @@ and then find the 31<sup>st</sup> term.</para></problem>
 <m:mn>7</m:mn>
 <m:mn>8</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
 <m:mrow>
 <m:mn>29</m:mn>
 </m:mrow>
@@ -2784,7 +2683,7 @@ and then find the 31<sup>st</sup> term.</para></problem>
 <m:mn>24</m:mn>
 </m:mrow>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
 <m:mrow>
 <m:mn>37</m:mn>
 </m:mrow>
@@ -2792,7 +2691,7 @@ and then find the 31<sup>st</sup> term.</para></problem>
 <m:mn>24</m:mn>
 </m:mrow>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
 <m:mrow>
 <m:mn>15</m:mn>
 </m:mrow>
@@ -2803,7 +2702,7 @@ and then find the 31<sup>st</sup> term.</para></problem>
 </m:math>
 </para></problem>
 <solution id="fs-id1407611">
-<para id="fs-id1034278"> <m:math>
+<para id="fs-id1034278"><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>a</m:mi>
@@ -2821,7 +2720,7 @@ and then find the 31<sup>st</sup> term.</para></problem>
     <m:mn>24</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para></solution>
@@ -2829,25 +2728,25 @@ and then find the 31<sup>st</sup> term.</para></problem>
 
 <exercise id="fs-id1531680">
 <problem id="fs-id1531682">
-<para id="fs-id1671766">How many terms are in the finite arithmetic sequence <m:math>
+<para id="fs-id1671766">How many terms are in the finite arithmetic sequence<m:math>
  <m:mrow>
-  <m:mn>12</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>28</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mo>,</m:mo><m:mn>172</m:mn><m:mo>?</m:mo>
+  <m:mtext> </m:mtext><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>28</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mo>,</m:mo><m:mn>172</m:mn><m:mo>?</m:mo>
  </m:mrow>
-</m:math> </para></problem>
+</m:math></para></problem>
 </exercise>
 </section>
 <section id="fs-id1347017">
-<title><link document="m49446">Geometric Sequences</link></title>
+<title><link class="target-chapter" document="m49446">Geometric Sequences</link></title>
 <exercise id="fs-id1639009">
 <problem id="fs-id1639011">
 <para id="fs-id1639013">Find the common ratio for the geometric sequence <m:math>
 <m:mrow>
-<m:mn>2.5</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>5</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>10</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>20</m:mn><m:mo>,</m:mo><m:mo>…</m:mo>
+<m:mn>2.5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>20</m:mn><m:mo>,</m:mo><m:mo>…</m:mo>
 </m:mrow>
 </m:math>
 </para></problem>
 <solution id="fs-id1523060">
-<para id="fs-id1523062"> <m:math>
+<para id="fs-id1523062"><m:math>
 <m:mrow>
 <m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
 </m:mrow>
@@ -2858,50 +2757,60 @@ and then find the 31<sup>st</sup> term.</para></problem>
 
 <exercise id="fs-id1323468">
 <problem id="fs-id1323470">
-<para id="fs-id1323472">Is the sequence 4, 16, 28, 40 … geometric? If so find the common ratio. If not, explain why.</para></problem>
+<para id="fs-id1323472">Is the sequence <m:math>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>16</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>28</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>40</m:mn><m:mo>,</m:mo><m:mo>…</m:mo>
+</m:mrow>
+</m:math> geometric? If so find the common ratio. If not, explain why.</para></problem>
 </exercise>
 
 <exercise id="fs-id1692760">
 <problem id="fs-id1692762">
-<para id="fs-id1692764">A geometric sequence has terms <m:math>
+<para id="fs-id1692764">A geometric sequence has terms<m:math>
  <m:mrow>
-  <m:msub>
+  <m:mtext> </m:mtext><m:msub>
    <m:mi>a</m:mi>
    <m:mn>7</m:mn>
   </m:msub>
-  <m:mo>=</m:mo><m:mn>16</m:mn><m:mtext>,</m:mtext><m:mn>384</m:mn>
+  <m:mo>=</m:mo><m:mn>16</m:mn><m:mtext>,</m:mtext><m:mn>384</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> and <m:math>
+</m:math>and<m:math>
  <m:mrow>
-  <m:msub>
+  <m:mtext> </m:mtext><m:msub>
    <m:mi>a</m:mi>
    <m:mn>9</m:mn>
-  </m:msub><m:mo>=</m:mo><m:mn>262</m:mn><m:mtext>,</m:mtext><m:mn>144</m:mn>
+  </m:msub><m:mo>=</m:mo><m:mn>262</m:mn><m:mtext>,</m:mtext><m:mn>144</m:mn><m:mtext> .</m:mtext>
  </m:mrow>
-</m:math>. What are the first five terms?</para></problem>
+</m:math> What are the first five terms?</para></problem>
 <solution id="fs-id1489943">
-<para id="fs-id1489945">4, 16, 64, 256, 1024</para></solution>
+<para id="fs-id1489945"><m:math>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>16</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>64</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>256</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1024</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
 </exercise>
 
 <exercise id="fs-id1706539">
 <problem id="fs-id1706542">
-<para id="fs-id1706544">A geometric sequence has the first term <m:math>
+<para id="fs-id1706544">A geometric sequence has the first term<m:math>
  <m:mrow>
-  <m:msub>
+  <m:mtext> </m:mtext><m:msub>
    <m:mi>a</m:mi>
    <m:mn>1</m:mn>
   </m:msub>
-  <m:mtext>=</m:mtext><m:mo>−</m:mo><m:mn>3</m:mn>
+  <m:mtext>=</m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> and common ratio <m:math>
+</m:math>and common ratio<m:math>
  <m:mrow>
-  <m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mtext> </m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-  <m:mo>.</m:mo>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> What is the 8<sup>th</sup> term?</para></problem>
+</m:math>What is the 8<sup>th</sup> term?</para></problem>
 </exercise>
 
 <exercise id="fs-id1699888">
@@ -2912,7 +2821,7 @@ and then find the 31<sup>st</sup> term.</para></problem>
 <m:mi>a</m:mi>
 <m:mn>1</m:mn>
 </m:msub>
-<m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:msub>
+<m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:msub>
 <m:mi>a</m:mi>
 <m:mi>n</m:mi>
 </m:msub>
@@ -2928,9 +2837,9 @@ and then find the 31<sup>st</sup> term.</para></problem>
 </para>
 </problem>
 <solution id="fs-id1512952">
-<para id="fs-id1512954"> <m:math>
+<para id="fs-id1512954"><m:math>
 <m:mrow>
-<m:mn>3</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>12</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>48</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>192</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>768</m:mn>
+<m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>12</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>48</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>192</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>768</m:mn>
 </m:mrow>
 </m:math>
 </para>
@@ -2941,15 +2850,15 @@ and then find the 31<sup>st</sup> term.</para></problem>
 <problem id="fs-id952613">
 <para id="fs-id952615">Write a recursive formula for the geometric sequence <m:math>
 <m:mrow>
-<m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mfrac>
+<m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>3</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mn>9</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mn>27</m:mn>
@@ -2969,19 +2878,19 @@ and then find the 31<sup>st</sup> term.</para></problem>
 <m:mn>1</m:mn>
 <m:mn>5</m:mn>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mn>15</m:mn>
 </m:mrow>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mn>45</m:mn>
 </m:mrow>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mn>135</m:mn>
@@ -2992,7 +2901,7 @@ and then find the 31<sup>st</sup> term.</para></problem>
 </m:math>
 </para></problem>
 <solution id="fs-id1371386">
-<para id="fs-id1371388"> <m:math>
+<para id="fs-id1371388"><m:math>
 <m:mrow>
 <m:msub>
 <m:mi>a</m:mi>
@@ -3051,7 +2960,7 @@ and then find the 31<sup>st</sup> term.</para></problem>
 </exercise>
 </section>
 <section id="fs-id1432883">
-<title><link document="m49447">Series and Their Notation</link></title>
+<title><link class="target-chapter" document="m49447">Series and Their Notation</link></title>
 <exercise id="fs-id1371396">
 <problem id="fs-id1371399">
 <para id="fs-id880355">Use summation notation to write the sum of terms <m:math>
@@ -3076,7 +2985,7 @@ to <m:math>
 </para>
 </problem>
 <solution id="fs-id1294194">
-<para id="fs-id1664084"> <m:math>
+<para id="fs-id1664084"><m:math>
 <m:mrow>
 <m:mstyle displaystyle="true">
 <m:munderover>
@@ -3122,7 +3031,7 @@ twenty times.</para></problem>
 terms of an arithmetic series to find the sum of the first eleven terms of the arithmetic series 2.5, 4, 5.5, … .</para>
 </problem>
 <solution id="fs-id1653352">
-<para id="fs-id1653354"> <m:math>
+<para id="fs-id1653354"><m:math>
 <m:mrow>
 <m:msub>
 <m:mi>S</m:mi>
@@ -3161,7 +3070,7 @@ tapered rungs, the lengths of which increase by a common difference. The first r
 </m:math>
 for the series <m:math>
 <m:mrow>
-<m:mn>12</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mn>6</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mn>3</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mfrac>
+<m:mn>12</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
 <m:mn>3</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>
@@ -3170,7 +3079,7 @@ for the series <m:math>
 </m:math>
 </para></problem>
 <solution id="fs-id1588276">
-<para id="fs-id1588279"> <m:math>
+<para id="fs-id1588279"><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>S</m:mi>
@@ -3184,36 +3093,35 @@ for the series <m:math>
 
 <exercise id="fs-id1650939">
 <problem id="fs-id1650941">
-<para id="fs-id1351546">The fees for the first three years of a hunting club membership are given in <link target-id="Table_11_07_05"/>. If fees continue to rise at the same rate, how much will the total cost be for the first ten years of membership?</para><table id="Table_11_07_05" summary="Chart of year vs membership fees">
-<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<para id="fs-id1351546">The fees for the first three years of a hunting club membership are given in <link target-id="Table_11_07_05"/>. If fees continue to rise at the same rate, how much will the total cost be for the first ten years of membership?</para><table id="Table_11_07_05" summary="">
+<title/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
 <row>
-<entry align="center">Year</entry>
-<entry align="center">Membership Fees</entry>
+<entry>Year</entry>
+<entry>Membership Fees</entry>
 </row>
 </thead>
 <tbody>
 <row>
-<entry align="center">1</entry>
-<entry align="center">$1500</entry>
+<entry>1</entry>
+<entry>$1500</entry>
 </row>
 <row>
-<entry align="center">2</entry>
-<entry align="center">$1950</entry>
+<entry>2</entry>
+<entry>$1950</entry>
 </row>
 <row>
-<entry align="center">3</entry>
-<entry align="center">$2535</entry>
+<entry>3</entry>
+<entry>$2535</entry>
 </row>
 </tbody>
-
-
-
-
-
 </tgroup>
-</table></problem>
+</table>
+
+</problem>
 </exercise>
 
 <exercise id="fs-id1690786">
@@ -3245,7 +3153,7 @@ for the series <m:math>
 
 </para></problem>
 <solution id="fs-id1691189">
-<para id="fs-id1691191"> <m:math>
+<para id="fs-id1691191"><m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -3278,15 +3186,15 @@ the height of the previous bounce. Write a series representing the total distanc
 <exercise id="fs-id1517399">
 <problem id="fs-id1517401">
 <para id="fs-id1517403">Alejandro deposits $80 of his monthly earnings into an annuity that earns 6.25%  annual interest, compounded monthly. How much money will he have saved after 5 years?</para>
-</problem>
+</problem> 
 <solution id="fs-id1690332">
 <para id="fs-id1690334">$5,617.61</para>
 </solution>
-</exercise>
+</exercise> 
 
 <exercise id="fs-id1676777">
 <problem id="fs-id1676779">
-<para id="fs-id1676781">The twins Hoa and Binh both opened retirement accounts on their 21<sup>st</sup> birthday. Hoa deposits $4,800.00 each year, earning 5.5%  annual interest, compounded monthly. Binh deposits $3,600.00  each year, earning 8.5%  annual interest, compounded monthly. Which twin will earn the most interest by the time they are <m:math>
+<para id="fs-id1676781">The twins Sarah and Scott both opened retirement accounts on their 21<sup>st</sup> birthday. Sarah deposits $4,800.00 each year, earning 5.5%  annual interest, compounded monthly. Scott deposits $3,600.00  each year, earning 8.5%  annual interest, compounded monthly. Which twin will earn the most interest by the time they are <m:math>
 <m:mrow>
 <m:mn>55</m:mn>
 </m:mrow>
@@ -3295,14 +3203,14 @@ years old? How much more?</para></problem>
 </exercise>
 </section>
 <section id="fs-id1537227">
-<title><link document="m49448">Counting Principles</link></title>
+<title><link class="target-chapter" document="m49448">Counting Principles</link></title>
 <exercise id="fs-id1537232">
 <problem id="fs-id1503949">
-<para id="fs-id1503951">How many ways are there to choose a number from the set <m:math>
+<para id="fs-id1503951">How many ways are there to choose a number from the set<m:math>
  <m:mrow>
-  <m:mo>{</m:mo><m:mo>−</m:mo><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mo>−</m:mo><m:mn>6</m:mn><m:mtext>, </m:mtext><m:mn>4</m:mn><m:mtext>, </m:mtext><m:mn>10</m:mn><m:mtext>, </m:mtext><m:mn>12</m:mn><m:mtext>, </m:mtext><m:mn>18</m:mn><m:mtext>, </m:mtext><m:mn>24</m:mn><m:mtext>, </m:mtext><m:mn>32</m:mn><m:mo>}</m:mo>
+  <m:mtext> </m:mtext><m:mo>{</m:mo><m:mo>−</m:mo><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mo>−</m:mo><m:mn>6</m:mn><m:mtext>, </m:mtext><m:mn>4</m:mn><m:mtext>, </m:mtext><m:mn>10</m:mn><m:mtext>, </m:mtext><m:mn>12</m:mn><m:mtext>, </m:mtext><m:mn>18</m:mn><m:mtext>, </m:mtext><m:mn>24</m:mn><m:mtext>, </m:mtext><m:mn>32</m:mn><m:mo>}</m:mo><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> that is divisible by either <m:math>
+</m:math>that is divisible by either <m:math>
 <m:mn>4</m:mn>
 </m:math>
 or <m:math>
@@ -3341,7 +3249,7 @@ play both piano and trumpet. How many musicians play either piano or trumpet?</p
 <para id="fs-id1404710">How many ways are there to construct a 4-digit code if numbers can be repeated?</para>
 </problem>
 <solution id="fs-id1292414">
-<para id="fs-id1292416"> <m:math>
+<para id="fs-id1292416"><m:math>
  <m:mrow>
   <m:msup>
    <m:mrow>
@@ -3373,7 +3281,7 @@ play both piano and trumpet. How many musicians play either piano or trumpet?</p
 </para>
 </problem>
 <solution id="fs-id1408306">
-<para id="fs-id1408308"> <m:math>
+<para id="fs-id1408308"><m:math>
  <m:mrow>
   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>73</m:mn><m:mtext>,</m:mtext><m:mn>440</m:mn>
  </m:mrow>
@@ -3385,18 +3293,18 @@ play both piano and trumpet. How many musicians play either piano or trumpet?</p
 <para id="fs-id1665061">In a group of <m:math>
 <m:mn>5</m:mn>
 </m:math>
-first-year, <m:math>
+freshman, <m:math>
 <m:mrow>
 <m:mn>10</m:mn>
 </m:mrow>
 </m:math>
-second-year, <m:math>
+sophomores, <m:math>
 <m:mn>3</m:mn>
 </m:math>
-third-year, and <m:math>
+juniors, and <m:math>
 <m:mn>2</m:mn>
 </m:math>
-fourth-year students, how many ways can a president, vice president, and treasurer be elected?</para>
+seniors, how many ways can a president, vice president, and treasurer be elected?</para>
 </problem>
 </exercise>
 
@@ -3414,7 +3322,7 @@ fourth-year students, how many ways can a president, vice president, and treasur
 </para>
 </problem>
 <solution id="fs-id1417310">
-<para id="fs-id1417313"> <m:math>
+<para id="fs-id1417313"><m:math>
 <m:mrow>
 <m:mi>C</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -3438,14 +3346,14 @@ fourth-year students, how many ways can a president, vice president, and treasur
 <para id="fs-id1690898">How many subsets does the set <m:math>
 <m:mrow>
 <m:mrow><m:mo>{</m:mo> <m:mrow>
-<m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>3</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>5</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mo>…</m:mo><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mn>99</m:mn>
+<m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>…</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>99</m:mn>
 </m:mrow> <m:mo>}</m:mo></m:mrow>
 </m:mrow>
 </m:math>
 have?</para>
 </problem>
 <solution id="fs-id1692604">
-<para id="fs-id1692606"> <m:math>
+<para id="fs-id1692606"><m:math>
 <m:mrow>
 <m:msup>
 <m:mn>2</m:mn>
@@ -3479,7 +3387,7 @@ have?</para>
 <para id="fs-id1655413">How many distinct ways can the word DEADWOOD be arranged?</para>
 </problem>
 <solution id="fs-id1663520">
-<para id="fs-id1663522"> <m:math>
+<para id="fs-id1663522"><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -3502,11 +3410,13 @@ have?</para>
 </problem>
 </exercise>
 </section>
-<section id="fs-id1521395"><title><link document="m49449">Binomial Theorem</link></title><exercise id="fs-id1458647">
+<section id="fs-id1521395">
+<title><link class="target-chapter" document="m49449">Binomial Theorem</link></title>
+<exercise id="fs-id1458647">
 <problem id="fs-id1458649">
-<para id="fs-id1458651">Evaluate the binomial coefficient <m:math>
+<para id="fs-id1458651">Evaluate the binomial coefficient<m:math>
  <m:mrow>
-  <m:mrow><m:mo>(</m:mo>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
    <m:mrow>
     <m:mtable>
      <m:mtr>
@@ -3521,7 +3431,7 @@ have?</para>
        <m:mn>8</m:mn>
       </m:mtd>
      </m:mtr>
-
+     
     </m:mtable>
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
@@ -3530,7 +3440,7 @@ have?</para>
 
 </para></problem>
 <solution id="fs-id1537189">
-<para id="fs-id1537191"> <m:math>
+<para id="fs-id1537191"><m:math>
  <m:mrow>
   <m:mn>490</m:mn><m:mtext>,</m:mtext><m:mn>314</m:mn>
  </m:mrow>
@@ -3585,7 +3495,7 @@ have?</para>
 </para>
 </problem>
 <solution id="fs-id1431099">
-<para id="fs-id1431101"> <m:math>
+<para id="fs-id1431101"><m:math>
  <m:mrow>
   <m:mn>131</m:mn><m:mtext>,</m:mtext><m:mn>072</m:mn><m:msup>
    <m:mi>a</m:mi>
@@ -3609,7 +3519,7 @@ have?</para>
    <m:mi>b</m:mi>
    <m:mn>2</m:mn>
   </m:msup>
-
+  
  </m:mrow>
 </m:math>
 </para></solution>
@@ -3635,20 +3545,25 @@ have?</para>
     <m:mn>11</m:mn>
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math>
  without fully expanding the binomial.</para>
 </problem>
-</exercise>
-</section><section id="fs-id1375856"><title><link document="m49450">Probability</link></title><para id="fs-id1375861">For the following exercises, assume two die are rolled.</para>
+</exercise> 
+</section>
+<section id="fs-id1375856">
+<title><link class="target-chapter" document="m49450">Probability</link></title>
+<para id="fs-id1375861">For the following exercises, assume two die are rolled.</para>
 
-<exercise id="fs-id1690879" class="material-set-2"><problem id="fs-id1690881">
+<exercise id="fs-id1690879"><problem id="fs-id1690881">
 <para id="fs-id1690883">Construct a table showing the sample space.</para>
 </problem>
 <solution id="fs-id1676886">
-<table id="eip-id1165131987051" class="unnumbered" summary="Table of sample space"><label/>
-<tgroup cols="7"><colspec colnum="1" colname="c1"/>
+<table id="eip-id1165131987051" class="unnumbered" summary=""><label/>
+<title/>
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
 <colspec colnum="4" colname="c4"/>
@@ -3658,77 +3573,73 @@ have?</para>
 
 <tbody>
 <row>
-<entry align="center"> </entry>
-<entry align="center">1</entry>
-<entry align="center">2</entry>
-<entry align="center">3</entry>
-<entry align="center">4</entry>
-<entry align="center">5</entry>
-<entry align="center">6</entry>
+<entry> </entry>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
 </row>
 <row>
-<entry align="center">1</entry>
-<entry align="center">1,1</entry>
-<entry align="center">1,2</entry>
-<entry align="center">1,3</entry>
-<entry align="center">1,4</entry>
-<entry align="center">1,5</entry>
-<entry align="center">1,6</entry>
+<entry>1</entry>
+<entry>1, 1</entry>
+<entry>1, 2</entry>
+<entry>1, 3</entry>
+<entry>1, 4</entry>
+<entry>1, 5</entry>
+<entry>1, 6</entry>
 </row>
 <row>
-<entry align="center">2</entry>
-<entry align="center">2,1</entry>
-<entry align="center">2,2</entry>
-<entry align="center">2,3</entry>
-<entry align="center">2,4</entry>
-<entry align="center">2,5</entry>
-<entry align="center">2,6</entry>
+<entry>2</entry>
+<entry>2, 1</entry>
+<entry>2, 2</entry>
+<entry>2, 3</entry>
+<entry>2, 4</entry>
+<entry>2, 5</entry>
+<entry>2, 6</entry>
 </row>
 <row>
-<entry align="center">3</entry>
-<entry align="center">3,1</entry>
-<entry align="center">3,2</entry>
-<entry align="center">3,3</entry>
-<entry align="center">3,4</entry>
-<entry align="center">3,5</entry>
-<entry align="center">3,6</entry>
+<entry>3</entry>
+<entry>3, 1</entry>
+<entry>3, 2</entry>
+<entry>3, 3</entry>
+<entry>3, 4</entry>
+<entry>3, 5</entry>
+<entry>3, 6</entry>
 </row>
 <row>
-<entry align="center">4</entry>
-<entry align="center">4,1</entry>
-<entry align="center">4,2</entry>
-<entry align="center">4,3</entry>
-<entry align="center">4,4</entry>
-<entry align="center">4,5</entry>
-<entry align="center">4,6</entry>
+<entry>4</entry>
+<entry>4, 1</entry>
+<entry>4, 2</entry>
+<entry>4, 3</entry>
+<entry>4, 4</entry>
+<entry>4, 5</entry>
+<entry>4, 6</entry>
 </row>
 <row>
-<entry align="center">5</entry>
-<entry align="center">5,1</entry>
-<entry align="center">5,2</entry>
-<entry align="center">5,3</entry>
-<entry align="center">5,4</entry>
-<entry align="center">5,5</entry>
-<entry align="center">5,6</entry>
+<entry>5</entry>
+<entry>5, 1</entry>
+<entry>5, 2</entry>
+<entry>5, 3</entry>
+<entry>5, 4</entry>
+<entry>5, 5</entry>
+<entry>5, 6</entry>
 </row>
 <row>
-<entry align="center">6</entry>
-<entry align="center">6,1</entry>
-<entry align="center">6,2</entry>
-<entry align="center">6,3</entry>
-<entry align="center">6,4</entry>
-<entry align="center">6,5</entry>
-<entry align="center">6,6</entry>
+<entry>6</entry>
+<entry>6, 1</entry>
+<entry>6, 2</entry>
+<entry>6, 3</entry>
+<entry>6, 4</entry>
+<entry>6, 5</entry>
+<entry>6, 6</entry>
 </row>
 </tbody>
-
-
-
-
-
 </tgroup>
-</table></solution>
-</exercise><exercise id="fs-id1421167" class="material-set-2">
+</table>
+</solution>
+</exercise><exercise id="fs-id1421167">
 <problem id="fs-id1421169">
 <para id="fs-id1421171">What is the probability that a roll includes a <m:math>
  <m:mrow>
@@ -3744,20 +3655,20 @@ have?</para>
 <para id="fs-id1506814">What is the probability of rolling a pair?</para>
 </problem>
 <solution id="fs-id1506818">
-<para id="fs-id1365304"> <m:math>
+<para id="fs-id1365304"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para>
 </solution>
 </exercise>
 
-<exercise id="fs-id1403407" class="material-set-2">
+<exercise id="fs-id1403407">
 <problem id="fs-id1403409">
 <para id="fs-id1403411">What is the probability that a roll includes a 2 or results in a pair?</para>
 </problem>
@@ -3768,20 +3679,20 @@ have?</para>
 <para id="fs-id1375743">What is the probability that a roll doesn’t include a 2 or result in a pair?</para>
 </problem>
 <solution id="fs-id1375749">
-<para id="fs-id1375751"> <m:math>
+<para id="fs-id1375751"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>5</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para>
 </solution>
 </exercise>
 
-<exercise id="fs-id1435259" class="material-set-2">
+<exercise id="fs-id1435259">
 <problem id="fs-id1435261">
 <para id="fs-id1435263">What is the probability of rolling a 5 or a 6?</para>
 </problem>
@@ -3792,13 +3703,13 @@ have?</para>
 <para id="fs-id1406896">What is the probability that a roll includes neither a 5 nor a 6?</para>
 </problem>
 <solution id="fs-id1394019">
-<para id="fs-id1394021"> <m:math>
+<para id="fs-id1394021"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>4</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para>
@@ -3818,7 +3729,7 @@ have?</para>
 <para id="fs-id1434590">What is the percent chance that at least one of the children attending the party prefers milk?</para>
 </problem>
 <solution id="fs-id1434595">
-<para id="fs-id1436282"> <m:math>
+<para id="fs-id1436282"><m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
    <m:mrow>
@@ -3854,7 +3765,7 @@ have?</para>
 <para id="fs-id1433520">What is the percent chance that exactly 3 of the children attending the party prefer milk?</para>
 </problem>
 <solution id="fs-id1433524">
-<para id="fs-id1433526"> <m:math>
+<para id="fs-id1433526"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -3883,11 +3794,13 @@ have?</para>
 </solution>
 </exercise>
 </section></section>
-<section id="fs-id1434556" class="practice-test"><title>Practice Test</title><exercise id="fs-id1434559">
+<section id="fs-id1434556" class="practice-test">
+<title>Practice Test</title>
+<exercise id="fs-id1434559">
 <problem id="fs-id1695339">
 <para id="fs-id1695341">Write the first four terms of the sequence defined by the recursive formula <m:math>
  <m:mrow>
-<m:mi>a</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:msub>
+<m:mi>a</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:msub>
    <m:mi>a</m:mi>
    <m:mi>n</m:mi>
   </m:msub>
@@ -3899,7 +3812,7 @@ have?</para>
       <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
      </m:mrow>
     </m:msub>
-
+    
    </m:mrow>
    <m:mn>2</m:mn>
   </m:mfrac>
@@ -3908,11 +3821,11 @@ have?</para>
 </m:math>
 </para></problem>
 <solution id="fs-id1409478">
-<para id="fs-id1409480"> <m:math>
+<para id="fs-id1409480"><m:math>
  <m:mrow>
   <m:mo>−</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
  </m:mrow>
-</m:math> </para></solution>
+</m:math></para></solution>
 </exercise>
 
 <exercise id="fs-id1615747">
@@ -3945,7 +3858,7 @@ have?</para>
 <problem id="fs-id1663062">
 <para id="fs-id1583863">Is the sequence <m:math>
  <m:mrow>
-  <m:mn>0.3</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mn>1.2</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mn>2.1</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>…</m:mo>
+  <m:mn>0.3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1.2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2.1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>…</m:mo>
  </m:mrow>
 </m:math>
  arithmetic?  If so find the common difference.</para>
@@ -3987,11 +3900,11 @@ have?</para>
 <problem id="fs-id1704963">
 <para id="fs-id1704965">Write a recursive formula for the arithmetic sequence <m:math>
  <m:mrow>
-<m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+<m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
    <m:mn>7</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-  <m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
    <m:mrow>
     <m:mn>13</m:mn>
    </m:mrow>
@@ -3999,15 +3912,15 @@ have?</para>
   </m:mfrac>
   <m:mo>,</m:mo><m:mo>…</m:mo>
  </m:mrow>
-</m:math> and then find the 22<sup>nd</sup> term.</para></problem>
+</m:math>  and then find the 22<sup>nd</sup> term.</para></problem>
 <solution id="fs-id1376642">
-<para id="fs-id1638252"> <m:math>
+<para id="fs-id1638252"><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>a</m:mi>
    <m:mn>1</m:mn>
   </m:msub>
-  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:msub>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:msub>
    <m:mi>a</m:mi>
    <m:mi>n</m:mi>
   </m:msub>
@@ -4021,7 +3934,7 @@ have?</para>
    <m:mn>3</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-  <m:mo>;</m:mo><m:mspace width="0.4em"/><m:mtext/><m:msub>
+  <m:mo>;</m:mo><m:mtext> </m:mtext><m:msub>
    <m:mi>a</m:mi>
    <m:mrow>
     <m:mn>22</m:mn>
@@ -4033,7 +3946,7 @@ have?</para>
    </m:mrow>
    <m:mn>2</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para>
@@ -4044,16 +3957,16 @@ have?</para>
 <problem id="fs-id1375972">
 <para id="fs-id1423879">Write an explicit formula for the arithmetic sequence <m:math>
  <m:mrow>
-<m:mn>15.6</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mn>15</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mn>14.4</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mn>13.8</m:mn><m:mo>,</m:mo><m:mo>…</m:mo>
+<m:mn>15.6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>14.4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>13.8</m:mn><m:mo>,</m:mo><m:mo>…</m:mo>
  </m:mrow>
 </m:math> and then find the 32<sup>nd</sup> term.</para></problem>
 </exercise>
 
 <exercise id="fs-id1433508">
 <problem id="fs-id1433511">
-<para id="fs-id1433513">Is the sequence <m:math>
+<para id="fs-id1433513">Is the sequence<m:math>
  <m:mrow>
-  <m:mo>−</m:mo><m:mn>2</m:mn><m:mtext>,</m:mtext><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext>,</m:mtext><m:mo>−</m:mo><m:mfrac>
+  <m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext>,</m:mtext><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext>,</m:mtext><m:mo>−</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
@@ -4080,26 +3993,26 @@ have?</para>
 
 <exercise id="fs-id1417246">
 <problem id="fs-id1417248">
-<para id="fs-id1417250">What is the 11<sup>th</sup> term of the geometric sequence <m:math>
+<para id="fs-id1417250">What is the 11<sup>th</sup> term of the geometric sequence<m:math>
  <m:mrow>
-  <m:mo>−</m:mo><m:mn>1.5</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mo>?</m:mo>
+  <m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>1.5</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mo>…</m:mo><m:mo>?</m:mo>
  </m:mrow>
-</m:math> </para></problem>
-</exercise>
+</m:math></para></problem>
+</exercise> 
 
 <exercise id="fs-id1431616">
 <problem id="fs-id1431618">
 <para id="fs-id1431620">Write a recursive formula for the geometric sequence <m:math>
  <m:mrow>
-<m:mo> </m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+<m:mo> </m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-  <m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>4</m:mn>
   </m:mfrac>
-  <m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
@@ -4108,13 +4021,13 @@ have?</para>
 </m:math>
 </para></problem>
 <solution id="fs-id1354576">
-<para id="fs-id1354578"> <m:math>
+<para id="fs-id1354578"><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>a</m:mi>
    <m:mn>1</m:mn>
   </m:msub>
-  <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:msub>
+  <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:msub>
    <m:mi>a</m:mi>
    <m:mi>n</m:mi>
   </m:msub>
@@ -4142,15 +4055,15 @@ have?</para>
 <problem id="fs-id1402897">
 <para id="fs-id1402899">Write an explicit formula for the geometric sequence <m:math>
  <m:mrow>
-<m:mn>4</m:mn><m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+<m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
    <m:mn>4</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-  <m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
    <m:mn>4</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-  <m:mo>,</m:mo><m:mspace width="0.4em"/><m:mtext/><m:mo>−</m:mo><m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
    <m:mn>4</m:mn>
    <m:mrow>
     <m:mn>27</m:mn>
@@ -4164,9 +4077,9 @@ have?</para>
 
 <exercise id="fs-id1435512">
 <problem id="fs-id1435514">
-<para id="fs-id1695687">Use summation notation to write the sum of terms <m:math>
+<para id="fs-id1695687">Use summation notation to write the sum of terms<m:math>
  <m:mrow>
-  <m:mn>3</m:mn><m:msup>
+  <m:mtext> </m:mtext><m:mn>3</m:mn><m:msup>
    <m:mi>k</m:mi>
    <m:mn>2</m:mn>
   </m:msup>
@@ -4174,20 +4087,20 @@ have?</para>
    <m:mn>5</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-  <m:mi>k</m:mi>
+  <m:mi>k</m:mi><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> from <m:math>
+</m:math>from<m:math>
  <m:mrow>
-  <m:mi>k</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+  <m:mtext> </m:mtext><m:mi>k</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> to <m:math>
+</m:math>to<m:math>
  <m:mrow>
-  <m:mi>k</m:mi><m:mo>=</m:mo><m:mn>15.</m:mn>
+  <m:mtext> </m:mtext><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>15.</m:mn>
  </m:mrow>
 </m:math>
 </para></problem>
 <solution id="fs-id1456321">
-<para id="fs-id1456323"> <m:math>
+<para id="fs-id1456323"><m:math>
  <m:mrow>
   <m:mstyle displaystyle="true">
    <m:munderover>
@@ -4261,9 +4174,9 @@ have?</para>
  </m:mrow>
 </m:math>
 </para>
-</problem>
+</problem> 
 <solution id="fs-id1406963">
-<para id="fs-id1406965"> <m:math>
+<para id="fs-id1406965"><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>S</m:mi>
@@ -4301,7 +4214,7 @@ have?</para>
          <m:mn>1</m:mn>
          <m:mn>5</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -4309,7 +4222,7 @@ have?</para>
       <m:mi>k</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
      </m:mrow>
     </m:msup>
-
+    
    </m:mrow>
   </m:mstyle><m:mo>.</m:mo>
  </m:mrow>
@@ -4320,7 +4233,7 @@ have?</para>
 
 <exercise id="fs-id1706080">
 <problem id="fs-id1706082">
-<para id="fs-id1706085">Ramla deposits $3,600  into a retirement fund each year. The fund earns 7.5%  annual interest, compounded monthly. If she opened her account when she was 20 years old, how much will she have by the time she’s 55? How much of that amount was interest earned?</para>
+<para id="fs-id1706085">Rachael deposits $3,600  into a retirement fund each year. The fund earns 7.5%  annual interest, compounded monthly. If she opened her account when she was 20 years old, how much will she have by the time she’s 55? How much of that amount was interest earned?</para>
 </problem>
 <solution id="fs-id1435629">
 <para id="fs-id1424663">Total in account: <m:math>
@@ -4345,9 +4258,9 @@ have?</para>
 <exercise id="fs-id1609402">
 <problem id="fs-id1609404">
 <para id="fs-id1609406">A buyer of a new sedan can custom order the car by choosing from 5 different exterior colors, 3 different interior colors, 2 sound systems, 3 motor designs, and either manual or automatic transmission. How many choices does the buyer have?</para>
-</problem>
+</problem> 
 <solution id="fs-id1422719">
-<para id="fs-id1422721"> <m:math>
+<para id="fs-id1422721"><m:math>
 <m:mrow>
 <m:mn>5</m:mn><m:mo>×</m:mo><m:mn>3</m:mn><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>3</m:mn><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>180</m:mn>
  </m:mrow>
@@ -4364,10 +4277,10 @@ have?</para>
 
 <exercise id="fs-id1425729">
 <problem id="fs-id1425731">
-<para id="fs-id1425733">A music group needs to choose 3 songs to play at the annual Battle of the Bands. How many ways can they choose their set if have 15 songs to pick from?</para>
+<para id="fs-id1425733">A rock group needs to choose 3 songs to play at the annual Battle of the Bands. How many ways can they choose their set if have 15 songs to pick from?</para>
 </problem>
 <solution id="fs-id1703098">
-<para id="fs-id1703100"> <m:math>
+<para id="fs-id1703100"><m:math>
  <m:mrow>
   <m:mi>C</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -4383,13 +4296,13 @@ have?</para>
 <exercise id="fs-id1423702">
 <problem id="fs-id1423704">
 <para id="fs-id1446526">A self-serve frozen yogurt shop has 8 candy toppings and 4 fruit toppings to choose from. How many ways are there to top a frozen yogurt?</para></problem>
-</exercise>
+</exercise>  
 
 <exercise id="fs-id1446532">
 <problem id="fs-id1654180">
 <para id="fs-id1654182">How many distinct ways can the word EVANESCENCE be arranged if the anagram must end with the letter E?</para></problem>
 <solution id="fs-id1654187">
-<para id="fs-id1405525"> <m:math>
+<para id="fs-id1405525"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -4450,7 +4363,7 @@ have?</para>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
@@ -4458,13 +4371,13 @@ have?</para>
     <m:mn>13</m:mn>
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math>
  without fully expanding the binomial.</para>
 </problem>
 <solution id="fs-id1436689">
-<para id="fs-id1436691"> <m:math>
+<para id="fs-id1436691"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -4474,13 +4387,13 @@ have?</para>
       <m:mn>14</m:mn>
      </m:mrow>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:mn>16</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para>
@@ -4504,15 +4417,15 @@ have?</para>
 <exercise id="fs-id1408148">
 <problem id="fs-id1354599">
 <para id="fs-id1354602">What is the probability of landing on an odd number?</para>
-</problem>
+</problem> 
 <solution id="fs-id1354606">
-<para id="fs-id1433372"> <m:math>
+<para id="fs-id1433372"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>4</m:mn>
    <m:mn>7</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para>
@@ -4523,20 +4436,20 @@ have?</para>
 <problem id="fs-id1407412">
 <para id="fs-id1435034">What is the probability of landing on blue?</para>
 </problem>
-</exercise>
+</exercise> 
 
 <exercise id="fs-id1435039">
 <problem id="fs-id1435041">
 <para id="fs-id1435953">What is the probability of landing on blue or an odd number?</para>
 </problem>
 <solution id="fs-id1435958">
-<para id="fs-id1435960"> <m:math>
+<para id="fs-id1435960"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>5</m:mn>
    <m:mn>7</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para>
@@ -4554,7 +4467,7 @@ have?</para>
 <para id="fs-id1430696">A bowl of candy holds 16 peppermint, 14 butterscotch, and 10 strawberry flavored candies. Suppose a person grabs a handful of 7 candies. What is the percent chance that exactly 3 are butterscotch? (Show calculations and round to the nearest tenth of a percent.)</para>
 </problem>
 <solution id="fs-id1408842">
-<para id="fs-id1408844"> <m:math>
+<para id="fs-id1408844"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -4585,13 +4498,13 @@ have?</para>
 </section></content>
 <glossary>
 <definition id="fs-id1406707">
-<term>complement of an event</term>
-<meaning id="fs-id1535600">the set of outcomes in the sample space that are not in the event <m:math>
+<term>complement of an event</term>  
+<meaning id="fs-id1535600">the set of outcomes in the sample space that are not in the event<m:math>
  <m:mrow>
-  <m:mi>E</m:mi>
+  <m:mtext> </m:mtext><m:mi>E</m:mi><m:mtext> </m:mtext>
  </m:mrow>
-</m:math> </meaning>
-</definition>
+</m:math></meaning>
+</definition> 
 
 <definition id="fs-id1535604">
 <term>event</term>
@@ -4605,7 +4518,7 @@ have?</para>
 
 <definition id="fs-id1434481">
 <term>mutually exclusive events</term>
-<meaning id="fs-id1434486">events that have no outcomes in common</meaning>
+<meaning id="fs-id1434486">events that have no outcomes in common</meaning>	
 </definition>
 
 <definition id="fs-id1409838">
@@ -4614,22 +4527,22 @@ have?</para>
 </definition>
 
 <definition id="fs-id1436213">
-<term>probability</term>
+<term>probability</term>  
 <meaning id="fs-id1436218">a number from 0 to 1 indicating the likelihood of an event</meaning>
 </definition>
 
 <definition id="fs-id1436357">
-<term>probability model</term>
+<term>probability model</term>  
 <meaning id="fs-id1377429">a mathematical description of an experiment listing all possible outcomes and their associated probabilities</meaning>
 </definition>
 
 <definition id="fs-id1377434">
-<term>sample space</term>
+<term>sample space</term>  
 <meaning id="fs-id1657365">the set of all possible outcomes of an experiment</meaning>
 </definition>
 
 <definition id="fs-id1657370">
-<term>union of two events</term>
+<term>union of two events</term>  
 <meaning id="fs-id1569949">the event that occurs if either or both events occur</meaning>
 </definition>
 </glossary>

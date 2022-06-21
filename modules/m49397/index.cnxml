@@ -4,8 +4,8 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m49397</md:content-id>
   <md:title>Sum-to-Product and Product-to-Sum Formulas</md:title>
-  <md:abstract><para id="para-00001">In this section, you will:</para>
-<list id="list-00001">
+  <md:abstract>In this section, you will:
+<list>
 <item>Express products as sums.</item>
 <item>Express sums as products.</item>
 </list></md:abstract>
@@ -14,22 +14,22 @@
 
 <content>
   <figure id="Figure_07_04_002" class="medium"><media id="fs-id2780755" alt="Photo of the UCLA marching band.">
-      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_04_002-5139.jpg"/>
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_04_002.jpg"/>
     </media>
-
-  <caption>The UCLA marching band (credit: Eric Chan, Flickr). </caption></figure><para id="fs-id2579744">A band marches down the field creating an amazing sound that bolsters the crowd. That sound travels as a wave that can be interpreted using trigonometric functions. For example, <link target-id="Figure_07_04_001"/> represents a sound wave for the musical note A. In this section, we will investigate trigonometric identities that are the foundation of everyday phenomena such as sound waves.</para>
-
+    
+  <caption>The UCLA marching band (credit: Eric Chan, Flickr). </caption></figure><para id="fs-id2579744">A band marches down the field creating an amazing sound that bolsters the crowd. That sound travels as a wave that can be interpreted using trigonometric functions. For example, <link target-id="Figure_07_04_001"/> represents a sound wave for the musical note A. In this section, we will investigate trigonometric identities that are the foundation of everyday phenomena such as sound waves.</para> 
+  
   <figure id="Figure_07_04_001" class="small"><media id="fs-id1978101" alt="Graph of a sound wave for the musical note A - it is a periodic function much like sin and cos - from 0 to .01">
       <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_04_001.jpg"/>
     </media>
   </figure><section id="fs-id2550804">
     <title>Expressing Products as Sums</title>
-    <para id="fs-id2692908">We have already learned a number of formulas useful for expanding or simplifying trigonometric expressions, but sometimes we may need to express the product of cosine and sine as a sum. We can use the <term class="no-emphasis" id="term-00001">product-to-sum formulas</term>, which express products of trigonometric functions as sums. Let’s investigate the cosine identity first and then the sine identity.</para>
-
+    <para id="fs-id2692908">We have already learned a number of formulas useful for expanding or simplifying trigonometric expressions, but sometimes we may need to express the product of cosine and sine as a sum. We can use the <term class="no-emphasis">product-to-sum formulas</term>, which express products of trigonometric functions as sums. Let’s investigate the cosine identity first and then the sine identity.</para> 
+    
     <section id="fs-id1343301">
       <title>Expressing Products as Sums for Cosine</title>
-      <para id="fs-id1252918">We can derive the product-to-sum formula from the sum and difference identities for <term class="no-emphasis" id="term-00002">cosine</term>. If we add the two equations, we get:</para>
-      <equation id="fs-id2285295" class="unnumbered"><label/> <m:math display="block">
+      <para id="fs-id1252918">We can derive the product-to-sum formula from the sum and difference identities for <term class="no-emphasis">cosine</term>. If we add the two equations, we get:</para> 
+      <equation id="fs-id2285295" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -41,7 +41,7 @@
          <m:mtr>
           <m:mtd>
            <m:mrow>
-            <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
              <m:mrow>
               <m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi>
              </m:mrow>
@@ -52,7 +52,7 @@
          <m:mtr>
           <m:mtd>
            <m:mrow>
-            <m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mo>+</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
              <m:mrow>
               <m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi>
              </m:mrow>
@@ -60,19 +60,19 @@
            </m:mrow>
           </m:mtd>
          </m:mtr>
-
+         
         </m:mtable>
        </m:mrow>
        <m:mo stretchy="true">________________________________</m:mo>
       </m:munder>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi>
        </m:mrow>
@@ -84,26 +84,26 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
-</equation><para id="fs-id774215">Then, we divide by <m:math>
+</equation><para id="fs-id774215">Then, we divide by<m:math>
         <m:mrow>
-          <m:mn>2</m:mn>
+          <m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext>
         </m:mrow>
-      </m:math> to isolate the product of cosines:</para>
+      </m:math>to isolate the product of cosines:</para>
       <equation id="fs-id1923568" class="unnumbered"><label/>
- <m:math display="block">
+<m:math display="block">
  <m:mrow>
-  <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
   <m:mo stretchy="false">[</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>
  </m:mrow>
 </m:math>
-</equation><note id="fs-id2077607" class="how-to-notitle">
+</equation><note id="fs-id2077607" class="precalculus howto">
         <label>How To</label>
         <para id="fs-id1494044"><emphasis>Given a product of cosines, express as a sum.
         </emphasis></para>
@@ -113,14 +113,14 @@
         <item>Simplify.</item>
         </list>
       </note>
-
+      
       <example id="Example_07_04_01">
         <exercise id="fs-id2462446">
           <problem id="fs-id2021351">
             <title>Writing the Product as a Sum Using the Product-to-Sum Formula for Cosine</title>
-            <para id="fs-id2193964">Write the following product of cosines as a sum: <m:math>
+            <para id="fs-id2193964">Write the following product of cosines as a sum:<m:math>
               <m:mrow>
-                <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+                <m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                   <m:mrow>
                     <m:mfrac>
                       <m:mrow>
@@ -128,9 +128,9 @@
                       </m:mrow>
                       <m:mn>2</m:mn>
                     </m:mfrac>
-
+                    
                   </m:mrow>
-                  <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mspace width="0.5em"/><m:mfrac>
+                  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mfrac>
                     <m:mrow>
                       <m:mn>3</m:mn><m:mi>x</m:mi>
                     </m:mrow>
@@ -141,12 +141,12 @@
             </m:math>
             </para></problem>
           <solution id="fs-id1374773">
-
-
+            
+          
           <para id="fs-id1493860">We begin by writing the formula for the product of cosines:</para>
-            <equation id="fs-id1235497" class="unnumbered"><label/> <m:math>
+            <equation id="fs-id1235497" class="unnumbered"><label/><m:math>
               <m:mrow>
-                <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+                <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
                   <m:mn>1</m:mn>
                   <m:mn>2</m:mn>
                 </m:mfrac>
@@ -163,14 +163,14 @@
                 </m:mrow> <m:mo>]</m:mo></m:mrow>
               </m:mrow>
             </m:math>
-            </equation><para id="fs-id1113615">We can then substitute the given angles into the formula and simplify.</para>
-            <equation id="fs-id2760333" class="unnumbered"><label/> <m:math display="block">
+            </equation><para id="fs-id1113615">We can then substitute the given angles into the formula and simplify.</para> 
+            <equation id="fs-id2760333" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -178,7 +178,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -188,7 +188,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -196,7 +196,7 @@
          <m:mn>1</m:mn>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>[</m:mo> <m:mrow>
        <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
@@ -213,7 +213,7 @@
           </m:mrow>
           <m:mn>2</m:mn>
          </m:mfrac>
-
+         
         </m:mrow>
        <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
         <m:mrow>
@@ -229,7 +229,7 @@
           </m:mrow>
           <m:mn>2</m:mn>
          </m:mfrac>
-
+         
         </m:mrow>
        <m:mo>)</m:mo></m:mrow>
       </m:mrow> <m:mo>]</m:mo></m:mrow>
@@ -248,7 +248,7 @@
           </m:mrow>
           <m:mn>2</m:mn>
          </m:mfrac>
-
+         
         </m:mrow>
        <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
         <m:mrow>
@@ -258,7 +258,7 @@
           </m:mrow>
           <m:mn>2</m:mn>
          </m:mfrac>
-
+         
         </m:mrow>
        <m:mo>)</m:mo></m:mrow>
       </m:mrow> <m:mo>]</m:mo></m:mrow>
@@ -268,24 +268,24 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mtext>                           </m:mtext><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.5em"/><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.5em"/><m:mn>5</m:mn><m:mi>x</m:mi>
+      <m:mtext>                           </m:mtext><m:mo>=</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mn>5</m:mn><m:mi>x</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </equation></solution>
         </exercise>
       </example>
-
+      
       <note id="fs-id2454024" class="precalculus try">
         <label>Try It</label>
         <exercise id="ti_07_04_01">
-          <problem id="fs-id2427475"><para id="fs-id2927835">Use the product-to-sum formula to write the product as a sum or difference: <m:math>
+          <problem id="fs-id2427475"><para id="fs-id2927835">Use the product-to-sum formula to write the product as a sum or difference:<m:math>
             <m:mrow>
-              <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>2</m:mn><m:mi>θ</m:mi>
                 </m:mrow>
@@ -297,7 +297,7 @@
             </m:mrow>
           </m:math>
           </para></problem>
-          <solution id="fs-id1357645"><para id="fs-id2329272"> <m:math>
+          <solution id="fs-id1357645"><para id="fs-id2329272"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mn>1</m:mn>
@@ -313,12 +313,12 @@
           </para></solution>
         </exercise>
       </note>
-
+      
     </section>
     <section id="fs-id1612969">
       <title>Expressing the Product of Sine and Cosine as a Sum</title>
-      <para id="fs-id3065472">Next, we will derive the product-to-sum formula for sine and cosine from the sum and difference formulas for <term class="no-emphasis" id="term-00003">sine</term>. If we add the sum and difference identities, we get:</para>
-      <equation id="fs-id1230724" class="unnumbered"><label/> <m:math display="block">
+      <para id="fs-id3065472">Next, we will derive the product-to-sum formula for sine and cosine from the sum and difference formulas for <term class="no-emphasis">sine</term>. If we add the sum and difference identities, we get:</para> 
+      <equation id="fs-id1230724" class="unnumbered"><label/><m:math display="block">
  <m:mtable columnalign="left">
   <m:mtr>
    <m:mtd>
@@ -331,16 +331,17 @@
           <m:mtable columnalign="left">
            <m:mtr columnalign="left">
             <m:mtd columnalign="left">
-
+             <m:mo> </m:mo>
             </m:mtd>
            </m:mtr>
            <m:mtr columnalign="left">
             <m:mtd columnalign="left">
-             <m:mrow><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+             <m:mrow>
+              <m:mtext>                  </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
              </m:mrow>
             </m:mtd>
            </m:mtr>
-
+           
           </m:mtable>
          </m:mrow>
         </m:mtd>
@@ -348,30 +349,30 @@
        <m:mtr columnalign="left">
         <m:mtd columnalign="left">
          <m:mrow>
-          <m:mo>+</m:mo><m:mtext>                </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+          <m:mo>+</m:mo><m:mtext>                </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
          </m:mrow>
         </m:mtd>
        </m:mtr>
-
+       
       </m:mtable>
      </m:mrow>
      <m:mo stretchy="true">_________________________________________</m:mo>
     </m:munder>
-
+    
    </m:mtd>
   </m:mtr>
   <m:mtr>
    <m:mtd>
-    <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+    <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
    </m:mtd>
   </m:mtr>
  </m:mtable>
-
+ 
 </m:math>
 </equation><para id="fs-id2712909">Then, we divide by 2 to isolate the product of cosine and sine:</para>
-      <equation id="fs-id1256954" class="unnumbered"><label/> <m:math display="block">
+      <equation id="fs-id1256954" class="unnumbered"><label/><m:math display="block">
         <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
             <m:mn>1</m:mn>
             <m:mn>2</m:mn>
           </m:mfrac>
@@ -393,9 +394,9 @@
         <exercise id="fs-id1339906">
           <problem id="fs-id1506685">
             <title>Writing the Product as a Sum Containing only Sine or Cosine</title>
-            <para id="fs-id1483173">Express the following product as a sum containing only sine or cosine and no products: <m:math>
+            <para id="fs-id1483173">Express the following product as a sum containing only sine or cosine and no products:<m:math>
               <m:mrow>
-                <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+                <m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                   <m:mrow>
                     <m:mn>4</m:mn><m:mi>θ</m:mi>
                   </m:mrow>
@@ -406,20 +407,20 @@
                     <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
               </m:mrow>
             </m:math>
-            </para>
-
+            </para> 
+            
           </problem>
           <solution id="fs-id1399716">
-
-
-          <para id="fs-id2303132">Write the formula for the product of sine and cosine. Then substitute the given values into the formula and simplify.</para>
-            <equation id="fs-id2122014" class="unnumbered"><label/> <m:math display="block">
+           
+          
+          <para id="fs-id2303132">Write the formula for the product of sine and cosine. Then substitute the given values into the formula and simplify.</para> 
+            <equation id="fs-id2122014" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -440,7 +441,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mn>4</m:mn><m:mi>θ</m:mi>
        </m:mrow>
@@ -469,7 +470,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mo>=</m:mo><m:mfrac>
+      <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -487,20 +488,20 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </equation></solution>
         </exercise>
       </example>
-
+      
       <note id="fs-id2467415" class="precalculus try">
         <label>Try It</label>
         <exercise id="ti_07_04_02">
-          <problem id="fs-id1220973"><para id="fs-id1804465">Use the product-to-sum formula to write the product as a sum: <m:math>
+          <problem id="fs-id1220973"><para id="fs-id1804465">Use the product-to-sum formula to write the product as a sum:<m:math>
             <m:mrow>
-              <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi>
                 </m:mrow>
@@ -512,7 +513,7 @@
             </m:mrow>
           </m:math>
           </para></problem>
-          <solution id="fs-id1227471"><para id="fs-id2343040"> <m:math>
+          <solution id="fs-id1227471"><para id="fs-id2343040"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mn>1</m:mn>
@@ -528,12 +529,12 @@
           </para></solution>
         </exercise>
       </note>
-
+      
     </section>
     <section id="fs-id1475872">
       <title>Expressing Products of Sines in Terms of Cosine</title>
-      <para id="fs-id1113214">Expressing the product of sines in terms of <term class="no-emphasis" id="term-00004">cosine</term> is also derived from the sum and difference identities for cosine. In this case, we will first subtract the two cosine formulas:</para>
-      <equation id="fs-id675386" class="unnumbered"><label/> <m:math display="block">
+      <para id="fs-id1113214">Expressing the product of sines in terms of <term class="no-emphasis">cosine</term> is also derived from the sum and difference identities for cosine. In this case, we will first subtract the two cosine formulas:</para> 
+      <equation id="fs-id675386" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -554,15 +555,15 @@
              <m:mtr columnalign="left">
               <m:mtd columnalign="left">
                <m:mrow>
-                <m:mtext>                    </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+                <m:mtext>                    </m:mtext><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                  <m:mrow>
                   <m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi>
                  </m:mrow>
-                <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+                <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
                </m:mrow>
               </m:mtd>
              </m:mtr>
-
+             
             </m:mtable>
            </m:mrow>
           </m:mtd>
@@ -570,33 +571,33 @@
          <m:mtr columnalign="left">
           <m:mtd columnalign="left">
            <m:mrow>
-            <m:mo>−</m:mo><m:mtext>                 </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mo>−</m:mo><m:mtext>                 </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
              <m:mrow>
               <m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi>
              </m:mrow>
             <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
              <m:mrow>
-              <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+              <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
              </m:mrow>
             <m:mo>)</m:mo></m:mrow>
            </m:mrow>
           </m:mtd>
          </m:mtr>
-
+         
         </m:mtable>
        </m:mrow>
        <m:mrow>
         <m:mo stretchy="true">____________________________________________________</m:mo>
        </m:mrow>
       </m:munder>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi>
        </m:mrow>
@@ -604,18 +605,18 @@
        <m:mrow>
         <m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi>
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi>
+      <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </equation><para id="fs-id1333042">Then, we divide by 2 to isolate the product of sines:</para>
-      <equation id="fs-id1273629" class="unnumbered"><label/> <m:math display="block">
+      <equation id="fs-id1273629" class="unnumbered"><label/><m:math display="block">
         <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
             <m:mn>1</m:mn>
             <m:mn>2</m:mn>
           </m:mfrac>
@@ -632,14 +633,13 @@
           </m:mrow> <m:mo>]</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </equation><para id="fs-id1366018">Similarly we could express the product of cosines in terms of sine or derive other product-to-sum formulas.</para>
-
-      <note id="fs-id698588"><title>The Product-to-Sum Formulas</title>
-
-        <para id="eip-777">The <term id="term-00005">product-to-sum formulas</term> are as follows:</para>
-        <equation id="Eq_07_04_01" class="unnumbered"><label/> <m:math>
+      </equation><para id="fs-id1366018">Similarly we could express the product of cosines in terms of sine or derive other product-to-sum formulas.</para>  
+      
+      <note id="fs-id698588"><label>A General Note</label><title>The Product-to-Sum Formulas</title>
+        
+        <para id="eip-777">The <term>product-to-sum formulas</term> are as follows:</para><equation id="Eq_07_04_01"><m:math>
           <m:mrow>
-            <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+            <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
               <m:mn>1</m:mn>
               <m:mn>2</m:mn>
             </m:mfrac>
@@ -656,9 +656,9 @@
             </m:mrow> <m:mo>]</m:mo></m:mrow>
           </m:mrow>
         </m:math>
-        </equation><equation id="Eq_07_04_02" class="unnumbered"><label/> <m:math display="block">
+        </equation><equation id="Eq_07_04_02"><m:math display="block">
           <m:mrow>
-            <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+            <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
               <m:mn>1</m:mn>
               <m:mn>2</m:mn>
             </m:mfrac>
@@ -675,9 +675,9 @@
             </m:mrow> <m:mo>]</m:mo></m:mrow>
           </m:mrow>
         </m:math>
-        </equation><equation id="Eq_07_04_03" class="unnumbered"><label/> <m:math display="block">
+        </equation><equation id="Eq_07_04_03"><m:math display="block">
           <m:mrow>
-            <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+            <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
               <m:mn>1</m:mn>
               <m:mn>2</m:mn>
             </m:mfrac>
@@ -694,9 +694,9 @@
             </m:mrow> <m:mo>]</m:mo></m:mrow>
           </m:mrow>
         </m:math>
-        </equation><equation id="Eq_07_04_04" class="unnumbered"><label/> <m:math>
+        </equation><equation id="Eq_07_04_04"><m:math>
           <m:mrow>
-            <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+            <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
               <m:mn>1</m:mn>
               <m:mn>2</m:mn>
             </m:mfrac>
@@ -717,22 +717,22 @@
         <exercise id="fs-id1540526">
           <problem id="fs-id1161833">
             <title>Express the Product as a Sum or Difference</title>
-            <para id="fs-id1806010">Write <m:math>
+            <para id="fs-id1806010">Write<m:math>
               <m:mrow>
-                <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
               </m:mrow>
-            </m:math> as a sum or difference.</para></problem>
+            </m:math>as a sum or difference.</para></problem>
           <solution id="fs-id2852065">
-
-
+            
+          
           <para id="fs-id2014724">We have the product of cosines, so we begin by writing the related formula. Then we substitute the given angles and simplify.</para>
-            <equation id="fs-id1491861" class="unnumbered"><label/> <m:math display="block">
+            <equation id="fs-id1491861" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mtext>         </m:mtext><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>         </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -764,7 +764,7 @@
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
-      <m:mo stretchy="false">[</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>
+      <m:mo stretchy="false">[</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo> </m:mo>
      </m:mrow>
     </m:mtd>
     <m:mtd columnalign="left">
@@ -773,28 +773,28 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </equation></solution>
         </exercise>
       </example>
-
+      
       <note id="fs-id2097944" class="precalculus try">
         <label>Try It</label>
         <exercise id="ti_07_04_03">
-          <problem id="fs-id1169806"><para id="fs-id2712986">Use the product-to-sum formula to evaluate <m:math>
+          <problem id="fs-id1169806"><para id="fs-id2712986">Use the product-to-sum formula to evaluate<m:math>
             <m:mrow>
-              <m:mi>cos</m:mi><m:mspace width="0.5em"/><m:mfrac>
+              <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mfrac>
                 <m:mrow>
                   <m:mn>11</m:mn><m:mi>π</m:mi>
                 </m:mrow>
                 <m:mrow>
                   <m:mn>12</m:mn>
                 </m:mrow>
-              </m:mfrac><m:mspace width="0.5em"/>
-              <m:mi>cos</m:mi><m:mspace width="0.5em"/><m:mfrac>
+              </m:mfrac><m:mtext> </m:mtext>
+              <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mfrac>
                 <m:mi>π</m:mi>
                 <m:mrow>
                   <m:mn>12</m:mn>
@@ -804,41 +804,42 @@
             </m:mrow>
           </m:math>
           </para></problem>
-          <solution id="fs-id858282"><para id="fs-id1862580"> <m:math>
+          <solution id="fs-id858282"><para id="fs-id1862580"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
                   <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:msqrt>
                     <m:mn>3</m:mn>
                   </m:msqrt>
-
+                  
                 </m:mrow>
                 <m:mn>4</m:mn>
               </m:mfrac>
-
+              
             </m:mrow>
           </m:math>
           </para></solution>
         </exercise>
       </note>
-
+      
     </section>
   </section>
-
+  
   <section id="fs-id1308495">
     <title>Expressing Sums as Products</title>
-    <para id="fs-id1556412">Some problems require the reverse of the process we just used. The <term class="no-emphasis" id="term-00006">sum-to-product formulas</term> allow us to express sums of sine or cosine as products. These formulas can be derived from the product-to-sum identities. For example, with a few substitutions, we can derive the sum-to-product identity for <term class="no-emphasis" id="term-00007">sine</term>. Let <m:math>
+    <para id="fs-id1556412">Some problems require the reverse of the process we just used. The <term class="no-emphasis">sum-to-product formulas</term> allow us to express sums of sine or cosine as products. These formulas can be derived from the product-to-sum identities. For example, with a few substitutions, we can derive the sum-to-product identity for <term class="no-emphasis">sine</term>. Let<m:math>
       <m:mrow>
-        <m:mfrac>
+        <m:mtext> </m:mtext><m:mfrac>
           <m:mrow>
             <m:mi>u</m:mi><m:mo>+</m:mo><m:mi>v</m:mi>
           </m:mrow>
           <m:mn>2</m:mn>
         </m:mfrac>
-        <m:mo>=</m:mo><m:mi>α</m:mi>      </m:mrow>
-    </m:math> and <m:math>
+        <m:mo>=</m:mo><m:mi>α</m:mi><m:mtext> </m:mtext>
+      </m:mrow>
+    </m:math>and<m:math>
       <m:mrow>
-        <m:mfrac>
+        <m:mtext> </m:mtext><m:mfrac>
           <m:mrow>
             <m:mi>u</m:mi><m:mo>−</m:mo><m:mi>v</m:mi>
           </m:mrow>
@@ -847,9 +848,9 @@
         <m:mo>=</m:mo><m:mi>β</m:mi><m:mo>.</m:mo>
       </m:mrow>
     </m:math>
-    </para>
+    </para> 
     <para id="fs-id2867386">Then,</para>
-    <equation id="fs-id2068233" class="unnumbered"><label/> <m:math>
+    <equation id="fs-id2068233" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -867,7 +868,7 @@
        </m:mrow>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -880,7 +881,7 @@
        </m:mrow>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -911,7 +912,7 @@
        </m:mrow>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -924,7 +925,7 @@
        </m:mrow>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -935,25 +936,27 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
-</equation><para id="fs-id2458458">Thus, replacing <m:math>
+</equation><para id="fs-id2458458">Thus, replacing<m:math>
       <m:mrow>
-        <m:mi>α</m:mi>      </m:mrow>
-    </m:math> and <m:math>
+        <m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext>
+      </m:mrow>
+    </m:math>and<m:math>
       <m:mrow>
-        <m:mi>β</m:mi>      </m:mrow>
-    </m:math> in the product-to-sum formula with the substitute expressions, we have</para>
-
-    <equation id="fs-id1950008" class="unnumbered"><label/> <m:math display="block">
+        <m:mtext> </m:mtext><m:mi>β</m:mi><m:mtext> </m:mtext>
+      </m:mrow>
+    </m:math>in the product-to-sum formula with the substitute expressions, we have</para>
+    
+    <equation id="fs-id1950008" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mtext>                    </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mtext>                    </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -978,7 +981,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -988,13 +991,13 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
-      <m:mo stretchy="false">[</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>u</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo>
+      <m:mo stretchy="false">[</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>u</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo><m:mo> </m:mo>
      </m:mrow>
     </m:mtd>
     <m:mtd columnalign="left">
@@ -1009,7 +1012,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -1017,7 +1020,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -1027,9 +1030,9 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>u</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>v</m:mi>
+      <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>u</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>v</m:mi>
      </m:mrow>
     </m:mtd>
     <m:mtd columnalign="left">
@@ -1039,19 +1042,19 @@
      <m:mrow/>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
-</equation><para id="fs-id2454931">The other sum-to-product identities are derived similarly.</para>
-
-    <note id="fs-id1332136"><title>Sum-to-Product Formulas</title>
-
-
-      <para id="fs-id2205425">The <term id="term-00008">sum-to-product formulas</term> are as follows:</para>
-      <equation id="Eq_07_04_05" class="unnumbered"><label/> <m:math>
+</equation><para id="fs-id2454931">The other sum-to-product identities are derived similarly.</para> 
+    
+    <note id="fs-id1332136"><label>A General Note</label><title>Sum-to-Product Formulas</title>
+      
+      
+      <para id="fs-id2205425">The <term>sum-to-product formulas</term> are as follows:</para>
+      <equation id="Eq_07_04_05"><m:math>
         <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
@@ -1059,7 +1062,7 @@
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:mfrac>
-
+              
             </m:mrow>
             <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
@@ -1069,14 +1072,14 @@
                   </m:mrow>
                   <m:mn>2</m:mn>
                 </m:mfrac>
-
+                
               </m:mrow>
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </equation><equation id="Eq_07_04_06" class="unnumbered"><label/> <m:math>
+      </equation><equation id="Eq_07_04_06"><m:math>
         <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
@@ -1084,7 +1087,7 @@
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:mfrac>
-
+              
             </m:mrow>
             <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
@@ -1094,14 +1097,14 @@
                   </m:mrow>
                   <m:mn>2</m:mn>
                 </m:mfrac>
-
+                
               </m:mrow>
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-    </equation><equation id="Eq_07_04_07" class="unnumbered"><label/> <m:math>
+      </equation><equation id="Eq_07_04_07"><m:math>
         <m:mrow>
-          <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
@@ -1109,7 +1112,7 @@
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:mfrac>
-
+              
             </m:mrow>
             <m:mo>)</m:mo></m:mrow><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
@@ -1119,14 +1122,14 @@
                   </m:mrow>
                   <m:mn>2</m:mn>
                 </m:mfrac>
-
+                
               </m:mrow>
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </equation><equation id="Eq_07_04_08" class="unnumbered"><label/> <m:math>
+      </equation><equation id="Eq_07_04_08"><m:math>
         <m:mrow>
-          <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
@@ -1134,7 +1137,7 @@
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:mfrac>
-
+              
             </m:mrow>
             <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
@@ -1144,7 +1147,7 @@
                   </m:mrow>
                   <m:mn>2</m:mn>
                 </m:mfrac>
-
+                
               </m:mrow>
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
@@ -1153,9 +1156,9 @@
       <exercise id="fs-id1364012">
         <problem id="fs-id1348712">
           <title>Writing the Difference of Sines as a Product</title>
-          <para id="fs-id2053907">Write the following difference of sines expression as a product: <m:math>
+          <para id="fs-id2053907">Write the following difference of sines expression as a product:<m:math>
             <m:mrow>
-              <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>4</m:mn><m:mi>θ</m:mi>
                 </m:mrow>
@@ -1169,12 +1172,12 @@
           </para>
         </problem>
         <solution id="fs-id926524">
-
-
+          
+        
         <para id="fs-id1388623">We begin by writing the formula for the difference of sines.</para>
-          <equation id="fs-id1321049" class="unnumbered"><label/> <m:math>
+          <equation id="fs-id1321049" class="unnumbered"><label/><m:math>
             <m:mrow>
-              <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mfrac>
                     <m:mrow>
@@ -1182,7 +1185,7 @@
                     </m:mrow>
                     <m:mn>2</m:mn>
                   </m:mfrac>
-
+                  
                 </m:mrow>
                 <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                   <m:mrow>
@@ -1192,13 +1195,13 @@
                       </m:mrow>
                       <m:mn>2</m:mn>
                     </m:mfrac>
-
+                    
                   </m:mrow>
                   <m:mo>)</m:mo></m:mrow>
             </m:mrow>
           </m:math>
           </equation><para id="fs-id1556101">Substitute the values into the formula, and simplify.</para>
-          <equation id="fs-id1928181" class="unnumbered"><label/> <m:math display="block">
+          <equation id="fs-id1928181" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -1212,9 +1215,9 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -1222,7 +1225,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -1239,9 +1242,9 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -1249,7 +1252,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -1258,24 +1261,24 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mtext>                           </m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
+      <m:mtext>                           </m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </equation></solution>
       </exercise>
     </example>
-
+    
     <note id="fs-id2237285" class="precalculus try">
       <label>Try It</label>
       <exercise id="ti_07_04_04">
-        <problem id="fs-id1849182"><para id="fs-id1849183">Use the sum-to-product formula to write the sum as a product: <m:math>
+        <problem id="fs-id1849182"><para id="fs-id1849183">Use the sum-to-product formula to write the sum as a product:<m:math>
           <m:mrow>
-            <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
                 <m:mn>3</m:mn><m:mi>θ</m:mi>
               </m:mrow>
@@ -1285,7 +1288,7 @@
           </m:mrow>
         </m:math>
         </para></problem>
-        <solution id="fs-id2257730"><para id="fs-id2257731"> <m:math>
+        <solution id="fs-id2257730"><para id="fs-id2257731"><m:math>
           <m:mrow>
             <m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
@@ -1299,14 +1302,14 @@
         </para></solution>
       </exercise>
     </note>
-
+    
     <example id="Example_07_04_05">
       <exercise id="fs-id2571899">
         <problem id="fs-id2040202">
           <title>Evaluating Using the Sum-to-Product Formula</title>
-          <para id="fs-id1984482">Evaluate <m:math>
+          <para id="fs-id1984482">Evaluate<m:math>
             <m:mrow>
-              <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:msup>
                     <m:mrow>
@@ -1314,7 +1317,7 @@
                     </m:mrow>
                     <m:mo>∘</m:mo>
                   </m:msup>
-
+                  
                 </m:mrow>
                 <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                   <m:mrow>
@@ -1324,21 +1327,21 @@
                       </m:mrow>
                       <m:mo>∘</m:mo>
                     </m:msup>
-
+                    
                   </m:mrow>
                   <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
             </m:mrow>
           </m:math>
-          </para>
-
+          </para> 
+          
         </problem>
         <solution id="fs-id1266452">
-
-
+      
+       
         <para id="fs-id1798382">We begin by writing the formula for the difference of cosines.</para>
-          <equation id="fs-id1209674" class="unnumbered"><label/> <m:math>
+          <equation id="fs-id1209674" class="unnumbered"><label/><m:math>
             <m:mrow>
-              <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mfrac>
                     <m:mrow>
@@ -1346,9 +1349,9 @@
                     </m:mrow>
                     <m:mn>2</m:mn>
                   </m:mfrac>
-
+                  
                 </m:mrow>
-                <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+                <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                   <m:mrow>
                     <m:mfrac>
                       <m:mrow>
@@ -1356,14 +1359,14 @@
                       </m:mrow>
                       <m:mn>2</m:mn>
                     </m:mfrac>
-
+                    
                   </m:mrow>
                   <m:mo>)</m:mo></m:mrow>
             </m:mrow>
           </m:math>
           </equation>
 <para id="fs-id1734061">Then we substitute the given angles and simplify.</para>
-          <equation id="fs-id1339948" class="unnumbered"><label/> <m:math display="block">
+          <equation id="fs-id1339948" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -1397,13 +1400,13 @@
            </m:mrow>
            <m:mo>∘</m:mo>
           </m:msup>
-
+          
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
-      <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -1419,11 +1422,11 @@
            </m:mrow>
            <m:mo>∘</m:mo>
           </m:msup>
-
+          
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -1438,7 +1441,7 @@
        </m:mrow>
        <m:mo>∘</m:mo>
       </m:msup>
-      <m:mo stretchy="false">)</m:mo><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:msup>
+      <m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:msup>
        <m:mrow>
         <m:mn>30</m:mn>
        </m:mrow>
@@ -1458,11 +1461,11 @@
           <m:msqrt>
            <m:mn>2</m:mn>
           </m:msqrt>
-
+          
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -1470,7 +1473,7 @@
          <m:mn>1</m:mn>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -1484,28 +1487,28 @@
         <m:msqrt>
          <m:mn>2</m:mn>
         </m:msqrt>
-
+        
        </m:mrow>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </equation></solution>
       </exercise>
     </example>
-
+    
     <example id="Example_07_04_06">
       <exercise id="fs-id1992197">
         <problem id="fs-id1225802">
           <title>Proving an Identity</title>
           <para id="fs-id1674069">Prove the identity:</para>
-          <equation id="fs-id1321076" class="unnumbered"><label/> <m:math display="block">
+          <equation id="fs-id1321076" class="unnumbered"><label/><m:math display="block">
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
@@ -1531,15 +1534,15 @@
                       <m:mo>)</m:mo></m:mrow>
                 </m:mrow>
               </m:mfrac>
-              <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+              <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
             </m:mrow>
           </m:math>
           </equation></problem>
         <solution id="fs-id2131616">
-
-
+       
+        
         <para id="fs-id2445437">We will start with the left side, the more complicated side of the equation, and rewrite the expression until it matches the right side.</para>
-          <equation id="fs-id1319843" class="unnumbered"><label/> <m:math display="block">
+          <equation id="fs-id1319843" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -1555,7 +1558,7 @@
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
          <m:mrow>
           <m:mfrac>
            <m:mrow>
@@ -1563,9 +1566,9 @@
            </m:mrow>
            <m:mn>2</m:mn>
           </m:mfrac>
-
+          
          </m:mrow>
-        <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
          <m:mrow>
           <m:mfrac>
            <m:mrow>
@@ -1573,12 +1576,12 @@
            </m:mrow>
            <m:mn>2</m:mn>
           </m:mfrac>
-
+          
          </m:mrow>
         <m:mo>)</m:mo></m:mrow>
        </m:mrow>
        <m:mrow>
-        <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
          <m:mrow>
           <m:mfrac>
            <m:mrow>
@@ -1586,9 +1589,9 @@
            </m:mrow>
            <m:mn>2</m:mn>
           </m:mfrac>
-
+          
          </m:mrow>
-        <m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
          <m:mrow>
           <m:mfrac>
            <m:mrow>
@@ -1596,12 +1599,12 @@
            </m:mrow>
            <m:mn>2</m:mn>
           </m:mfrac>
-
+          
          </m:mrow>
         <m:mo>)</m:mo></m:mrow>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -1610,13 +1613,13 @@
      <m:mrow>
       <m:mtext>                           </m:mtext><m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+        <m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
        <m:mrow>
-        <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+        <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -1633,7 +1636,7 @@
           <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
          </m:mrow>
         </m:menclose>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
        <m:mrow>
         <m:menclose notation="updiagonalstrike">
@@ -1644,10 +1647,10 @@
           <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
          </m:mrow>
         </m:menclose>
-        <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+        <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -1656,24 +1659,24 @@
      <m:mrow>
       <m:mtext>                           </m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
        <m:mrow>
-        <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+        <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
        <m:mrow>
-        <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+        <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mtext>                           </m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+      <m:mtext>                           </m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -1681,19 +1684,19 @@
         <commentary id="fs-id1577629">
           <title>Analysis </title>
           <para id="fs-id2289127"/>
-
+       
         <para id="fs-id1863039">Recall that verifying trigonometric identities has its own set of rules. The procedures for solving an equation are not the same as the procedures for verifying an identity. When we prove an identity, we pick one side to work on and make substitutions until that side is transformed into the other side.</para>
         </commentary>
       </exercise>
     </example>
-
+    
     <example id="Example_07_04_07">
       <exercise id="fs-id1145960">
         <problem id="fs-id1357525">
           <title>Verifying the Identity Using Double-Angle Formulas and Reciprocal Identities</title>
-          <para id="fs-id2339858">Verify the identity <m:math>
+          <para id="fs-id2339858">Verify the identity<m:math>
             <m:mrow>
-              <m:msup>
+              <m:mtext> </m:mtext><m:msup>
                 <m:mrow>
                   <m:mi>csc</m:mi>
                 </m:mrow>
@@ -1716,14 +1719,14 @@
               <m:mo>.</m:mo>
             </m:mrow>
           </m:math>
-          </para>
-
+          </para> 
+          
         </problem>
         <solution id="fs-id1336782">
-
-
+          
+       
         <para id="fs-id1249026">For verifying this equation, we are bringing together several of the identities. We will use the double-angle formula and the reciprocal identities. We will work with the right side of the equation and rewrite it until it matches the left side.</para>
-          <equation id="fs-id2121246" class="unnumbered"><label/> <m:math display="block">
+          <equation id="fs-id2121246" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -1745,7 +1748,7 @@
       </m:mfrac>
       <m:mo>=</m:mo><m:mfrac>
        <m:mrow>
-        <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:msup>
+        <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:msup>
          <m:mrow>
           <m:mi>sin</m:mi>
          </m:mrow>
@@ -1763,7 +1766,7 @@
         <m:mi>θ</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -1784,7 +1787,7 @@
       </m:mfrac>
       <m:mo>−</m:mo><m:mfrac>
        <m:mrow>
-        <m:mn>2</m:mn><m:mspace width="0.5em"/><m:msup>
+        <m:mn>2</m:mn><m:mtext> </m:mtext><m:msup>
          <m:mrow>
           <m:mi>sin</m:mi>
          </m:mrow>
@@ -1802,7 +1805,7 @@
         <m:mi>θ</m:mi>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -1819,20 +1822,20 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </equation></solution>
         </exercise>
         </example>
-
+       
     <note id="fs-id2011025" class="precalculus try">
       <label>Try It</label>
       <exercise id="ti_07_04_05">
-        <problem id="fs-id2887303"><para id="fs-id1729295">Verify the identity <m:math>
+        <problem id="fs-id2887303"><para id="fs-id1729295">Verify the identity<m:math>
  <m:mrow>
-  <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mspace width="0.3em"/><m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>−</m:mo><m:msup>
+  <m:mtext> </m:mtext><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi><m:mtext> </m:mtext><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi><m:mo>−</m:mo><m:msup>
    <m:mrow>
     <m:mi>cos</m:mi>
    </m:mrow>
@@ -1848,13 +1851,13 @@
  </m:mrow>
 </m:math>
 </para></problem>
-        <solution id="fs-id1754911"><para id="fs-id1754912"> <m:math display="block">
+        <solution id="fs-id1754911"><para id="fs-id1754912"><m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mspace width="0.3em"/><m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>−</m:mo><m:msup>
+      <m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi><m:mtext> </m:mtext><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi><m:mo>−</m:mo><m:msup>
        <m:mrow>
         <m:mi>cos</m:mi>
        </m:mrow>
@@ -1864,25 +1867,25 @@
        <m:mrow>
         <m:mfrac>
          <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi>
          </m:mrow>
          <m:mrow>
-          <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+          <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi>
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
-          <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+          <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi>
          </m:mrow>
          <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>θ</m:mi>
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msup>
        <m:mrow>
@@ -1897,7 +1900,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup>
+      <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup>
        <m:mrow>
         <m:mi>cos</m:mi>
        </m:mrow>
@@ -1910,7 +1913,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mo>=</m:mo><m:msup>
+      <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>=</m:mo><m:msup>
        <m:mrow>
         <m:mi>sin</m:mi>
        </m:mrow>
@@ -1920,30 +1923,30 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </para></solution>
       </exercise>
     </note>
-    <note id="fs-id1357476" class="precalculus media media-notitle">
+    <note id="fs-id1357476" class="precalculus media">
       <label>Media</label>
       <para id="fs-id2019342">Access these online resources for additional instruction and practice with the product-to-sum and sum-to-product identities.</para>
       <list id="fs-id1361556">
-        <item><link url="http://openstax.org/l/sumtoprod">Sum to Product Identities</link></item>
-        <item><link url="http://openstax.org/l/sumtpptsum">Sum to Product and Product to Sum Identities</link></item>
+        <item><link url="http://openstaxcollege.org/l/sumtoprod">Sum to Product Identities</link></item>
+        <item><link url="http://openstaxcollege.org/l/sumtpptsum">Sum to Product and Product to Sum Identities</link></item>
       </list>
     </note>
   </section>
-
-  <section id="fs-id1871279" class="key-equations"><title>Key Equations</title><table id="fs-id1837805" summary=".." class="unnumbered unstyled"><label/>
+  
+  <section id="fs-id1871279" class="key-equations"><title>Key Equations</title><table id="fs-id1837805" summary="..">
 <tgroup cols="2"><colspec colnum="1" colname="c1" align="left"/>
         <colspec colnum="2" colname="c2"/>
         <tbody>
           <row>
             <entry><emphasis>Product-to-sum Formulas</emphasis></entry>
-            <entry> <m:math>
+            <entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -1954,7 +1957,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -1965,7 +1968,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -1976,7 +1979,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -1987,7 +1990,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
       </m:mfrac>
@@ -1995,7 +1998,7 @@
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -2003,7 +2006,7 @@
           </row>
           <row>
             <entry><emphasis>Sum-to-product Formulas</emphasis></entry>
-            <entry> <m:math>
+            <entry><m:math>
  <m:mrow>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
@@ -2014,7 +2017,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -2022,7 +2025,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -2032,7 +2035,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -2041,7 +2044,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -2049,7 +2052,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -2059,7 +2062,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -2068,7 +2071,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -2076,7 +2079,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -2086,7 +2089,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -2095,7 +2098,7 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mrow>
@@ -2103,7 +2106,7 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -2113,66 +2116,66 @@
          </m:mrow>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
             </entry>
           </row>
         </tbody>
-
+      
 
 
 </tgroup>
 </table></section><section id="fs-id1612050" class="key-concepts">
     <title>Key Concepts</title>
     <list id="fs-id2091360">
-      <item>From the sum and difference identities, we can derive the product-to-sum formulas and the sum-to-product formulas for sine and cosine.</item>
+      <item>From the sum and difference identities, we can derive the product-to-sum formulas and the sum-to-product formulas for sine and cosine.</item> 
       <item>We can use the product-to-sum formulas to rewrite products of sines, products of cosines, and products of sine and cosine as sums or differences of sines and cosines. See <link target-id="Example_07_04_01"/>, <link target-id="Example_07_04_02"/>, and <link target-id="Example_07_04_03"/>.</item>
     <item>We can also derive the sum-to-product identities from the product-to-sum identities using substitution.</item>
       <item>We can use the sum-to-product formulas to rewrite sum or difference of sines, cosines, or products sine and cosine as products of sines and cosines. See <link target-id="Example_07_04_04"/>.</item>
       <item>Trigonometric expressions are often simpler to evaluate using the formulas. See <link target-id="Example_07_04_05"/>.</item>
       <item>The identities can be verified using other formulas or by converting the expressions to sines and cosines. To verify an identity, we choose the more complicated side of the equals sign and rewrite it until it is transformed into the other side. See <link target-id="Example_07_04_06"/> and <link target-id="Example_07_04_07"/>.</item>
     </list>
-
+      
   </section>
-
+  
   <section id="fs-id3068869" class="section-exercises"><title>Section Exercises</title>
 <section id="fs-id2438692">
       <title>Verbal</title>
-      <exercise id="fs-id1980950" class="material-set-2"><problem id="fs-id1980951"><para id="fs-id745531">Starting with the product to sum formula <m:math>
+      <exercise id="fs-id1980950"><problem id="fs-id1980951"><para id="fs-id745531">Starting with the product to sum formula<m:math>
  <m:mrow>
-  <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
   <m:mo stretchy="false">[</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo>,</m:mo>
  </m:mrow>
-</m:math> explain how to determine the formula for <m:math>
+</m:math> explain how to determine the formula for<m:math>
  <m:mrow>
-  <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>.</m:mo>
+  <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi><m:mo>.</m:mo>
  </m:mrow>
 </m:math>
-      </para></problem>
+      </para></problem> 
       <solution id="fs-id1386426">
-        <para id="fs-id1862643">Substitute <m:math>
+        <para id="fs-id1862643">Substitute<m:math>
           <m:mrow>
-            <m:mspace width="0.5em"/><m:mi>α</m:mi><m:mspace width="0.5em"/>
+            <m:mtext>  </m:mtext><m:mi>α</m:mi><m:mtext>  </m:mtext>
           </m:mrow>
-        </m:math> into cosine and <m:math>
+        </m:math>into cosine and<m:math>
           <m:mrow>
-            <m:mspace width="0.5em"/><m:mi>β</m:mi><m:mspace width="0.5em"/>
+            <m:mtext>  </m:mtext><m:mi>β</m:mi><m:mtext>  </m:mtext>
           </m:mrow>
-        </m:math> into sine and evaluate.</para></solution></exercise>
-      <exercise id="fs-id2089944" class="material-set-2"><problem id="fs-id2089946"><para id="fs-id1741744">Explain two different methods of calculating <m:math>
+        </m:math>into sine and evaluate.</para></solution></exercise>
+      <exercise id="fs-id2089944"><problem id="fs-id2089946"><para id="fs-id1741744">Explain two different methods of calculating<m:math>
         <m:mrow>
-          <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>195°</m:mn>
             </m:mrow>
@@ -2183,48 +2186,48 @@
               <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
         </m:mrow>
       </m:math> one of which uses the product to sum. Which method is easier?</para></problem></exercise>
-      <exercise id="fs-id1697441" class="material-set-2"><problem id="fs-id1697442"><para id="fs-id1550416">Explain a situation where we would convert an equation from a sum to a product and give an example.</para></problem>
+      <exercise id="fs-id1697441"><problem id="fs-id1697442"><para id="fs-id1550416">Explain a situation where we would convert an equation from a sum to a product and give an example.</para></problem> 
       <solution id="fs-id2356771">
-        <para id="fs-id2356773">Answers will vary. There are some equations that involve a sum of two trig expressions where when converted to a product are easier to solve. For example: <m:math>
+        <para id="fs-id2356773">Answers will vary. There are some equations that involve a sum of two trig expressions where when converted to a product are easier to solve. For example:<m:math>
           <m:mrow>
-            <m:mfrac>
+            <m:mtext> </m:mtext><m:mfrac>
               <m:mrow>
-                <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
               </m:mrow>
               <m:mrow>
-                <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
               </m:mrow>
             </m:mfrac>
-            <m:mo>=</m:mo><m:mn>1.</m:mn><m:mspace width="0.5em"/>
+            <m:mo>=</m:mo><m:mn>1.</m:mn><m:mtext>  </m:mtext>
           </m:mrow>
-        </m:math> When converting the numerator to a product the equation becomes: <m:math>
+        </m:math>When converting the numerator to a product the equation becomes:<m:math>
           <m:mrow>
-            <m:mfrac>
+            <m:mtext> </m:mtext><m:mfrac>
               <m:mrow>
-                <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
               </m:mrow>
               <m:mrow>
-                <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
               </m:mrow>
             </m:mfrac>
             <m:mo>=</m:mo><m:mn>1</m:mn>
           </m:mrow>
         </m:math>
         </para></solution></exercise>
-      <exercise id="fs-id2701921" class="material-set-2"><problem id="fs-id2143069"><para id="fs-id2143070">Explain a situation where we would convert an equation from a product to a sum, and give an example.</para></problem>
-</exercise>
+      <exercise id="fs-id2701921"><problem id="fs-id2143069"><para id="fs-id2143070">Explain a situation where we would convert an equation from a product to a sum, and give an example.</para></problem>
+</exercise> 
     </section>
     <section id="fs-id926570">
       <title>Algebraic</title>
       <para id="fs-id2291727">For the following exercises, rewrite the product as a sum or difference.</para>
-      <exercise id="fs-id1298302"><problem id="fs-id1298303"><para id="fs-id1774554"> <m:math>
+      <exercise id="fs-id1298302"><problem id="fs-id1298303"><para id="fs-id1774554"><m:math>
  <m:mrow>
-  <m:mn>16</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+  <m:mn>16</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
-</para></problem>
+</para></problem> 
       <solution id="fs-id1407286">
-        <para id="fs-id1327266"> <m:math>
+        <para id="fs-id1327266"><m:math>
           <m:mrow>
             <m:mn>8</m:mn><m:mrow><m:mo>(</m:mo>
               <m:mrow>
@@ -2243,9 +2246,9 @@
         </m:math>
         </para>
 </solution></exercise>
-      <exercise id="fs-id1405957"><problem id="fs-id1479114"><para id="fs-id1479115"> <m:math>
+      <exercise id="fs-id1405957"><problem id="fs-id1479114"><para id="fs-id1479115"><m:math>
         <m:mrow>
-          <m:mn>20</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mn>20</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>36</m:mn><m:mi>t</m:mi>
             </m:mrow>
@@ -2256,10 +2259,10 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem></exercise>
-      <exercise id="fs-id2036362"><problem id="fs-id2036363"><para id="fs-id2708374"> <m:math>
+      </para></problem></exercise> 
+      <exercise id="fs-id2036362"><problem id="fs-id2036363"><para id="fs-id2708374"><m:math>
         <m:mrow>
-          <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>5</m:mn><m:mi>x</m:mi>
             </m:mrow>
@@ -2270,9 +2273,9 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id1973311">
-          <para id="fs-id1237657"> <m:math>
+          <para id="fs-id1237657"><m:math>
             <m:mrow>
               <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
@@ -2287,9 +2290,9 @@
           </m:math>
           </para>
         </solution></exercise>
-      <exercise id="fs-id2814458"><problem id="fs-id2814460"><para id="fs-id2814461"> <m:math>
+      <exercise id="fs-id2814458"><problem id="fs-id2814460"><para id="fs-id2814461"><m:math>
         <m:mrow>
-          <m:mn>10</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mn>10</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>5</m:mn><m:mi>x</m:mi>
             </m:mrow>
@@ -2301,7 +2304,7 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id2698945"><problem id="fs-id2698946"><para id="fs-id2721163"> <m:math>
+      <exercise id="fs-id2698945"><problem id="fs-id2698946"><para id="fs-id2721163"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2314,9 +2317,9 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2726416">
-          <para id="fs-id2726418"> <m:math>
+          <para id="fs-id2726418"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mn>1</m:mn>
@@ -2339,7 +2342,7 @@
           </m:math>
           </para>
         </solution></exercise>
-      <exercise id="fs-id1760696"><problem id="fs-id1760697"><para id="fs-id1760698"> <m:math>
+      <exercise id="fs-id1760696"><problem id="fs-id1760697"><para id="fs-id1760698"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2352,10 +2355,10 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem></exercise>
-
+      </para></problem></exercise> 
+      
       <para id="fs-id1344254">For the following exercises, rewrite the sum or difference as a product.</para>
-      <exercise id="fs-id1668430"><problem id="fs-id1668431"><para id="fs-id1668432"> <m:math>
+      <exercise id="fs-id1668430"><problem id="fs-id1668431"><para id="fs-id1668432"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2368,19 +2371,19 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id1823303">
-          <para id="fs-id1823306"> <m:math>
+          <para id="fs-id1823306"><m:math>
             <m:mrow>
-              <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>5</m:mn><m:mi>t</m:mi>
                 </m:mrow>
-                <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+                <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id2600662"><problem id="fs-id2600663"><para id="fs-id2600664"> <m:math>
+      <exercise id="fs-id2600662"><problem id="fs-id2600663"><para id="fs-id2600664"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2393,8 +2396,8 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem></exercise>
-      <exercise id="fs-id2591836"><problem id="fs-id2109238"><para id="fs-id2109240"> <m:math>
+      </para></problem></exercise> 
+      <exercise id="fs-id2591836"><problem id="fs-id2109238"><para id="fs-id2109240"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2407,11 +2410,11 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2183941">
-          <para id="fs-id1977778"> <m:math>
+          <para id="fs-id1977778"><m:math>
             <m:mrow>
-              <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>7</m:mn><m:mi>x</m:mi>
                 </m:mrow>
@@ -2419,7 +2422,7 @@
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1859742"><problem id="fs-id1859743"><para id="fs-id2274487"> <m:math>
+      <exercise id="fs-id1859742"><problem id="fs-id1859743"><para id="fs-id2274487"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2433,7 +2436,7 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id1935632"><problem id="fs-id1935633"><para id="fs-id1935634"> <m:math>
+      <exercise id="fs-id1935632"><problem id="fs-id1935633"><para id="fs-id1935634"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2446,11 +2449,11 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2187045">
-          <para id="fs-id2187047"> <m:math>
+          <para id="fs-id2187047"><m:math>
             <m:mrow>
-              <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>6</m:mn><m:mi>x</m:mi>
                 </m:mrow>
@@ -2462,18 +2465,18 @@
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1418848"><problem id="fs-id1418849"><para id="fs-id1692078"> <m:math>
+      <exercise id="fs-id1418848"><problem id="fs-id1418849"><para id="fs-id1692078"><m:math>
         <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>h</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>h</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>3</m:mn><m:mi>h</m:mi>
             </m:mrow>
             <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem></exercise>
-
-      <para id="fs-id2011822">For the following exercises, evaluate the product for the following using a sum or difference of two functions.</para><exercise id="fs-id2011827"><problem id="fs-id2799626"><para id="fs-id2799627"> <m:math>
+      </para></problem></exercise> 
+      
+      <para id="fs-id2011822">For the following exercises, evaluate the product for the following using a sum or difference of two functions.</para><exercise id="fs-id2011827"><problem id="fs-id2799626"><para id="fs-id2799627"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2486,9 +2489,9 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id1267537">
-          <para id="fs-id1267539"> <m:math>
+          <para id="fs-id1267539"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mn>1</m:mn>
@@ -2499,14 +2502,14 @@
                   <m:mn>1</m:mn><m:mo>+</m:mo><m:msqrt>
                     <m:mn>3</m:mn>
                   </m:msqrt>
-
+                  
                 </m:mrow>
                 <m:mo>)</m:mo></m:mrow>
             </m:mrow>
           </m:math>
           </para>
         </solution></exercise>
-      <exercise id="fs-id1910160"><problem id="fs-id1910161"><para id="fs-id1244647"> <m:math>
+      <exercise id="fs-id1910160"><problem id="fs-id1910161"><para id="fs-id1244647"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2520,7 +2523,7 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id1952907"><problem id="fs-id1741754"><para id="fs-id1741755"> <m:math>
+      <exercise id="fs-id1952907"><problem id="fs-id1741754"><para id="fs-id1741755"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2533,9 +2536,9 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2206463">
-          <para id="fs-id2343156"> <m:math>
+          <para id="fs-id2343156"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mn>1</m:mn>
@@ -2553,7 +2556,7 @@
           </m:math>
           </para>
         </solution></exercise>
-      <exercise id="fs-id1952858"><problem id="fs-id1952859"><para id="fs-id1952860"> <m:math>
+      <exercise id="fs-id1952858"><problem id="fs-id1952859"><para id="fs-id1952860"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2567,7 +2570,7 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id2036958"><problem id="fs-id2036959"><para id="fs-id1783168"> <m:math>
+      <exercise id="fs-id2036958"><problem id="fs-id2036959"><para id="fs-id1783168"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2580,9 +2583,9 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2828000">
-          <para id="fs-id2828002"> <m:math>
+          <para id="fs-id2828002"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mn>1</m:mn>
@@ -2600,10 +2603,10 @@
           </m:math>
           </para>
         </solution></exercise>
-
-
+      
+      
       <para id="fs-id1727673">For the following exercises, evaluate the product using a sum or difference of two functions. Leave in terms of sine and cosine.</para>
-      <exercise id="fs-id1727678"><problem id="fs-id1727679"><para id="fs-id1980077"> <m:math>
+      <exercise id="fs-id1727678"><problem id="fs-id1727679"><para id="fs-id1980077"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2617,9 +2620,9 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id1384324"><problem id="fs-id1741436"><para id="fs-id1741437"> <m:math>
+      <exercise id="fs-id1384324"><problem id="fs-id1741436"><para id="fs-id1741437"><m:math>
         <m:mrow>
-          <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>100°</m:mn>
             </m:mrow>
@@ -2630,9 +2633,9 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id1242016">
-          <para id="fs-id1242018"> <m:math>
+          <para id="fs-id1242018"><m:math>
             <m:mrow>
               <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
@@ -2646,13 +2649,13 @@
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1308306"><problem id="fs-id1308307"><para id="fs-id1308308"> <m:math>
+      <exercise id="fs-id1308306"><problem id="fs-id1308307"><para id="fs-id1308308"><m:math>
  <m:mrow>
-  <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−100°</m:mn><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−20°</m:mn><m:mo stretchy="false">)</m:mo>
+  <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−100°</m:mn><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−20°</m:mn><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
 </para></problem></exercise>
-      <exercise id="fs-id1530089"><problem id="fs-id1249013"><para id="fs-id1249014"> <m:math>
+      <exercise id="fs-id1530089"><problem id="fs-id1249013"><para id="fs-id1249014"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2665,9 +2668,9 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id1669751">
-          <para id="fs-id1669753"> <m:math>
+          <para id="fs-id1669753"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -2677,28 +2680,28 @@
  </m:mrow>
 </m:math>
 </para></solution></exercise>
-      <exercise id="fs-id2274510"><problem id="fs-id2274511"><para id="fs-id2274512"> <m:math>
+      <exercise id="fs-id2274510"><problem id="fs-id2274511"><para id="fs-id2274512"><m:math>
  <m:mrow>
-  <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>56°</m:mn><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>47°</m:mn><m:mo stretchy="false">)</m:mo>
+  <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>56°</m:mn><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>47°</m:mn><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
 </para></problem></exercise>
-
-
+      
+      
       <para id="fs-id1378933">For the following exercises, rewrite the sum as a product of two functions. Leave in terms of sine and cosine.</para>
-      <exercise id="fs-id1507419"><problem id="fs-id1507420"><para id="fs-id1507421"> <m:math>
+      <exercise id="fs-id1507419"><problem id="fs-id1507420"><para id="fs-id1507421"><m:math>
  <m:mrow>
   <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>76°</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>14°</m:mn><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
-</para></problem>
+</para></problem> 
         <solution id="fs-id1692278">
-          <para id="fs-id1692280"> <m:math>
+          <para id="fs-id1692280"><m:math>
             <m:mrow>
               <m:msqrt>
                 <m:mn>2</m:mn>
               </m:msqrt>
-              <m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>31°</m:mn>
                 </m:mrow>
@@ -2706,7 +2709,7 @@
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1327399"><problem id="fs-id1327400"><para id="fs-id1327401"> <m:math>
+      <exercise id="fs-id1327399"><problem id="fs-id1327400"><para id="fs-id1327401"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2720,20 +2723,20 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id1370342"><problem id="fs-id1370343"><para id="fs-id2243298"> <m:math>
+      <exercise id="fs-id1370342"><problem id="fs-id1370343"><para id="fs-id2243298"><m:math>
  <m:mrow>
   <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>101°</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>32°</m:mn><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
-</para></problem>
+</para></problem> 
         <solution id="fs-id1863050">
-          <para id="fs-id1881223"> <m:math>
+          <para id="fs-id1881223"><m:math>
  <m:mrow>
-  <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>66.5</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>34.5</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo>
+  <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>66.5</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>34.5</m:mn><m:mo>°</m:mo><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
 </para></solution></exercise>
-      <exercise id="fs-id1340694"><problem id="fs-id1340695"><para id="fs-id1340696"> <m:math>
+      <exercise id="fs-id1340694"><problem id="fs-id1340695"><para id="fs-id1340696"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2747,16 +2750,16 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id2017004"><problem id="fs-id2017005"><para id="fs-id1548390"> <m:math>
+      <exercise id="fs-id2017004"><problem id="fs-id2017005"><para id="fs-id1548390"><m:math>
  <m:mrow>
   <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−1°</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−2°</m:mn><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
-</para></problem>
+</para></problem> 
         <solution id="fs-id2594627">
-          <para id="fs-id2594629"> <m:math>
+          <para id="fs-id2594629"><m:math>
             <m:mrow>
-              <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
 <m:mn>−1.5°</m:mn><m:mo/>
                 </m:mrow>
@@ -2768,10 +2771,10 @@
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-
-
+      
+      
       <para id="fs-id1367893">For the following exercises, prove the identity.</para>
-      <exercise id="fs-id2686772" class="material-set-2"><problem id="fs-id2686773"><para id="fs-id2686774"> <m:math>
+      <exercise id="fs-id2686772"><problem id="fs-id2686773"><para id="fs-id2686774"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -2783,19 +2786,19 @@
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>a</m:mi><m:mspace width="0.3em"/><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>b</m:mi>
+    <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>b</m:mi>
    </m:mrow>
    <m:mrow>
-    <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>a</m:mi><m:mspace width="0.3em"/><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>b</m:mi>
+    <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>b</m:mi>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para></problem></exercise>
-      <exercise id="fs-id535203" class="material-set-2"><problem id="fs-id535204"><para id="fs-id2872155"> <m:math>
+      <exercise id="fs-id535203"><problem id="fs-id535204"><para id="fs-id2872155"><m:math>
         <m:mrow>
-          <m:mn>4</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mn>4</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>3</m:mn><m:mi>x</m:mi>
             </m:mrow>
@@ -2803,22 +2806,22 @@
               <m:mrow>
                 <m:mn>4</m:mn><m:mi>x</m:mi>
               </m:mrow>
-              <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>7</m:mn><m:mi>x</m:mi>
                 </m:mrow>
-                <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mi>x</m:mi>
+                <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mi>x</m:mi>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2589385">
-          <para id="fs-id1203086"> <m:math display="block">
+          <para id="fs-id1203086"><m:math display="block">
  <m:mrow>
-  <m:mtable columnalign="left">
+  <m:mtext> </m:mtext><m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo>
+      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo>
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -2832,14 +2835,14 @@
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo>
+      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo>
      </m:mrow>
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>4</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+      <m:mn>4</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -2848,16 +2851,16 @@
      <m:mrow/>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
 </para></solution></exercise>
-      <exercise id="fs-id2272110" class="material-set-2"><problem id="fs-id2272111"><para id="fs-id2272112"> <m:math>
+      <exercise id="fs-id2272110"><problem id="fs-id2272111"><para id="fs-id2272112"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
-              <m:mn>6</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mn>6</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>8</m:mn><m:mi>x</m:mi>
                 </m:mrow>
@@ -2875,7 +2878,7 @@
                 <m:mo>)</m:mo></m:mrow>
             </m:mrow>
           </m:mfrac>
-          <m:mo>=</m:mo><m:mn>−3</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mo>=</m:mo><m:mn>−3</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>10</m:mn><m:mi>x</m:mi>
             </m:mrow>
@@ -2887,13 +2890,13 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id1855718" class="material-set-2"><problem id="fs-id1855719"><para id="fs-id1855720"> <m:math>
+      <exercise id="fs-id1855718"><problem id="fs-id1855719"><para id="fs-id1855720"><m:math>
         <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>3</m:mn><m:mi>x</m:mi>
             </m:mrow>
-            <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mspace width="0.5em"/><m:msup>
+            <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:msup>
               <m:mrow>
                 <m:mi>cos</m:mi>
               </m:mrow>
@@ -2902,9 +2905,9 @@
           <m:mi>x</m:mi>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2564768">
-          <para id="fs-id2564770"> <m:math><m:mrow>
+          <para id="fs-id2564770"><m:math><m:mrow>
                   <m:mi>sin</m:mi><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                     <m:mrow>
                       <m:mn>3</m:mn><m:mi>x</m:mi>
@@ -2917,7 +2920,7 @@
                           </m:mrow>
                           <m:mn>2</m:mn>
                         </m:mfrac>
-
+                        
                       </m:mrow>
                       <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                         <m:mrow>
@@ -2927,21 +2930,21 @@
                             </m:mrow>
                             <m:mn>2</m:mn>
                           </m:mfrac>
-
+                          
                         </m:mrow>
-                        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo></m:mrow></m:math> <newline/>
- <m:math><m:mrow>
-                  <m:mn>2</m:mn><m:mspace width="0.2em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>=</m:mo></m:mrow></m:math>
+                        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo></m:mrow></m:math><newline/>
+<m:math><m:mrow>
+                  <m:mn>2</m:mn><m:mspace width="0.2em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo></m:mrow></m:math>
 <newline/>
- <m:math><m:mrow>
-                  <m:mn>4</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:msup>
+<m:math><m:mrow>
+                  <m:mn>4</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:msup>
                     <m:mi>cos</m:mi>
                     <m:mn>2</m:mn>
                   </m:msup>
                   <m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1674000" class="material-set-2"><problem id="fs-id1674001"><para id="fs-id1737682"> <m:math>
+      <exercise id="fs-id1674000"><problem id="fs-id1674001"><para id="fs-id1737682"><m:math>
         <m:mrow>
           <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -2951,7 +2954,7 @@
                 </m:mrow>
                 <m:mn>3</m:mn>
               </m:msup>
-              <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mspace width="0.5em"/><m:msup>
+              <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:msup>
                 <m:mrow>
                   <m:mi>sin</m:mi>
                 </m:mrow>
@@ -2963,17 +2966,17 @@
               <m:mrow>
                 <m:mn>3</m:mn><m:mi>x</m:mi>
               </m:mrow>
-              <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+              <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id1326275" class="material-set-2"><problem id="fs-id1326276"><para id="fs-id1326277"> <m:math>
+      <exercise id="fs-id1326275"><problem id="fs-id1326276"><para id="fs-id1326277"><m:math>
         <m:mrow>
-          <m:mn>2</m:mn><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>3</m:mn><m:mi>x</m:mi>
             </m:mrow>
-            <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sec</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sec</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
                 <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                   <m:mrow>
@@ -2988,9 +2991,9 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2184022">
-          <para id="fs-id2184024"> <m:math><m:mrow>
+          <para id="fs-id2184024"><m:math><m:mrow>
                   <m:mn>2</m:mn><m:mspace width="0.2em"/><m:mi>tan</m:mi><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                     <m:mrow>
                       <m:mn>3</m:mn><m:mi>x</m:mi>
@@ -3011,8 +3014,8 @@
                       <m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>x</m:mi>
                     </m:mrow>
                   </m:mfrac></m:mrow>
-</m:math> <newline/>
- <m:math>
+</m:math><newline/>
+<m:math>
 <m:mrow>
                   <m:mo>=</m:mo>
                   <m:mfrac>
@@ -3025,7 +3028,7 @@
                     <m:mrow>
                       <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
                     </m:mrow>
-                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sec</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sec</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
                       <m:mrow>
                         <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                           <m:mrow>
@@ -3039,8 +3042,8 @@
                       </m:mrow>
                       <m:mo>)</m:mo></m:mrow>
 </m:mrow></m:math>
-</para></solution></exercise>
-      <exercise id="fs-id2243333"><problem id="fs-id1531317"><para id="fs-id1531318"> <m:math>
+</para></solution></exercise> 
+      <exercise id="fs-id2243333"><problem id="fs-id1531317"><para id="fs-id1531318"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
@@ -3050,7 +3053,7 @@
               <m:mrow>
                 <m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi>
               </m:mrow>
-              <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>a</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>b</m:mi>
+              <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>b</m:mi>
         </m:mrow>
       </m:math>
       </para></problem></exercise>
@@ -3058,7 +3061,7 @@
     <section id="fs-id2261894">
       <title>Numeric</title>
       <para id="fs-id2155186">For the following exercises, rewrite the sum as a product of two functions or the product as a sum of two functions. Give your answer in terms of sines and cosines. Then evaluate the final answer numerically, rounded to four decimal places.</para>
-      <exercise id="fs-id2155191"><problem id="fs-id2336081"><para id="fs-id2336082"> <m:math>
+      <exercise id="fs-id2155191"><problem id="fs-id2336081"><para id="fs-id2336082"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
             <m:mrow>
@@ -3075,11 +3078,11 @@
           <m:mo stretchy="false">)</m:mo>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2758239">
-          <para id="fs-id2300033"> <m:math>
+          <para id="fs-id2300033"><m:math>
             <m:mrow>
-              <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
+              <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
                 <m:mrow>
                   <m:mn>35</m:mn>
                 </m:mrow>
@@ -3095,7 +3098,7 @@
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1344816"><problem id="fs-id1344817"><para id="fs-id1337373"> <m:math>
+      <exercise id="fs-id1344816"><problem id="fs-id1344817"><para id="fs-id1337373"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
             <m:mn>2</m:mn>
@@ -3109,7 +3112,7 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id2920769"><problem id="fs-id2920770"><para id="fs-id2920771"> <m:math>
+      <exercise id="fs-id2920769"><problem id="fs-id2920770"><para id="fs-id2920771"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
             <m:mrow>
@@ -3126,11 +3129,11 @@
           <m:mo stretchy="false">)</m:mo>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2061885">
-          <para id="fs-id2061887"> <m:math>
+          <para id="fs-id2061887"><m:math>
             <m:mrow>
-              <m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
+              <m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
                 <m:mrow>
                   <m:mn>33</m:mn>
                 </m:mrow>
@@ -3142,11 +3145,11 @@
                 </m:mrow>
                 <m:mo>∘</m:mo>
               </m:msup>
-              <m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mo>−</m:mo><m:mn>0.2078</m:mn>
+              <m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>0.2078</m:mn>
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1319844"><problem id="fs-id1319846"><para id="fs-id1319847"> <m:math>
+      <exercise id="fs-id1319844"><problem id="fs-id1319846"><para id="fs-id1319847"><m:math>
         <m:mrow>
           <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
             <m:mrow>
@@ -3162,7 +3165,7 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id1316701"><problem id="fs-id1316702"><para id="fs-id1316703"> <m:math>
+      <exercise id="fs-id1316701"><problem id="fs-id1316702"><para id="fs-id1316703"><m:math>
         <m:mrow>
           <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>−</m:mi><m:msup>
             <m:mrow>
@@ -3179,9 +3182,9 @@
           <m:mo stretchy="false">)</m:mo>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id1548480">
-          <para id="fs-id1980044"> <m:math>
+          <para id="fs-id1980044"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mn>1</m:mn>
@@ -3203,21 +3206,21 @@
                   </m:msup>
                   <m:mo stretchy="false">)</m:mo>
                 </m:mrow>
-                <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mo>−</m:mo><m:mn>0.2410</m:mn>
+                <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>0.2410</m:mn>
             </m:mrow>
           </m:math>
           </para>
         </solution></exercise></section>
     <section id="fs-id1872573">
       <title>Technology</title>
-      <para id="fs-id1676023">For the following exercises, algebraically determine whether each of the given expressions is a true identity. If it is not an identity, replace the right-hand side with an expression equivalent to the left side. Verify the results by graphing both expressions on a calculator.</para>
-      <exercise id="fs-id1582900" class="material-set-2"><problem id="fs-id1582901"><para id="fs-id1582902"> <m:math>
+      <para id="fs-id1676023">For the following exercises, algebraically determine whether each of the given expressions is a true identity. If it is not an identity, replace the right-hand side with an expression equivalent to the left side. Verify the results by graphing both expressions on a calculator.</para> 
+      <exercise id="fs-id1582900"><problem id="fs-id1582901"><para id="fs-id1582902"><m:math>
  <m:mrow>
-  <m:mn>2</m:mn><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+  <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
 </para></problem></exercise>
-      <exercise id="fs-id1878018" class="material-set-2"><problem id="fs-id1878020"><para id="fs-id2256408"> <m:math>
+      <exercise id="fs-id1878018"><problem id="fs-id1878020"><para id="fs-id2256408"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
@@ -3254,11 +3257,11 @@
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id3026928">
           <para id="fs-id3026930">It is and identity.</para>
         </solution></exercise>
-      <exercise id="fs-id3026934" class="material-set-2"><problem id="fs-id3026935"><para id="fs-id2569857"> <m:math>
+      <exercise id="fs-id3026934"><problem id="fs-id3026935"><para id="fs-id2569857"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
@@ -3284,29 +3287,29 @@
                   <m:mo>)</m:mo></m:mrow>
             </m:mrow>
           </m:mfrac>
-          <m:mo>=</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+          <m:mo>=</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id2796997" class="material-set-2"><problem id="fs-id2796998"><para id="fs-id2796999"> <m:math>
+      <exercise id="fs-id2796997"><problem id="fs-id2796998"><para id="fs-id2796999"><m:math>
  <m:mrow>
-  <m:mn>2</m:mn><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mi>x</m:mi>
+  <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
  </m:mrow>
 </m:math>
-</para></problem>
-        <solution id="fs-id1721897"><para id="fs-id1721898">It is not an identity, but <m:math>
+</para></problem> 
+        <solution id="fs-id1721897"><para id="fs-id1721898">It is not an identity, but<m:math>
           <m:mrow>
-            <m:mn>2</m:mn><m:mspace width="0.5em"/><m:msup>
+            <m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:msup>
               <m:mrow>
                 <m:mi>cos</m:mi>
               </m:mrow>
               <m:mn>3</m:mn>
             </m:msup>
-            <m:mi>x</m:mi><m:mspace width="0.5em"/>
+            <m:mi>x</m:mi><m:mtext> </m:mtext>
           </m:mrow>
-        </m:math> is. </para></solution>
+        </m:math>is. </para></solution>
       </exercise>
-      <exercise id="fs-id2613400" class="material-set-2"><problem id="fs-id2613401"><para id="fs-id2613402"> <m:math>
+      <exercise id="fs-id2613400"><problem id="fs-id2613401"><para id="fs-id2613402"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
@@ -3336,13 +3339,13 @@
             <m:mrow>
               <m:mn>3</m:mn><m:mi>x</m:mi>
             </m:mrow>
-            <m:mo>)</m:mo></m:mrow><m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+            <m:mo>)</m:mo></m:mrow><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-
+      
       <para id="fs-id1871508">For the following exercises, simplify the expression to one term, then graph the original function and your simplified version to verify they are identical.</para>
-      <exercise id="fs-id1871513"><problem id="fs-id1871514"><para id="fs-id1871515"> <m:math>
+      <exercise id="fs-id1871513"><problem id="fs-id1871514"><para id="fs-id1871515"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
@@ -3368,12 +3371,12 @@
                   <m:mo>)</m:mo></m:mrow>
             </m:mrow>
           </m:mfrac>
-
+          
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id1924184">
-          <para id="fs-id1924186"> <m:math>
+          <para id="fs-id1924186"><m:math>
             <m:mrow>
               <m:mi>tan</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
@@ -3384,9 +3387,9 @@
           </m:math>
           </para>
         </solution></exercise>
-      <exercise id="fs-id2734281"><problem id="fs-id2734282"><para id="fs-id2734284"> <m:math>
+      <exercise id="fs-id2734281"><problem id="fs-id2734282"><para id="fs-id2734284"><m:math>
         <m:mrow>
-          <m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>8</m:mn><m:mi>x</m:mi>
             </m:mrow>
@@ -3402,7 +3405,7 @@
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id1359729"><problem id="fs-id1359730"><para id="fs-id1359731"> <m:math>
+      <exercise id="fs-id1359729"><problem id="fs-id1359730"><para id="fs-id1359731"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
@@ -3410,20 +3413,20 @@
                 <m:mrow>
                   <m:mn>3</m:mn><m:mi>x</m:mi>
                 </m:mrow>
-                <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
             </m:mrow>
             <m:mrow>
-              <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+              <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
             </m:mrow>
           </m:mfrac>
-
+          
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id3044820">
-          <para id="fs-id3044822"> <m:math>
+          <para id="fs-id3044822"><m:math>
             <m:mrow>
-              <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>2</m:mn><m:mi>x</m:mi>
                 </m:mrow>
@@ -3431,7 +3434,7 @@
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1860727"><problem id="fs-id1860728"><para id="fs-id1860729"> <m:math>
+      <exercise id="fs-id1860727"><problem id="fs-id1860728"><para id="fs-id1860729"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
@@ -3457,40 +3460,40 @@
                   <m:mo>)</m:mo></m:mrow>
             </m:mrow>
           </m:mfrac>
-
+          
         </m:mrow>
       </m:math>
       </para></problem></exercise>
-      <exercise id="fs-id2458432"><problem id="fs-id2458433"><para id="fs-id2458434"> <m:math>
+      <exercise id="fs-id2458432"><problem id="fs-id2458433"><para id="fs-id2458434"><m:math>
         <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mn>15</m:mn><m:mi>x</m:mi>
             </m:mrow>
-            <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mspace width="0.3em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
                 <m:mn>15</m:mn><m:mi>x</m:mi>
               </m:mrow>
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id2846668">
-          <para id="fs-id2846670"> <m:math>
+          <para id="fs-id2846670"><m:math>
             <m:mrow>
               <m:mo>−</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
             </m:mrow>
           </m:math>
           </para>
         </solution></exercise>
-
-
+     
+      
     </section>
     <section id="fs-id1548151">
       <title>Extensions</title>
-      <para id="fs-id1761345">For the following exercises, prove the following sum-to-product formulas.</para><exercise id="fs-id1548156" class="material-set-2"><problem id="fs-id1548157"><para id="fs-id1274800"> <m:math>
+      <para id="fs-id1761345">For the following exercises, prove the following sum-to-product formulas.</para><exercise id="fs-id1548156"><problem id="fs-id1548157"><para id="fs-id1274800"><m:math>
         <m:mrow>
-          <m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
@@ -3498,7 +3501,7 @@
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:mfrac>
-
+              
             </m:mrow>
             <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
@@ -3508,14 +3511,14 @@
                   </m:mrow>
                   <m:mn>2</m:mn>
                 </m:mfrac>
-
+                
               </m:mrow>
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem></exercise><exercise id="fs-id2706227" class="material-set-2"><problem id="fs-id2706228"><para id="fs-id2706229"> <m:math>
+      </para></problem></exercise><exercise id="fs-id2706227"><problem id="fs-id2706228"><para id="fs-id2706229"><m:math>
         <m:mrow>
-          <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
@@ -3523,7 +3526,7 @@
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:mfrac>
-
+              
             </m:mrow>
             <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
               <m:mrow>
@@ -3533,50 +3536,50 @@
                   </m:mrow>
                   <m:mn>2</m:mn>
                 </m:mfrac>
-
+                
               </m:mrow>
               <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
       <solution id="fs-id1978655">
-        <para id="fs-id1978657">Start with <m:math>
+        <para id="fs-id1978657">Start with<m:math>
           <m:mrow>
-            <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>y</m:mi><m:mo>.</m:mo>
+            <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
           </m:mrow>
-        </m:math> Make a substitution and let <m:math>
+        </m:math>Make a substitution and let<m:math>
           <m:mrow>
-            <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi>
+            <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mtext> </m:mtext>
           </m:mrow>
-        </m:math> and let <m:math>
+        </m:math>and let<m:math>
  <m:mrow>
-  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo>,</m:mo>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo>,</m:mo>
  </m:mrow>
-</m:math> so <m:math>
+</m:math>so<m:math>
           <m:mrow>
-            <m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>y</m:mi>
+            <m:mtext> </m:mtext><m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>y</m:mi>
           </m:mrow>
         </m:math> becomes <newline/>
- <m:math>
-        <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mi>α</m:mi><m:mi>cos</m:mi><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mi>α</m:mi><m:mi>sin</m:mi><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mi>α</m:mi><m:mi>cos</m:mi><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mi>α</m:mi><m:mi>sin</m:mi><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>α</m:mi><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi></m:math> </para><para id="fs-id2199024">Since <m:math>
+<m:math>
+        <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mi>α</m:mi><m:mi>cos</m:mi><m:mi>β</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mi>α</m:mi><m:mi>sin</m:mi><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mi>α</m:mi><m:mi>cos</m:mi><m:mi>β</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mi>α</m:mi><m:mi>sin</m:mi><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>α</m:mi><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>β</m:mi></m:math></para><para id="fs-id2199024">Since<m:math>
           <m:mrow>
-            <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi>
+            <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mtext> </m:mtext>
           </m:mrow>
-        </m:math> and <m:math>
+        </m:math>and<m:math>
           <m:mrow>
-            <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo>,</m:mo>
+            <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo>,</m:mo>
           </m:mrow>
-        </m:math> we can solve for <m:math>
+        </m:math> we can solve for<m:math>
           <m:mrow>
-            <m:mi>α</m:mi>
+            <m:mtext> </m:mtext><m:mi>α</m:mi><m:mtext> </m:mtext>
           </m:mrow>
-        </m:math> and <m:math>
+        </m:math>and<m:math>
           <m:mrow>
-            <m:mi>β</m:mi>
+            <m:mtext> </m:mtext><m:mi>β</m:mi><m:mtext> </m:mtext>
           </m:mrow>
-        </m:math> in terms of <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> and substitute in for <m:math>
+        </m:math>in terms of <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> and substitute in for<m:math>
           <m:mrow>
-            <m:mn>2</m:mn><m:mi>cos</m:mi><m:mi>α</m:mi><m:mi>cos</m:mi><m:mi>β</m:mi>
+            <m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>cos</m:mi><m:mi>α</m:mi><m:mi>cos</m:mi><m:mi>β</m:mi>
           </m:mrow>
         </m:math> and get <m:math>
           <m:mrow>
@@ -3588,7 +3591,7 @@
                   </m:mrow>
                   <m:mn>2</m:mn>
                 </m:mfrac>
-
+                
               </m:mrow>
               <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
@@ -3598,15 +3601,15 @@
                     </m:mrow>
                     <m:mn>2</m:mn>
                   </m:mfrac>
-
+                  
                 </m:mrow>
                 <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
           </m:mrow>
         </m:math>
         </para></solution></exercise>
-
-      <para id="fs-id1729752">For the following exercises, prove the identity.</para>
-      <exercise id="fs-id1729755" class="material-set-2"><problem id="fs-id1729756"><para id="fs-id1729757"> <m:math>
+      
+      <para id="fs-id1729752">For the following exercises, prove the identity.</para> 
+      <exercise id="fs-id1729755"><problem id="fs-id1729756"><para id="fs-id1729757"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -3616,26 +3619,26 @@
     <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-  <m:mo>=</m:mo><m:mi>tan</m:mi><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+  <m:mo>=</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
  </m:mrow>
 </m:math>
-</para></problem></exercise>
-      <exercise id="fs-id2227253" class="material-set-2"><problem id="fs-id2227254"><para id="fs-id2227256"> <m:math>
+</para></problem></exercise> 
+      <exercise id="fs-id2227253"><problem id="fs-id2227254"><para id="fs-id2227256"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+    <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
    </m:mrow>
    <m:mrow>
-    <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+    <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
    </m:mrow>
   </m:mfrac>
-  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>cot</m:mi><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
  </m:mrow>
 </m:math>
-</para></problem>
+</para></problem> 
         <solution id="fs-id2917160">
-          <para id="fs-id2917163"> <m:math>
+          <para id="fs-id2917163"><m:math>
             <m:mrow>
               <m:mfrac>
                 <m:mrow>
@@ -3643,41 +3646,41 @@
                     <m:mrow>
                       <m:mn>3</m:mn><m:mi>x</m:mi>
                     </m:mrow>
-                    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
                 </m:mrow>
                 <m:mrow>
                   <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                     <m:mrow>
                       <m:mn>3</m:mn><m:mi>x</m:mi>
                     </m:mrow>
-                    <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
                 </m:mrow>
               </m:mfrac>
               <m:mo>=</m:mo><m:mfrac>
                 <m:mrow>
-                  <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+                  <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                     <m:mrow>
                       <m:mn>2</m:mn><m:mi>x</m:mi>
                     </m:mrow>
-                    <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
                 </m:mrow>
                 <m:mrow>
-                  <m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+                  <m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                     <m:mrow>
                       <m:mn>2</m:mn><m:mi>x</m:mi>
                     </m:mrow>
-                    <m:mo>)</m:mo></m:mrow><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
                 </m:mrow>
               </m:mfrac>
               <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>cot</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
                   <m:mn>2</m:mn><m:mi>x</m:mi>
                 </m:mrow>
-                <m:mo>)</m:mo></m:mrow><m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                <m:mo>)</m:mo></m:mrow><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1506245" class="material-set-2"><problem id="fs-id2271916"><para id="fs-id2271917"> <m:math>
+      <exercise id="fs-id1506245"><problem id="fs-id2271916"><para id="fs-id2271917"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -3687,10 +3690,10 @@
     <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-  <m:mo>=</m:mo><m:mi>cot</m:mi><m:mspace width="0.3em"/><m:mi>y</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sec</m:mi><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
+  <m:mo>=</m:mo><m:mi>cot</m:mi><m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sec</m:mi><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
-</para></problem></exercise><exercise id="fs-id1726398" class="material-set-2"><problem id="fs-id1726399"><para id="fs-id1726400"> <m:math>
+</para></problem></exercise><exercise id="fs-id1726398"><problem id="fs-id1726399"><para id="fs-id1726400"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
@@ -3716,12 +3719,12 @@
                   <m:mo>)</m:mo></m:mrow>
             </m:mrow>
           </m:mfrac>
-          <m:mo>=</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>y</m:mi>
+          <m:mo>=</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>y</m:mi>
         </m:mrow>
       </m:math>
-      </para></problem>
+      </para></problem> 
         <solution id="fs-id1995918">
-          <para id="fs-id1995920"> <m:math>
+          <para id="fs-id1995920"><m:math>
             <m:mtable columnalign="left">
               <m:mtr>
                 <m:mtd>
@@ -3751,7 +3754,7 @@
                   </m:mfrac>
                   <m:mo>=</m:mo><m:mfrac>
                     <m:mrow>
-                      <m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+                      <m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                         <m:mrow>
                           <m:mn>3</m:mn><m:mi>y</m:mi>
                         </m:mrow>
@@ -3762,11 +3765,11 @@
                           <m:mo>)</m:mo></m:mrow>
                     </m:mrow>
                     <m:mrow>
-                      <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+                      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                         <m:mrow>
                           <m:mn>3</m:mn><m:mi>y</m:mi>
                         </m:mrow>
-                        <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>y</m:mi>
+                        <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>y</m:mi>
                     </m:mrow>
                   </m:mfrac>
                   <m:mo>=</m:mo>
@@ -3776,7 +3779,7 @@
                 <m:mtd>
                   <m:mfrac>
                     <m:mrow>
-                      <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+                      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                         <m:mrow>
                           <m:mn>3</m:mn><m:mi>y</m:mi>
                         </m:mrow>
@@ -3785,21 +3788,21 @@
                           <m:mo>)</m:mo></m:mrow>
                     </m:mrow>
                     <m:mrow>
-                      <m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+                      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
                         <m:mrow>
                           <m:mn>3</m:mn><m:mi>y</m:mi>
                         </m:mrow>
-                        <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>y</m:mi>
+                        <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>y</m:mi>
                     </m:mrow>
                   </m:mfrac>
-                  <m:mo>=</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>y</m:mi>
+                  <m:mo>=</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>y</m:mi>
                 </m:mtd>
               </m:mtr>
             </m:mtable>
-
+            
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id2637838" class="material-set-2"><problem id="fs-id2637839"><para id="fs-id2637840"> <m:math>
+      <exercise id="fs-id2637838"><problem id="fs-id2637839"><para id="fs-id2637840"><m:math>
         <m:mrow>
           <m:mfrac>
             <m:mrow>
@@ -3832,45 +3835,45 @@
             <m:mo>)</m:mo></m:mrow>
         </m:mrow>
       </m:math>
-      </para></problem></exercise>
-      <exercise id="fs-id1568104" class="material-set-2"><problem id="fs-id1568106"><para id="fs-id1568107"> <m:math>
+      </para></problem></exercise> 
+      <exercise id="fs-id1568104"><problem id="fs-id1568106"><para id="fs-id1568107"><m:math>
  <m:mrow>
-  <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.5em"/><m:msup>
+  <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:msup>
    <m:mrow>
     <m:mi>sin</m:mi>
    </m:mrow>
    <m:mn>2</m:mn>
   </m:msup>
-  <m:mi>x</m:mi><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+  <m:mi>x</m:mi><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
  </m:mrow>
 </m:math>
-</para></problem>
+</para></problem> 
         <solution id="fs-id2003369">
-          <para id="fs-id2003371"> <m:math>
+          <para id="fs-id2003371"><m:math>
             <m:mtable columnalign="left">
               <m:mtr>
                 <m:mtd>
-                  <m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+                  <m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
                     <m:mrow>
                       <m:mn>3</m:mn><m:mi>x</m:mi>
                     </m:mrow>
-                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo>
                 </m:mtd>
               </m:mtr>
               <m:mtr>
                 <m:mtd>
-                  <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.5em"/><m:msup>
+                  <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:msup>
                     <m:mi>sin</m:mi>
                     <m:mn>2</m:mn>
                   </m:msup>
-                  <m:mspace width="0.5em"/><m:mi>x</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>x</m:mi>
+                  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>cos</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi>
                 </m:mtd>
               </m:mtr>
             </m:mtable>
-
+            
           </m:math>
           </para></solution></exercise>
-      <exercise id="fs-id1511276" class="material-set-2"><problem id="fs-id1511277"><para id="fs-id1511278"> <m:math>
+      <exercise id="fs-id1511276"><problem id="fs-id1511277"><para id="fs-id1511278"><m:math>
  <m:mrow>
   <m:msup>
    <m:mrow>
@@ -3884,7 +3887,7 @@
    </m:mrow>
    <m:mn>2</m:mn>
   </m:msup>
-  <m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.5em"/><m:msup>
+  <m:mo>=</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:msup>
    <m:mrow>
     <m:mi>sin</m:mi>
    </m:mrow>
@@ -3893,8 +3896,8 @@
   <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>
-</para></problem></exercise>
-      <exercise id="fs-id2122124" class="material-set-2"><problem id="fs-id2122125"><para id="fs-id2122126"> <m:math>
+</para></problem></exercise> 
+      <exercise id="fs-id2122124"><problem id="fs-id2122125"><para id="fs-id2122126"><m:math>
  <m:mrow>
   <m:mi>tan</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -3906,18 +3909,18 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+    <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
    </m:mrow>
    <m:mrow>
-    <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em"/><m:mi>t</m:mi>
+    <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
-</para></problem>
+</para></problem> 
         <solution id="fs-id2298527">
-          <para id="fs-id2298529"> <m:math>
+          <para id="fs-id2298529"><m:math>
             <m:mrow>
               <m:mi>tan</m:mi><m:mrow><m:mo>(</m:mo>
                 <m:mrow>
@@ -3935,7 +3938,7 @@
                           <m:mi>π</m:mi>
                           <m:mn>4</m:mn>
                         </m:mfrac>
-
+                        
                       </m:mrow>
                       <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>tan</m:mi><m:mi>t</m:mi>
                   </m:mrow>
@@ -3946,7 +3949,7 @@
                           <m:mi>π</m:mi>
                           <m:mn>4</m:mn>
                         </m:mfrac>
-
+                        
                       </m:mrow>
                       <m:mo>)</m:mo></m:mrow><m:mi>tan</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
                   </m:mrow>
@@ -3959,16 +3962,16 @@
                   <m:mn>1</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mi>t</m:mi>
                 </m:mrow>
               </m:mfrac>
-
+              
             </m:mrow>
           </m:math>
           </para></solution></exercise>
-
-
+      
+      
     </section>
   </section></content>
 <glossary>
-
+  
   <definition id="fs-id2872047">
 <term>product-to-sum formula</term>
 <meaning id="fs-id2872050">a trigonometric identity that allows the writing of a product of trigonometric functions as a sum or difference of trigonometric functions</meaning>
