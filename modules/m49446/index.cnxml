@@ -2082,7 +2082,7 @@
      <m:mrow>
       <m:mi>a</m:mi><m:mmultiscripts>
        <m:mo>=</m:mo>
-       <m:mprescripts/>
+       <m:none/><m:none/><m:mprescripts/>
        <m:mn>1</m:mn>
        <m:none/>
       </m:mmultiscripts>

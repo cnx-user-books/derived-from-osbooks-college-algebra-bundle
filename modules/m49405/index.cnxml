@@ -2184,7 +2184,7 @@
                   <m:mn>50°</m:mn></m:mrow>
               <m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>105</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>45</m:mn><m:mmultiscripts>
                 <m:mrow/>
-                <m:mprescripts/>
+                <m:none/><m:none/><m:mprescripts/>
                 <m:mrow/>
                 <m:mrow/>
               </m:mmultiscripts>
