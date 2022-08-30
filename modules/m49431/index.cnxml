@@ -2625,15 +2625,14 @@ Graph the circle.</entry>
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
-      <m:mtr>
-       <m:mtd>
+      <m:mrow>
         <m:mo>−</m:mo><m:msup>
          <m:mi>x</m:mi>
          <m:mn>2</m:mn>
         </m:msup>
         <m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
-       </m:mtd>
-      </m:mtr>
+       </m:mrow>
+      
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">

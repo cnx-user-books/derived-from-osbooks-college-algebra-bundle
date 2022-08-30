@@ -3099,7 +3099,7 @@ Creating your Semester Calendar- complete the following weekly schedule being su
 <m:mrow>
 <m:mtable>
 <m:mtr rowalign="center">
-<m:mtd columnalign="right" rowalign="right"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>h</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>h</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mtd>
+<m:mtd columnalign="right"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>h</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>h</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mtd>
 <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
 <m:mtd columnalign="left" rowalign="center"><m:mrow><m:msup><m:mi>h</m:mi><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:mtd>
 </m:mtr>
@@ -10700,10 +10700,10 @@ Creating your Semester Calendar- complete the following weekly schedule being su
   <exercise id="fs-id1167339211180"><problem id="fs-id1167339211182"><para id="fs-id1167339211183"> <m:math>
     <m:mrow>
       <m:mo stretchy="false">(</m:mo><m:mn>25</m:mn>
-      <m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mo>÷</m:mo><m:msup>
-        <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn>
-        <m:mn>0</m:mn>
-      </m:msup>
+      <m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mo>÷</m:mo><m:mmultiscripts>
+        <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn>
+      <m:mn>5</m:mn>
+        </m:mmultiscripts>
       <m:mi>m</m:mi><m:mo stretchy="false">)</m:mo>
     </m:mrow>
   </m:math>

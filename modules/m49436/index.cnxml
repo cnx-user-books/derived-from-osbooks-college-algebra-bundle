@@ -6743,15 +6743,14 @@ Use Cramer’s Rule to solve the system of three equations.
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
-      <m:mtr>
-       <m:mtd>
+      <m:mrow>
         <m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
          <m:mi>x</m:mi>
          <m:mn>2</m:mn>
         </m:msup>
         <m:mo>−</m:mo><m:mn>7</m:mn>
-       </m:mtd>
-      </m:mtr>
+       </m:mrow>
+      
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">
@@ -6787,15 +6786,14 @@ Use Cramer’s Rule to solve the system of three equations.
   <m:mtable columnalign="left">
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
-      <m:mtr>
-       <m:mtd>
+      <m:mrow>
         <m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
          <m:mi>x</m:mi>
          <m:mn>2</m:mn>
         </m:msup>
         <m:mo>−</m:mo><m:mn>4</m:mn>
-       </m:mtd>
-      </m:mtr>
+       </m:mrow>
+      
     </m:mtd>
    </m:mtr>
    <m:mtr columnalign="left">

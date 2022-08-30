@@ -271,7 +271,7 @@
 <para id="fs-id2239334">Then we apply the <term class="no-emphasis">Pythagorean Identity</term> and simplify.</para><equation id="fs-id1343608" class="unnumbered"><label/> <m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
-     <m:mrow>
+     <m:mtr><m:mtd><m:mrow>
       <m:mtable columnalign="left">
        <m:mtr columnalign="left">
         <m:mtd columnalign="left">
@@ -312,7 +312,7 @@
 
       </m:mtable>
      </m:mrow>
-   <m:mtr columnalign="left">
+   </m:mtd></m:mtr><m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
       <m:mo>=</m:mo><m:msqrt>
@@ -418,7 +418,7 @@
 <para id="fs-id1783115">Applying the Pythagorean Identity and simplifying we get:</para><equation id="fs-id1347258" class="unnumbered"><label/> <m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
-     <m:mrow>
+     <m:mtr><m:mtd><m:mrow>
       <m:mtable columnalign="left">
        <m:mtr columnalign="left">
         <m:mtd columnalign="left">
@@ -447,7 +447,7 @@
 
       </m:mtable>
      </m:mrow>
-   <m:mtr columnalign="left">
+   </m:mtd></m:mtr><m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
       <m:mo>=</m:mo><m:msqrt>
@@ -480,7 +480,7 @@
     <equation id="fs-id1729317" class="unnumbered"><label/> <m:math display="block">
  <m:mrow>
   <m:mtable columnalign="left">
-     <m:mrow>
+     <m:mtr><m:mtd><m:mrow>
       <m:mtable columnalign="left">
        <m:mtr columnalign="left">
         <m:mtd columnalign="left">
@@ -502,7 +502,7 @@
 
       </m:mtable>
      </m:mrow>
-   <m:mtr columnalign="left">
+   </m:mtd></m:mtr><m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
       <m:mtext>  </m:mtext><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.8em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mspace width="0.3em"/><m:mi>cos</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.8em"/><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>α</m:mi><m:mi>sin</m:mi><m:mspace width="0.3em"/><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.8em"/><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>        </m:mtext>

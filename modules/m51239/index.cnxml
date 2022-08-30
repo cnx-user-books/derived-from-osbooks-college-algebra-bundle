@@ -4167,8 +4167,7 @@ Share your autobiographies with your study group members. This helps to create a
   <para id="fs-id2714749">An <term>equation</term> is a mathematical statement indicating that two expressions are equal. The expressions can be numerical or algebraic. The equation is not inherently true or false, but only a proposition. The values that make the equation true, the solutions, are found using the properties of real numbers and other results. For example, the equation <m:math>
    <m:mrow>
    <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>7</m:mn>   </m:mrow>
-  </m:math> has the solution of 3 <m:math>
-  </m:math> because when we substitute 3 for <m:math>
+  </m:math> has the solution of 3  because when we substitute 3 for <m:math>
    <m:mrow>
    <m:mi>x</m:mi>   </m:mrow>
   </m:math> in the equation, we obtain the true statement <m:math>

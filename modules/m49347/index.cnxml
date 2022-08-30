@@ -1647,7 +1647,7 @@ is a 4<sup>th</sup> degree polynomial function and has 3 turning points. The max
  <m:mrow>
   <m:mspace width="0.8em"/><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mmultiscripts>
    <m:mo>+</m:mo>
-   <m:mprescripts/>
+   <m:none/><m:none/><m:mprescripts/>
    <m:none/>
    <m:mn>3</m:mn>
   </m:mmultiscripts>

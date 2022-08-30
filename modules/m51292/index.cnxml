@@ -2060,8 +2060,8 @@
      <m:mn>0</m:mn>
     </m:mtd>
    </m:mtr>
-<m:mspace width="1em"/>
-   <m:mtr>
+<m:mtr><m:mtd><m:mspace width="1em"/>
+   </m:mtd></m:mtr><m:mtr>
     <m:mtd columnalign="right">
      <m:mi>θ</m:mi>
     </m:mtd>

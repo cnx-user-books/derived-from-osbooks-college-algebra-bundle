@@ -4748,13 +4748,12 @@ Amplitude: 4, period: <m:math>
      <m:mi>t</m:mi>
     </m:mrow>
     <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>900</m:mn><m:mo>+</m:mo>
-<m:msup>
 <m:mrow>
 <m:mo>(</m:mo>
 <m:mn>1.07</m:mn>
 <m:mo>)</m:mo>
 </m:mrow>
-</m:msup>
+
    <m:mi>t</m:mi>
 </m:mrow>
  </m:math>
