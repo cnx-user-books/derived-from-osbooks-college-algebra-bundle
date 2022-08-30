@@ -2832,11 +2832,11 @@ in the given quadrant.</item>
  <problem id="fs-id1165134033293">
   <para id="fs-id1165134033295"> <m:math>
  <m:mrow>
-  <m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math> and <m:math>
    <m:mrow>
-    <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>></m:mo><m:mn>0</m:mn></m:mrow>
+    <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow>
   </m:math>
   </para></problem>
 <solution id="fs-id1165135193433"><para id="fs-id1165137732793">I</para></solution></exercise>
@@ -2844,7 +2844,7 @@ in the given quadrant.</item>
  <problem id="fs-id1165137550967">
   <para id="fs-id1165137550969"> <m:math>
  <m:mrow>
-  <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math>
  and
@@ -2864,7 +2864,7 @@ in the given quadrant.</item>
 
  and <m:math>
  <m:mrow>
-  <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math>
 

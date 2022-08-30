@@ -2683,7 +2683,7 @@ using the difference of squares formula.</para>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mtext>If  </m:mtext><m:mi>c</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>|</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>|</m:mo><m:mo>=</m:mo><m:mi>c</m:mi><m:mspace width="0.5em"/><m:mtext>has two solutions</m:mtext><m:mo>.</m:mo>
+      <m:mtext>If  </m:mtext><m:mi>c</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>|</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>|</m:mo><m:mo>=</m:mo><m:mi>c</m:mi><m:mspace width="0.5em"/><m:mtext>has two solutions</m:mtext><m:mo>.</m:mo>
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -2698,7 +2698,7 @@ using the difference of squares formula.</para>
 <list id="fs-id2938958" list-type="enumerated" number-style="arabic">
 <item>Isolate the absolute value expression on one side of the equal sign.</item>
 <item>If <m:math>
- <m:mrow><m:mi>c</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+ <m:mrow><m:mi>c</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> write and solve two equations: <m:math>
  <m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>

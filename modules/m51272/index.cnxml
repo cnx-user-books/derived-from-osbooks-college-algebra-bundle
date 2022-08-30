@@ -592,7 +592,7 @@
   <list id="fs-id1963658" list-type="bulleted">
   <item> <m:math>
    <m:mrow>
-    <m:mi>r</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+    <m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
    </m:mrow>
   </m:math> suggests a positive (increasing) relationship</item>
   <item> <m:math>
@@ -620,7 +620,7 @@
     <m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.9509.</m:mn>
    </m:mrow>
   </m:math> This value is very close to 1, which suggests a strong increasing linear relationship.</para>
-  <para id="fs-id1154034">Note: For some calculators, the Diagnostics must be turned "on" in order to get the correlation coefficient when linear regression is performed: [2nd]>[0]>[alpha][x–1], then scroll to <emphasis>DIAGNOSTICSON</emphasis>.</para></solution>
+  <para id="fs-id1154034">Note: For some calculators, the Diagnostics must be turned "on" in order to get the correlation coefficient when linear regression is performed: [2nd]&gt;[0]&gt;[alpha][x–1], then scroll to <emphasis>DIAGNOSTICSON</emphasis>.</para></solution>
   </exercise>
   </example>
   </section><section id="fs-id1840824">

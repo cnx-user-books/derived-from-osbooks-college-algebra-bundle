@@ -1166,11 +1166,11 @@ Find the center and radius, then graph the circle: <m:math><m:msup><m:mi>x</m:mi
  </m:mrow>
 </m:math> This equation defines an ellipse centered at the origin. If <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the ellipse is stretched further in the horizontal direction, and if <m:math>
  <m:mrow>
-  <m:mi>b</m:mi><m:mo>></m:mo><m:mi>a</m:mi><m:mo>,</m:mo>
+  <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the ellipse is stretched further in the vertical direction.</para></section><section id="fs-id1381696"><title>Writing Equations of Ellipses Centered at the Origin in Standard Form</title><para id="fs-id1376358">Standard forms of equations tell us about key features of graphs. Take a moment to recall some of the standard forms of equations we’ve worked with in the past: linear, quadratic, cubic, exponential, logarithmic, and so on. By learning to interpret standard forms of equations, we are bridging the relationship between algebraic and geometric representations of mathematical phenomena.</para>
 
@@ -1224,7 +1224,7 @@ Find the center and radius, then graph the circle: <m:math><m:msup><m:mi>x</m:mi
 </equation>
 <para id="fs-id1321099">where</para><list id="fs-id1321102" list-type="bulleted"><item> <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
  </m:mrow>
 </m:math>
 </item>
@@ -1331,7 +1331,7 @@ Find the center and radius, then graph the circle: <m:math><m:msup><m:mi>x</m:mi
 </m:math>
 </equation><para id="fs-id1390177">where</para><list id="fs-id1390180" list-type="bulleted"><item> <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
  </m:mrow>
 </m:math>
 </item>
@@ -2051,7 +2051,7 @@ the coordinates of the foci are <m:math>
 </equation>
 <para id="fs-id1355127">where</para><list id="fs-id1355130" list-type="bulleted"><item> <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
  </m:mrow>
 </m:math>
 </item>
@@ -2171,7 +2171,7 @@ the coordinates of the foci are <m:math>
 </equation>
 <para id="fs-id1354473">where</para><list id="fs-id1347416" list-type="bulleted"><item> <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
  </m:mrow>
 </m:math>
 </item>
@@ -3018,7 +3018,7 @@ the coordinates of the foci are <m:math>
 
    </m:mrow>
   </m:mfrac>
-  <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+  <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
  </m:mrow>
 </m:math> for horizontal ellipses and <m:math>
  <m:mrow>
@@ -3054,7 +3054,7 @@ the coordinates of the foci are <m:math>
 
    </m:mrow>
   </m:mfrac>
-  <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+  <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
  </m:mrow>
 </m:math> for vertical ellipses.</para><note id="fs-id1333613" class="how-to-notitle">
 <label>How To</label>
@@ -3106,7 +3106,7 @@ the coordinates of the foci are <m:math>
  </m:mrow>
 </m:math> where <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
  </m:mrow>
 </m:math> then
 <list id="fs-id1334467" list-type="bulleted"><item>the major axis is the <emphasis effect="italics">x</emphasis>-axis</item>
@@ -3179,7 +3179,7 @@ the coordinates of the foci are <m:math>
  </m:mrow>
 </m:math> where <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
  </m:mrow>
 </m:math> then
 <list id="fs-id1333547"><item>the major axis is the <emphasis effect="italics">y</emphasis>-axis</item>
@@ -3277,7 +3277,7 @@ the coordinates of the foci are <m:math>
 
 <para id="fs-id1362387">First, we determine the position of the major axis. Because <m:math>
  <m:mrow>
-  <m:mn>25</m:mn><m:mo>></m:mo><m:mn>9</m:mn><m:mo>,</m:mo>
+  <m:mn>25</m:mn><m:mo>&gt;</m:mo><m:mn>9</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the major axis is on the <emphasis effect="italics">y</emphasis>-axis. Therefore, the equation is in the form <m:math>
  <m:mrow>
@@ -3672,7 +3672,7 @@ the coordinates of the foci are <m:math>
  </m:mrow>
 </m:math> </equation><para id="fs-id1373251">Next, we determine the position of the major axis. Because <m:math>
  <m:mrow>
-  <m:mn>25</m:mn><m:mo>></m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
+  <m:mn>25</m:mn><m:mo>&gt;</m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the major axis is on the <emphasis effect="italics">x</emphasis>-axis. Therefore, the equation is in the form <m:math>
  <m:mrow>
@@ -4030,7 +4030,7 @@ the coordinates of the foci are <m:math>
 
      </m:mrow>
     </m:mfrac>
-    <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+    <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
    </m:mrow>
   </m:math> for horizontal ellipses and <m:math>
    <m:mrow>
@@ -4078,7 +4078,7 @@ the coordinates of the foci are <m:math>
 
      </m:mrow>
     </m:mfrac>
-    <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+    <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
    </m:mrow>
   </m:math> for vertical ellipses. From these standard equations, we can easily determine the center, vertices, co-vertices, foci, and positions of the major and minor axes.</para><note id="fs-id1298882" class="how-to-notitle">
    <label>How To</label>
@@ -4142,7 +4142,7 @@ the coordinates of the foci are <m:math>
       <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>     </m:mrow>
     </m:math> where <m:math>
      <m:mrow>
-      <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi><m:mo>,</m:mo>     </m:mrow>
+      <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo>     </m:mrow>
     </m:math> then
    <list id="fs-id1367701" list-type="bulleted"><item>the center is <m:math>
      <m:mrow>
@@ -4235,7 +4235,7 @@ the coordinates of the foci are <m:math>
       <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>     </m:mrow>
     </m:math> where <m:math>
      <m:mrow>
-      <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi><m:mo>,</m:mo>     </m:mrow>
+      <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo>     </m:mrow>
     </m:math> then
    <list id="fs-id1388657" list-type="bulleted"><item>the center is <m:math>
      <m:mrow>
@@ -4349,7 +4349,7 @@ the coordinates of the foci are <m:math>
     <solution id="fs-id1351736">
      <para id="fs-id1351738">First, we determine the position of the major axis. Because <m:math>
       <m:mrow>
-       <m:mn>9</m:mn><m:mo>></m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
+       <m:mn>9</m:mn><m:mo>&gt;</m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
       </m:mrow>
      </m:math> the major axis is parallel to the <emphasis effect="italics">y</emphasis>-axis. Therefore, the equation is in the form <m:math>
       <m:mrow>
@@ -4959,7 +4959,7 @@ the coordinates of the foci are <m:math>
      </equation>
      <para id="fs-id1306079">Now that the equation is in standard form, we can determine the position of the major axis. Because <m:math>
       <m:mrow>
-       <m:mn>9</m:mn><m:mo>></m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
+       <m:mn>9</m:mn><m:mo>&gt;</m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
       </m:mrow>
      </m:math> the major axis is parallel to the <emphasis effect="italics">x</emphasis>-axis. Therefore, the equation is in the form <m:math>
       <m:mrow>
@@ -5408,7 +5408,7 @@ the coordinates of the foci are <m:math>
       </m:mrow>
      </m:math> where <m:math>
       <m:mrow>
-       <m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi><m:mo>.</m:mo>
+       <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>.</m:mo>
       </m:mrow>
      </m:math> We know that the length of the major axis, <m:math>
       <m:mrow>
@@ -5801,7 +5801,7 @@ the coordinates of the foci are <m:math>
 
          </m:mrow>
         </m:mfrac>
-        <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+        <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
        </m:mrow>
       </m:math>
       </entry>
@@ -5843,7 +5843,7 @@ the coordinates of the foci are <m:math>
 
          </m:mrow>
         </m:mfrac>
-        <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+        <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
        </m:mrow>
       </m:math>
       </entry>
@@ -5900,7 +5900,7 @@ the coordinates of the foci are <m:math>
 
          </m:mrow>
         </m:mfrac>
-        <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+        <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
        </m:mrow>
       </m:math>
       </entry>
@@ -5957,7 +5957,7 @@ the coordinates of the foci are <m:math>
 
          </m:mrow>
         </m:mfrac>
-        <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi>
+        <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
        </m:mrow>
       </m:math>
       </entry>

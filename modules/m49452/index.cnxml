@@ -880,7 +880,7 @@
  </m:mrow>
 </m:math> This is where <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mi>a</m:mi><m:mo>.</m:mo>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>.</m:mo>
  </m:mrow>
 </m:math> We see that the outputs are getting close to some real number <m:math>
  <m:mrow>
@@ -1145,7 +1145,7 @@
  </m:mrow>
 </m:math> when <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mo>,</m:mo>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> but infinitesimally close to 2, the output values approach <m:math>
  <m:mrow>
@@ -1265,7 +1265,7 @@
  </m:mrow>
 </m:math> when <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn>
  </m:mrow>
 </m:math> but infinitesimally close to 2, the output values approach <m:math>
  <m:mrow>
@@ -1426,11 +1426,11 @@
  </m:mrow>
 </m:math> We use some input values less than 5 and some values greater than 5 as in <link target-id="CNX_Precalc_Figure_12_01_008"/>. The table values show that when <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mn>5</m:mn>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn>
  </m:mrow>
 </m:math> but nearing 5, the corresponding output gets close to 75. When <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mn>5</m:mn>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn>
  </m:mrow>
 </m:math> but nearing 5, the corresponding output also gets close to 75.</para>
 
@@ -1606,7 +1606,7 @@
 </m:math> </para>
 <para id="fs-id1165137464761">When <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math> but approaching 0, the corresponding output also nears <m:math>
  <m:mrow>
@@ -2051,7 +2051,7 @@
  <m:mi>a</m:mi>
 </m:math> where <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mi>a</m:mi><m:mo>.</m:mo>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>.</m:mo>
  </m:mrow>
 </m:math> </item>
 <item>A two-sided limit exists if the left-hand limit and the right-hand limit of a function are the same. A function is said to have a limit if it has a two-sided limit.</item>
@@ -4361,7 +4361,7 @@
  <m:mi>a</m:mi>
 </m:math> where <m:math display="block">
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mi>a</m:mi><m:mo>,</m:mo>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>,</m:mo>
  </m:mrow>
 </m:math> and <m:math display="block">
  <m:mrow>

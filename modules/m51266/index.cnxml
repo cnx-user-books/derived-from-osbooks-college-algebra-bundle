@@ -613,10 +613,10 @@ Answer each of the following based on the changes you saw in the graphs above.
 Fill in the blanks:
   </para>
 <para id="eip-idm529873888">
-          <span class="token">ⓐ</span> If <emphasis effect="italics">c</emphasis> > 0, the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>c</m:mi></m:math> is obtained by shifting the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> to the ________ a distance of <emphasis effect="italics">c</emphasis> units. The graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>–</m:mo><m:mi>c</m:mi></m:math> is obtained by shifting the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> to the ________ a distance of <emphasis effect="italics">c</emphasis> units.
+          <span class="token">ⓐ</span> If <emphasis effect="italics">c</emphasis> &gt; 0, the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>c</m:mi></m:math> is obtained by shifting the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> to the ________ a distance of <emphasis effect="italics">c</emphasis> units. The graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>–</m:mo><m:mi>c</m:mi></m:math> is obtained by shifting the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> to the ________ a distance of <emphasis effect="italics">c</emphasis> units.
      </para>
      <para id="eip-idm530077680">
-          <span class="token">ⓑ</span> If <emphasis effect="italics">c</emphasis> > 0, the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>–</m:mo><m:mi>c</m:mi></m:math> is obtained by shifting the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> to the ________ a distance of <emphasis effect="italics">c</emphasis> units. The graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>c</m:mi></m:math> is obtained by shifting the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> to the ________ a distance of <emphasis effect="italics">c</emphasis> units.
+          <span class="token">ⓑ</span> If <emphasis effect="italics">c</emphasis> &gt; 0, the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>–</m:mo><m:mi>c</m:mi></m:math> is obtained by shifting the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> to the ________ a distance of <emphasis effect="italics">c</emphasis> units. The graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>c</m:mi></m:math> is obtained by shifting the graph of <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> to the ________ a distance of <emphasis effect="italics">c</emphasis> units.
      </para>
 </problem></exercise><exercise id="eip-630"><problem id="eip-229">
   <para id="eip-857">
@@ -2776,7 +2776,7 @@ Apply what you have learned in this skill sheet regarding transformations. Write
 <list id="fs-id1165135553621">
  <item>If <m:math>
   <m:mrow>
-   <m:mi>a</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
+   <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
  </m:math> then the graph will be stretched.</item>
  <item>If <m:math>
   <m:mrow>
@@ -2807,7 +2807,7 @@ Apply what you have learned in this skill sheet regarding transformations. Write
  <item>
 <para id="eip-id1165133107002">If <m:math>
   <m:mrow>
-<m:mi>a</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
+<m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
  </m:math> the graph is stretched by a factor of <m:math>
   <m:mrow>
    <m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
@@ -3411,7 +3411,7 @@ Apply what you have learned in this skill sheet regarding transformations. Write
  </m:math>
  </para><list id="eip-456"><item>If <m:math>
   <m:mrow>
-   <m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
+   <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
  </m:math> then the graph will be compressed by <m:math>
   <m:mrow>
    <m:mfrac>
@@ -3454,7 +3454,7 @@ Apply what you have learned in this skill sheet regarding transformations. Write
    <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
  </m:math> where <m:math>
   <m:mrow>
-   <m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn></m:mrow>
+   <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
  </m:math> for a compression or <m:math>
   <m:mrow>
    <m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow>
@@ -4233,7 +4233,7 @@ Apply what you have learned in this skill sheet regarding transformations. Write
             </m:mrow>
         </m:math> (up for <m:math>
             <m:mrow>
-<m:mi>k</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+<m:mi>k</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
             </m:mrow>
         </m:math> )</entry>
     </row>
@@ -4245,7 +4245,7 @@ Apply what you have learned in this skill sheet regarding transformations. Write
             </m:mrow>
         </m:math> (right for <m:math>
             <m:mrow>
-<m:mi>h</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+<m:mi>h</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
             </m:mrow>
         </m:math> )</entry>
     </row>
@@ -4275,7 +4275,7 @@ Apply what you have learned in this skill sheet regarding transformations. Write
             </m:mrow>
         </m:math> ( <m:math>
             <m:mrow>
-                <m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+                <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
             </m:mrow>
         </m:math>
             )</entry>
@@ -4314,7 +4314,7 @@ Apply what you have learned in this skill sheet regarding transformations. Write
             </m:mrow>
         </m:math> ( <m:math>
             <m:mrow>
-                <m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn>
+                <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn>
             </m:mrow>
         </m:math> )</entry>
     </row>
@@ -5978,7 +5978,7 @@ is shifted down 3 units and to the right 1 unit.</para></problem>
    <term>horizontal compression</term>
   <meaning id="fs-id1165137833874">a transformation that compresses a function’s graph horizontally, by multiplying the input by a constant <m:math>
    <m:mrow>
- <m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn></m:mrow>
+ <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
   </m:math>
   </meaning>
   </definition>
@@ -6025,7 +6025,7 @@ is shifted down 3 units and to the right 1 unit.</para></problem>
   <definition id="fs-id1165137862450">
    <term>vertical stretch</term>
    <meaning id="fs-id1165132971698">a transformation that stretches a function’s graph vertically by multiplying the output by a constant <m:math>
-    <m:mrow><m:mi>a</m:mi><m:mo>></m:mo><m:mn>1</m:mn></m:mrow>
+    <m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
    </m:math>
    </meaning>
   </definition>

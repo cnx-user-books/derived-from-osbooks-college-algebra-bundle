@@ -46,8 +46,8 @@
 <tbody>
 <row valign="top">
 <entry valign="top" align="left"><emphasis effect="bold">Orientation</emphasis></entry>
-<entry valign="middle" align="center"> <m:math><m:mrow><m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math> up; <m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> down</entry>
-<entry valign="middle" align="center"> <m:math><m:mrow><m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math> up; <m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> down</entry>
+<entry valign="middle" align="center"> <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> up; <m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> down</entry>
+<entry valign="middle" align="center"> <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> up; <m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> down</entry>
 </row>
 <row valign="top">
 <entry valign="top" align="left"><emphasis effect="bold">Axis of symmetry</emphasis></entry>
@@ -1455,7 +1455,7 @@ Graph the circle.</entry>
 <para id="fs-id1165137657083">All of the equations in the systems that we have encountered so far have involved equalities, but we may also encounter systems that involve inequalities. We have already learned to graph linear inequalities by graphing the corresponding equation, and then shading the region represented by the <term class="no-emphasis" id="term-00010">inequality</term> symbol. Now, we will follow similar steps to graph a nonlinear inequality so that we can learn to solve systems of nonlinear inequalities. A <term id="term-00011">nonlinear inequality</term> is an inequality containing a nonlinear expression. Graphing a nonlinear inequality is much like graphing a linear inequality.</para>
 <para id="fs-id1165135295026">Recall that when the inequality is greater than, <m:math>
 <m:mrow>
-<m:mi>y</m:mi><m:mo>></m:mo><m:mi>a</m:mi><m:mo>,</m:mo>
+<m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>,</m:mo>
 </m:mrow>
 </m:math> or less than, <m:math>
 <m:mrow>
@@ -1474,7 +1474,7 @@ Graph the circle.</entry>
 </media>
 <caption>(a) an example of <m:math>
  <m:mrow>
-  <m:mi>y</m:mi><m:mo>></m:mo><m:mi>a</m:mi><m:mo>;</m:mo>
+  <m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>;</m:mo>
  </m:mrow>
 </m:math> (b) an example of <m:math>
  <m:mrow>
@@ -1502,7 +1502,7 @@ Graph the circle.</entry>
   <m:mo>≥</m:mo>
  </m:mrow>
 </m:math> ), the parabola is graphed as a solid line.</item>
-<item>If the boundary is not included in the region (the operator is &lt; or >), the parabola is graphed as a dashed line.</item>
+<item>If the boundary is not included in the region (the operator is &lt; or &gt;), the parabola is graphed as a dashed line.</item>
 <item>Test a point in one of the regions to determine whether it satisfies the inequality statement. If the statement is true, the solution set is the region including the point. If the statement is false, the solution set is the region on the other side of the boundary line.</item>
 <item>Shade the region representing the solution set.</item>
 </list></note>
@@ -1513,7 +1513,7 @@ Graph the circle.</entry>
 <title>Graphing an Inequality for a Parabola</title>
 <para id="fs-id1165137444699">Graph the inequality <m:math>
 <m:mrow>
-<m:mi>y</m:mi><m:mo>></m:mo><m:msup>
+<m:mi>y</m:mi><m:mo>&gt;</m:mo><m:msup>
 <m:mi>x</m:mi>
 <m:mn>2</m:mn>
 </m:msup>
@@ -1535,7 +1535,7 @@ Graph the circle.</entry>
 </m:mrow>
 </m:math> Since <m:math>
 <m:mrow>
-<m:mi>y</m:mi><m:mo>></m:mo><m:msup>
+<m:mi>y</m:mi><m:mo>&gt;</m:mo><m:msup>
 <m:mi>x</m:mi>
 <m:mn>2</m:mn>
 </m:msup>
@@ -1563,7 +1563,7 @@ Graph the circle.</entry>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mi>y</m:mi><m:mo>></m:mo><m:msup>
+      <m:mi>y</m:mi><m:mo>&gt;</m:mo><m:msup>
        <m:mi>x</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
@@ -1577,7 +1577,7 @@ Graph the circle.</entry>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>2</m:mn><m:mo>></m:mo><m:msup>
+      <m:mn>2</m:mn><m:mo>&gt;</m:mo><m:msup>
        <m:mrow>
         <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
        </m:mrow>
@@ -1593,7 +1593,7 @@ Graph the circle.</entry>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>2</m:mn><m:mo>></m:mo><m:mn>1</m:mn>
+      <m:mn>2</m:mn><m:mo>&gt;</m:mo><m:mn>1</m:mn>
      </m:mrow>
     </m:mtd>
     <m:mtd columnalign="left">
@@ -1629,7 +1629,7 @@ Graph the circle.</entry>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>0</m:mn><m:mo>></m:mo><m:msup>
+      <m:mn>0</m:mn><m:mo>&gt;</m:mo><m:msup>
        <m:mrow>
         <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
        </m:mrow>
@@ -1645,7 +1645,7 @@ Graph the circle.</entry>
    <m:mtr columnalign="left">
     <m:mtd columnalign="left">
      <m:mrow>
-      <m:mn>0</m:mn><m:mo>></m:mo><m:mn>5</m:mn>
+      <m:mn>0</m:mn><m:mo>&gt;</m:mo><m:mn>5</m:mn>
      </m:mrow>
     </m:mtd>
     <m:mtd columnalign="left">
@@ -2057,7 +2057,7 @@ Graph the circle.</entry>
 <list id="fs-id1165134086015"><item>There are three possible types of solutions to a system of equations representing a line and a parabola: (1) no solution, the line does not intersect the parabola; (2) one solution, the line is tangent to the parabola; and (3) two solutions, the line intersects the parabola in two points. See <link target-id="Example_09_03_01"/>.</item>
  <item>There are three possible types of solutions to a system of equations representing a circle and a line: (1) no solution, the line does not intersect the circle; (2) one solution, the line is tangent to the circle; (3) two solutions, the line intersects the circle in two points. See <link target-id="Example_09_03_02"/>.</item>
  <item>There are five possible types of solutions to the system of nonlinear equations representing an ellipse and a circle: <newline/>(1) no solution, the circle and the ellipse do not intersect; (2) one solution, the circle and the ellipse are tangent to each other; (3) two solutions, the circle and the ellipse intersect in two points; (4) three solutions, the circle and ellipse intersect in three places; (5) four solutions, the circle and the ellipse intersect in four points. See <link target-id="Example_09_03_03"/>.</item>
- <item>An inequality is graphed in much the same way as an equation, except for > or &lt;, we draw a dashed line and shade the region containing the solution set. See <link target-id="Example_09_03_04"/>.</item>
+ <item>An inequality is graphed in much the same way as an equation, except for &gt; or &lt;, we draw a dashed line and shade the region containing the solution set. See <link target-id="Example_09_03_04"/>.</item>
  <item>Inequalities are solved the same way as equalities, but solutions to systems of inequalities must satisfy both inequalities. See <link target-id="Example_09_03_05"/>.</item></list></section>
 
  <section id="fs-id1165137404664" class="section-exercises"><title>Section Exercises</title><section id="fs-id1165135664812">
@@ -3754,7 +3754,7 @@ Graph the circle.</entry>
      </m:mtr>
      <m:mtr>
       <m:mtd>
-       <m:mi>y</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+       <m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
       </m:mtd>
      </m:mtr>
     </m:mtable>
@@ -3781,7 +3781,7 @@ Graph the circle.</entry>
      </m:mtr>
      <m:mtr>
       <m:mtd>
-       <m:mi>y</m:mi><m:mo>></m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn>
+       <m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn>
       </m:mtd>
      </m:mtr>
     </m:mtable>
@@ -3813,7 +3813,7 @@ Graph the circle.</entry>
         <m:mi>y</m:mi>
         <m:mn>2</m:mn>
        </m:msup>
-       <m:mo>></m:mo><m:mn>12</m:mn>
+       <m:mo>&gt;</m:mo><m:mn>12</m:mn>
       </m:mtd>
      </m:mtr>
     </m:mtable>
@@ -3840,7 +3840,7 @@ Graph the circle.</entry>
         <m:mi>y</m:mi>
         <m:mn>2</m:mn>
        </m:msup>
-       <m:mo>></m:mo><m:mn>−4</m:mn>
+       <m:mo>&gt;</m:mo><m:mn>−4</m:mn>
       </m:mtd>
      </m:mtr>
      <m:mtr>
@@ -3872,7 +3872,7 @@ Graph the circle.</entry>
         <m:mi>y</m:mi>
         <m:mn>2</m:mn>
        </m:msup>
-       <m:mo>></m:mo><m:mn>16</m:mn>
+       <m:mo>&gt;</m:mo><m:mn>16</m:mn>
       </m:mtd>
      </m:mtr>
      <m:mtr>
@@ -4309,7 +4309,7 @@ Graph the circle.</entry>
      </m:mtr>
      <m:mtr>
       <m:mtd>
-       <m:mi>y</m:mi><m:mo>></m:mo><m:msqrt>
+       <m:mi>y</m:mi><m:mo>&gt;</m:mo><m:msqrt>
         <m:mi>x</m:mi>
        </m:msqrt>
 
@@ -4322,7 +4322,7 @@ Graph the circle.</entry>
    <solution id="fs-id1165134557271">
     <para id="fs-id1165134557273"><m:math>
      <m:mrow>
-      <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+      <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
      </m:mrow>
     </m:math> and <m:math>
      <m:mrow>
@@ -4349,7 +4349,7 @@ Graph the circle.</entry>
      </m:mtr>
      <m:mtr>
       <m:mtd>
-       <m:mi>y</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+       <m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
       </m:mtd>
      </m:mtr>
     </m:mtable>

@@ -348,7 +348,7 @@
 
 <para id="fs-id1165137416387">The <term id="term-00008">correlation coefficient</term> is a value, <m:math><m:mrow><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> between –1 and 1.</para>
 <list id="eip-id1165133093343" list-type="bulleted">
-<item><emphasis effect="italics">r</emphasis> > 0 suggests a positive (increasing) relationship</item>
+<item><emphasis effect="italics">r</emphasis> &gt; 0 suggests a positive (increasing) relationship</item>
 <item><emphasis effect="italics">r</emphasis> &lt; 0 suggests a negative (decreasing) relationship</item>
 <item>The closer the value is to 0, the more scattered the data.</item>
 <item>The closer the value is to 1 or –1, the less scattered the data is.</item>
@@ -360,7 +360,7 @@
 </problem>
 <solution id="fs-id1165137639432">
 <para id="fs-id1165137471985">Because the data appear to follow a linear pattern, we can use technology to calculate <m:math><m:mrow><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math> Enter the inputs and corresponding outputs and select the Linear Regression. The calculator will also provide you with the correlation coefficient, <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.9509.</m:mn></m:mrow></m:math> This value is very close to 1, which suggests a strong increasing linear relationship.</para>
-<para id="fs-id1165137473276">Note: For some calculators, the Diagnostics must be turned "on" in order to get the correlation coefficient when linear regression is performed: [2nd]>[0]>[alpha][ <m:math><m:mi>x</m:mi></m:math> –1], then scroll to <emphasis>DIAGNOSTICSON</emphasis>.</para></solution>
+<para id="fs-id1165137473276">Note: For some calculators, the Diagnostics must be turned "on" in order to get the correlation coefficient when linear regression is performed: [2nd]&gt;[0]&gt;[alpha][ <m:math><m:mi>x</m:mi></m:math> –1], then scroll to <emphasis>DIAGNOSTICSON</emphasis>.</para></solution>
 </exercise>
 </example>
 </section><section id="fs-id1165137731906">

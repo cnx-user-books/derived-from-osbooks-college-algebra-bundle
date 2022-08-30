@@ -1805,7 +1805,7 @@ and <m:math>
    </m:math> is an <term id="term-00010">increasing function</term> on an open interval if <m:math>
     <m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
       <m:mi>b</m:mi>
-      <m:mo>)</m:mo></m:mrow><m:mo>></m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mi>a</m:mi>
        <m:mo>)</m:mo></m:mrow></m:mrow>
    </m:math> for any two input values <m:math>
@@ -1814,7 +1814,7 @@ and <m:math>
     <m:mrow><m:mi>b</m:mi></m:mrow>
    </m:math> in the given interval where <m:math>
  <m:mrow>
-  <m:mi>b</m:mi><m:mo>></m:mo><m:mi>a</m:mi><m:mo>.</m:mo>
+  <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>.</m:mo>
  </m:mrow>
 </m:math> </para><para id="fs-id1165137668624">A function <m:math>
     <m:mrow><m:mi>f</m:mi></m:mrow>
@@ -1829,7 +1829,7 @@ and <m:math>
    </m:math> and <m:math>
     <m:mrow><m:mi>b</m:mi></m:mrow>
    </m:math> in the given interval where <m:math>
-    <m:mrow><m:mi>b</m:mi><m:mo>></m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
+    <m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
    </m:math>
    </para>
    <para id="fs-id1165135389881">A function <m:math>
@@ -3419,7 +3419,7 @@ and <m:math>
    </m:math> and <m:math>
     <m:mrow><m:mi>b</m:mi></m:mrow>
    </m:math> in the given interval where <m:math>
-    <m:mrow><m:mi>b</m:mi><m:mo>></m:mo><m:mi>a</m:mi></m:mrow>
+    <m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi></m:mrow>
    </m:math>
    </meaning>
   </definition>
@@ -3429,7 +3429,7 @@ and <m:math>
    <meaning id="fs-id1165135639829">a function is increasing in some open interval if <m:math>
     <m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
       <m:mi>b</m:mi>
-      <m:mo>)</m:mo></m:mrow><m:mo>></m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mo>)</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mi>a</m:mi>
        <m:mo>)</m:mo></m:mrow></m:mrow>
    </m:math> for any two input values <m:math>
@@ -3437,7 +3437,7 @@ and <m:math>
    </m:math> and <m:math>
     <m:mrow><m:mi>b</m:mi></m:mrow>
    </m:math> in the given interval where <m:math>
-    <m:mrow><m:mi>b</m:mi><m:mo>></m:mo><m:mi>a</m:mi></m:mrow>
+    <m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi></m:mrow>
    </m:math>
    </meaning>
   </definition>

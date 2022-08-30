@@ -2121,7 +2121,7 @@
 <list id="fs-id1165135553621">
  <item>If <m:math>
   <m:mrow>
-   <m:mi>a</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
+   <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
  </m:math> then the graph will be stretched.</item>
  <item>If <m:math>
   <m:mrow>
@@ -2152,7 +2152,7 @@
  <item>
 <para id="eip-id1165133107002">If <m:math>
   <m:mrow>
-   <m:mi>a</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
+   <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
  </m:math> the graph is stretched by a factor of <m:math>
   <m:mrow>
    <m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
@@ -2756,7 +2756,7 @@
  </m:math>
  </para><list id="eip-456"><item>If <m:math>
   <m:mrow>
-   <m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
+   <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
  </m:math> then the graph will be compressed by <m:math>
   <m:mrow>
    <m:mfrac>
@@ -2799,7 +2799,7 @@
    <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
  </m:math> where <m:math>
   <m:mrow>
-   <m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn></m:mrow>
+   <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
  </m:math> for a compression or <m:math>
   <m:mrow>
    <m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow>
@@ -3568,7 +3568,7 @@
  </m:mrow>
 </m:math> (up for <m:math>
  <m:mrow>
-  <m:mi>k</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mi>k</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math> )</entry>
 </row>
@@ -3580,7 +3580,7 @@
  </m:mrow>
 </m:math> (right for <m:math>
  <m:mrow>
-  <m:mi>h</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mi>h</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math> )</entry>
 </row>
@@ -3610,7 +3610,7 @@
  </m:mrow>
 </m:math> ( <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mn>1</m:mn>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn>
  </m:mrow>
 </m:math>
 )</entry>
@@ -3649,7 +3649,7 @@
  </m:mrow>
 </m:math> ( <m:math>
  <m:mrow>
-  <m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn>
+  <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn>
  </m:mrow>
 </m:math> )</entry>
 </row>
@@ -5335,7 +5335,7 @@ is shifted down 3 units and to the right 1 unit.</para></problem>
    <term>horizontal compression</term>
   <meaning id="fs-id1165137833874">a transformation that compresses a function’s graph horizontally, by multiplying the input by a constant <m:math>
    <m:mrow>
-    <m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn></m:mrow>
+    <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
   </m:math>
   </meaning>
   </definition>
@@ -5388,7 +5388,7 @@ is shifted down 3 units and to the right 1 unit.</para></problem>
    <term>vertical stretch</term>
    <meaning id="fs-id1165132971698">a transformation that stretches a function’s graph vertically by multiplying the output by a constant <m:math>
     <m:mrow>
-     <m:mi>a</m:mi><m:mo>></m:mo><m:mn>1</m:mn></m:mrow>
+     <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
    </m:math>
    </meaning>
   </definition>

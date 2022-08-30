@@ -113,7 +113,7 @@
   </m:math> the conic is a parabola</item>
   <item>if <m:math>
     <m:mrow>
-      <m:mi>e</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+      <m:mi>e</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
     </m:mrow>
   </m:math> the conic is an hyperbola</item>
 </list><para id="fs-id752226">With this definition, we may now define a conic in terms of the directrix, <m:math>
@@ -690,7 +690,7 @@
 </equation>
 <para id="fs-id2109858">Since <m:math>
               <m:mrow>
-               <m:mi>e</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+               <m:mi>e</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
               </m:mrow>
             </m:math> the conic is a <term class="no-emphasis" id="term-00011">hyperbola</term>. The eccentricity is <m:math>
               <m:mrow>
@@ -1395,7 +1395,7 @@
                 <m:mn>3</m:mn>
                 <m:mn>2</m:mn>
               </m:mfrac>
-              <m:mo>,</m:mo><m:mi>e</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+              <m:mo>,</m:mo><m:mi>e</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
             </m:mrow>
           </m:math> so we will graph a <term class="no-emphasis" id="term-00014">hyperbola</term> with a focus at the origin. The function has a <m:math>
  <m:mrow>
@@ -1968,7 +1968,7 @@
           </m:mrow>
         </m:math> use subtraction. If <m:math>
           <m:mrow>
-            <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+            <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
           </m:mrow>
         </m:math> use addition.</item>
       <item>Write the coefficient of the trigonometric function as the given eccentricity.</item>
@@ -2108,7 +2108,7 @@
             </m:mrow>
           </m:math> we know the function in the denominator is cosine. Because <m:math>
             <m:mrow>
-             <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+             <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
             </m:mrow>
           </m:math> so we know there is an addition sign in the denominator. We use the standard form of </para>
 

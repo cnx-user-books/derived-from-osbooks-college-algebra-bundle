@@ -1275,7 +1275,7 @@
   <m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
   is growing at a slower rate, we can conclude that Keep on Trucking, Inc. will be the cheaper price when more than 100 miles are driven, that is <m:math>
    <m:mrow>
-    <m:mi>d</m:mi><m:mo>></m:mo><m:mn>100.</m:mn>
+    <m:mi>d</m:mi><m:mo>&gt;</m:mo><m:mn>100.</m:mn>
    </m:mrow>
   </m:math>
  </para>

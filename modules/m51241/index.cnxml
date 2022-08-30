@@ -1087,7 +1087,7 @@ Creating your Semester Calendar- complete the following weekly schedule being su
         <m:mo>,</m:mo>
       </m:mrow>
     </m:math> where <m:math>
-      <m:mrow><m:mi>m</m:mi><m:mo>></m:mo><m:mi>n</m:mi><m:mo>.</m:mo>      </m:mrow>
+      <m:mrow><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi><m:mo>.</m:mo>      </m:mrow>
     </m:math> Consider the example <m:math>
       <m:mrow><m:mfrac>
           <m:mrow>
@@ -1193,7 +1193,7 @@ Creating your Semester Calendar- complete the following weekly schedule being su
   </m:mrow>
 </m:math>
 </equation><para id="fs-id1167339226557">For the time being, we must be aware of the condition <m:math>
-      <m:mrow><m:mi>m</m:mi><m:mo>></m:mo><m:mi>n</m:mi><m:mo>.</m:mo>      </m:mrow>
+      <m:mrow><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi><m:mo>.</m:mo>      </m:mrow>
     </m:math> Otherwise, the difference <m:math>
       <m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi>      </m:mrow>
     </m:math> could be zero or negative. Those possibilities will be explored shortly. Also, instead of qualifying variables as nonzero each time, we will simplify matters and assume from here on that all variables represent nonzero real numbers.</para>
@@ -1206,7 +1206,7 @@ Creating your Semester Calendar- complete the following weekly schedule being su
         <m:mrow><m:mi>n</m:mi><m:mo>,</m:mo>
         </m:mrow>
       </m:math> such that <m:math>
-        <m:mrow><m:mi>m</m:mi><m:mo>></m:mo><m:mi>n</m:mi><m:mo>,</m:mo>
+        <m:mrow><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi><m:mo>,</m:mo>
         </m:mrow>
       </m:math> the quotient rule of exponents states that</para>
       <equation id="Eq_01_02_02" class="unnumbered"><label/><m:math>
@@ -2454,7 +2454,7 @@ Creating your Semester Calendar- complete the following weekly schedule being su
   </section>
 
   <section id="fs-id1167339219946"><title>Using the Zero Exponent Rule of Exponents</title><para id="fs-id1167339219952">Return to the quotient rule. We made the condition that <m:math>
-      <m:mrow><m:mi>m</m:mi><m:mo>></m:mo><m:mi>n</m:mi>      </m:mrow>
+      <m:mrow><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi>      </m:mrow>
     </m:math> so that the difference <m:math>
       <m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi>      </m:mrow>
     </m:math> would never be zero or negative. What would happen if <m:math>
@@ -3019,7 +3019,7 @@ Creating your Semester Calendar- complete the following weekly schedule being su
   </section><section id="fs-id1167339240237">
     <title>Using the Negative Rule of Exponents</title>
     <para id="fs-id1167339240243">Another useful result occurs if we relax the condition that <m:math>
-      <m:mrow><m:mi>m</m:mi><m:mo>></m:mo><m:mi>n</m:mi>      </m:mrow>
+      <m:mrow><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi>      </m:mrow>
     </m:math> in the quotient rule even further. For example, can we simplify <m:math>
       <m:mrow><m:mfrac>
           <m:mrow>

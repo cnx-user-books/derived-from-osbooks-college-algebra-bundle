@@ -1516,7 +1516,7 @@ and <m:math>
 
 
 <figure id="Figure_03_08_005" class="medium">
-<media id="fs-id1165137532798" alt="Two graphs of f(x)=(x-4)^2 where the first is when x>=4 and the second is when x&lt;=4.">
+<media id="fs-id1165137532798" alt="Two graphs of f(x)=(x-4)^2 where the first is when x&gt;=4 and the second is when x&lt;=4.">
 <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_08_005.jpg"/>
 </media>
 </figure>
@@ -2461,10 +2461,10 @@ with <m:math>
   <m:mi>V</m:mi><m:mo>.</m:mo> </m:mrow>
 </m:math> Notice that the meaningful domain for the function is <m:math>
  <m:mrow>
-  <m:mi>r</m:mi><m:mo>></m:mo><m:mn>0</m:mn> </m:mrow>
+  <m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn> </m:mrow>
 </m:math> since negative radii would not make sense in this context nor would a radius of 0. Also note the range of the function (hence, the domain of the inverse function) is <m:math>
  <m:mrow>
-  <m:mi>V</m:mi><m:mo>></m:mo><m:mn>0.</m:mn> </m:mrow>
+  <m:mi>V</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn> </m:mrow>
 </m:math> Solve for <m:math>
  <m:mrow>
   <m:mi>r</m:mi> </m:mrow>

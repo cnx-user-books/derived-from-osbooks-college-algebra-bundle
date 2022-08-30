@@ -1642,14 +1642,14 @@
     <m:mrow>
      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
    </m:math>
-  </para><note id="fs-id1165135693782"><title>The <term id="term-00010">Fundamental Theorem of Algebra</term> states that, if <emphasis effect="italics">f(x)</emphasis> is a polynomial of degree <emphasis effect="italics">n > 0</emphasis>, then <emphasis effect="italics">f(x)</emphasis> has at least one complex zero.</title>
+  </para><note id="fs-id1165135693782"><title>The <term id="term-00010">Fundamental Theorem of Algebra</term> states that, if <emphasis effect="italics">f(x)</emphasis> is a polynomial of degree <emphasis effect="italics">n &gt; 0</emphasis>, then <emphasis effect="italics">f(x)</emphasis> has at least one complex zero.</title>
 
    <para id="fs-id1165135409342">We can use this theorem to argue that, if <m:math>
     <m:mrow>
      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
    </m:math> is a polynomial of degree <m:math>
      <m:mrow>
-      <m:mi>n</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
+      <m:mi>n</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
     </m:math> and <m:math>
      <m:mrow>
       <m:mi>a</m:mi></m:mrow>

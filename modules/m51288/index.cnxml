@@ -4235,11 +4235,9 @@ For example, consider corresponding inputs <m:math>
 <solution id="fs-id2116116">
 <para id="fs-id2116118">All three functions, <m:math>
 <m:mrow>
-<m:mi>F</m:mi></m:mrow></m:math>,<m:math><m:mi>G</m:mi></m:math>,<m:math>
-</m:math> and <m:math>
+<m:mi>F</m:mi></m:mrow></m:math>,<m:math><m:mi>G</m:mi></m:math>, and <m:math>
 <m:mrow>
-<m:mi>H</m:mi></m:mrow></m:math>,<m:math>
-</m:math> are even.</para><para id="eip-id1868065">This is because <m:math>
+<m:mi>H</m:mi></m:mrow></m:math>, are even.</para><para id="eip-id1868065">This is because <m:math>
 <m:mrow>
 <m:mi>F</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mrow>

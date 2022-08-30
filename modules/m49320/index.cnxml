@@ -4539,7 +4539,7 @@ decreasing <m:math>
 </m:msqrt>
 </m:mrow>
 </m:mfrac>
-<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow>
+<m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow>
 </m:math>
 </para>
 </solution>
@@ -5836,7 +5836,7 @@ at the given input.</para>
 <m:mtr>
 <m:mtd>
 <m:mrow>
-<m:mn>3</m:mn><m:mspace width="0.5em"/><m:mtext>if</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn></m:mrow>
+<m:mn>3</m:mn><m:mspace width="0.5em"/><m:mtext>if</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow>
 </m:mtd>
 </m:mtr>
 

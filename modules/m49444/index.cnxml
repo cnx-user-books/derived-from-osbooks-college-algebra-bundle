@@ -4156,7 +4156,7 @@ and
      </m:mtd>
      <m:mtd columnalign="left">
       <m:mrow>
-       <m:mtext>if </m:mtext><m:mi>n</m:mi><m:mspace width="0.5em"/><m:mtext>>5</m:mtext>
+       <m:mtext>if </m:mtext><m:mi>n</m:mi><m:mspace width="0.5em"/><m:mtext>&gt;5</m:mtext>
       </m:mrow>
      </m:mtd>
     </m:mtr>
@@ -4338,7 +4338,7 @@ and
      </m:mtd>
      <m:mtd columnalign="left">
       <m:mrow>
-       <m:mtext>if </m:mtext><m:mi>n</m:mi><m:mspace width="0.5em"/><m:mtext/><m:mo>≤</m:mo><m:mn>3</m:mn><m:mspace width="0.5em"/><m:mtext>or </m:mtext><m:mi>n</m:mi><m:mspace width="0.5em"/><m:mtext>> 6</m:mtext>
+       <m:mtext>if </m:mtext><m:mi>n</m:mi><m:mspace width="0.5em"/><m:mtext/><m:mo>≤</m:mo><m:mn>3</m:mn><m:mspace width="0.5em"/><m:mtext>or </m:mtext><m:mi>n</m:mi><m:mspace width="0.5em"/><m:mtext>&gt; 6</m:mtext>
       </m:mrow>
      </m:mtd>
     </m:mtr>
@@ -5651,7 +5651,7 @@ and
   </m:mfrac>
   <m:mo>.</m:mo>
  </m:mrow>
-</m:math> Use the ><emphasis effect="bold">Frac</emphasis> feature to give fractional results.</para>
+</m:math> Use the &gt;<emphasis effect="bold">Frac</emphasis> feature to give fractional results.</para>
 </problem>
 <solution id="fs-id1165135205940">
 <para id="fs-id1165135205942">First five terms: <m:math>

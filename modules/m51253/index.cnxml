@@ -1057,9 +1057,7 @@ Our goal is to perform algebraic operations so that the variables appear in the 
 </m:math> No factoring is required. The product of the first two denominators is equal to the third denominator, so, the LCD is <m:math>
  <m:mrow>
 <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>.</m:mo> </m:mrow>
-</m:math> Only one value is excluded from a solution set, 0. <m:math>
-
-</m:math> Next, multiply the whole equation (both sides of the equal sign) by <m:math>
+</m:math> Only one value is excluded from a solution set, 0.  Next, multiply the whole equation (both sides of the equal sign) by <m:math>
  <m:mrow>
 <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>.</m:mo>
  </m:mrow>
@@ -1185,9 +1183,7 @@ Our goal is to perform algebraic operations so that the variables appear in the 
   </m:mtable></m:mrow>
 </m:math>
 
-</equation><para id="fs-id1496122">The proposed solution is −1, <m:math>
-
-</m:math> which is not an excluded value, so the solution set contains one number, <m:math>
+</equation><para id="fs-id1496122">The proposed solution is −1,  which is not an excluded value, so the solution set contains one number, <m:math>
  <m:mrow>
 <m:mn> −1</m:mn><m:mo>, </m:mo>
  </m:mrow>
@@ -1526,8 +1522,7 @@ Our goal is to perform algebraic operations so that the variables appear in the 
 
   </m:mtable></m:mrow>
 </m:math>
-</equation><para id="fs-id2493985">The solution is 15. <m:math>
-</m:math> The excluded values are <m:math>
+</equation><para id="fs-id2493985">The solution is 15.  The excluded values are <m:math>
  <m:mrow>
   <m:mn>6</m:mn>
  </m:mrow>

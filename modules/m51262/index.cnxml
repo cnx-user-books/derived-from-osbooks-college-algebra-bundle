@@ -355,7 +355,7 @@ Graph the following function. Use this graph to help determine the domain and ra
 </m:mrow>
 </m:math> or <m:math>
 <m:mrow>
-<m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn>
 </m:mrow>
 </m:math> as shown in <link target-id="Image_01_02_028"/>. We can use a symbol known as the union, <m:math>
 <m:mrow>
@@ -704,7 +704,7 @@ is the set <m:math>
 <entry align="center"><emphasis>Inequality</emphasis></entry>
 <entry align="center"> <m:math>
 <m:mrow>
-<m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>3</m:mn><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>></m:mo><m:mn>5</m:mn>
+<m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>3</m:mn><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn>
 </m:mrow>
 </m:math>
 </entry>
@@ -716,7 +716,7 @@ is the set <m:math>
 <entry align="center"> <m:math>
 <m:mrow>
 <m:mrow><m:mo>{</m:mo> <m:mrow>
-<m:mi>x</m:mi><m:mo>|</m:mo><m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>3</m:mn><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>></m:mo><m:mn>5</m:mn>
+<m:mi>x</m:mi><m:mo>|</m:mo><m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>3</m:mn><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn>
 </m:mrow> <m:mo>}</m:mo></m:mrow>
 </m:mrow>
 </m:math>
@@ -1272,7 +1272,7 @@ is <m:math>
   <m:mtext>$</m:mtext><m:mn>1000</m:mn><m:mo>+</m:mo><m:mn>0.2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>S</m:mi><m:mo>−</m:mo><m:mtext>$</m:mtext><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mn>000</m:mn><m:mo stretchy="false">)</m:mo>
 </m:mrow></m:math> if <m:math>
  <m:mrow>
-  <m:mi>S</m:mi><m:mo>></m:mo><m:mtext>$</m:mtext><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mn>000.</m:mn>
+  <m:mi>S</m:mi><m:mo>&gt;</m:mo><m:mtext>$</m:mtext><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mn>000.</m:mn>
 </m:mrow></m:math> </para><note id="fs-id1165137531241">
 
 <title>Piecewise Function</title>
@@ -1547,7 +1547,7 @@ is <m:math>
 </m:mtd>
 <m:mtd>
 <m:mrow>
-<m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn></m:mrow>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow>
 </m:mtd>
 </m:mtr>
 
@@ -1580,7 +1580,7 @@ is <m:math>
 <m:mrow>
 <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mi>x</m:mi>
-<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="0.5em"/><m:mtext> if </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="0.5em"/><m:mtext> if </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow>
 </m:math>
 </caption>
 </figure>
@@ -1658,7 +1658,7 @@ is <m:math>
 </m:mtd>
 <m:mtd>
 <m:mrow>
-<m:mi>x</m:mi><m:mo>></m:mo><m:mn>4</m:mn></m:mrow>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>4</m:mn></m:mrow>
 </m:mtd>
 </m:mtr>
 
@@ -2530,7 +2530,7 @@ is <m:math>
 <m:mtr>
 <m:mtd>
 <m:mrow>
-<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.5em"/><m:mspace width="0.5em"/><m:mtext>if</m:mtext><m:mspace width="0.5em"/><m:mspace width="0.5em"/><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.5em"/><m:mspace width="0.5em"/><m:mtext>if</m:mtext><m:mspace width="0.5em"/><m:mspace width="0.5em"/><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow>
 </m:mtd>
 </m:mtr>
 
@@ -2612,7 +2612,7 @@ is <m:math>
     <m:mtr>
      <m:mtd>
       <m:mrow>
-       <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mspace width="0.5em"/><m:mtext> if </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+       <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mspace width="0.5em"/><m:mtext> if </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
       </m:mrow>
      </m:mtd>
     </m:mtr>
@@ -2860,7 +2860,7 @@ is <m:math>
 </m:mtd>
 <m:mtd>
 <m:mrow>
-<m:mtext>if </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+<m:mtext>if </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
 </m:mtd>
 </m:mtr>
 
@@ -2924,7 +2924,7 @@ is <m:math>
 </m:mtd>
 <m:mtd>
 <m:mrow>
-<m:mtext>if </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mtext>if </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mtd>
 </m:mtr>
 
@@ -3110,7 +3110,7 @@ is <m:math>
 </m:mtd>
 <m:mtd>
 <m:mrow>
-<m:mi>x</m:mi><m:mo>></m:mo><m:mn>3</m:mn></m:mrow>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>3</m:mn></m:mrow>
 </m:mtd>
 </m:mtr>
 
@@ -3196,7 +3196,7 @@ is <m:math>
 <m:mi>x</m:mi>
 <m:mn>2</m:mn>
 </m:msup>
-<m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mtext>if</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>></m:mo><m:mn>1</m:mn></m:mrow>
+<m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.5em"/><m:mtext>if</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mtd>
 </m:mtr>
 
@@ -3361,7 +3361,7 @@ is <m:math>
 <problem id="fs-id1165135209380">
 <para id="fs-id1165137645593">Create a function in which the domain is <m:math>
 <m:mrow>
-<m:mi>x</m:mi><m:mo>></m:mo><m:mn>2.</m:mn></m:mrow>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2.</m:mn></m:mrow>
 </m:math>
 </para>
 </problem>

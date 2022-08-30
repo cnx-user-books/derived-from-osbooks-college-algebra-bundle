@@ -377,7 +377,7 @@ Ask yourself what numbers can be input to the function. In other words, what is 
  </m:mrow>
 </m:math> is an increasing function if <m:math>
  <m:mrow>
-<m:mi>m</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+<m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
  </m:mrow>
 </m:math> </item>
 <item> <m:math>
@@ -880,7 +880,7 @@ Ask yourself what numbers can be input to the function. In other words, what is 
  </m:mrow>
 </m:math> The function is increasing because <m:math>
  <m:mrow>
-<m:mi>m</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+<m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
  </m:mrow>
 </m:math> </para>
 </solution>
@@ -2860,7 +2860,7 @@ Ask yourself what numbers can be input to the function. In other words, what is 
  </m:mrow>
 </m:math> units if <m:math>
  <m:mrow>
-<m:mi>m</m:mi><m:mo>></m:mo><m:mtext>1</m:mtext>
+<m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mtext>1</m:mtext>
  </m:mrow>
 </m:math> and compresses the graph of <m:math>
  <m:mrow>
@@ -7010,7 +7010,7 @@ Ask yourself what numbers can be input to the function. In other words, what is 
 <m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mfrac>
 <m:mn>1999</m:mn>
 <m:mn>201</m:mn></m:mfrac>
-<m:mtext>, </m:mtext> <m:mi>x</m:mi><m:mo>></m:mo><m:mfrac>
+<m:mtext>, </m:mtext> <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mfrac>
 <m:mn>1999</m:mn>
 <m:mn>201</m:mn></m:mfrac>
 </m:mrow>
@@ -7180,7 +7180,7 @@ Ask yourself what numbers can be input to the function. In other words, what is 
 </m:math> is a real number. The slope of a horizontal line is 0.</meaning></definition>
 <definition id="fs-id2261639"><term>increasing linear function</term> <meaning id="fs-id2261643">a function with a positive slope: If <m:math>
  <m:mrow>
-<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mtext>then</m:mtext><m:mo> </m:mo><m:mi>m</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mtext>then</m:mtext><m:mo> </m:mo><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
  </m:mrow>
 </m:math> </meaning></definition>
 <definition id="fs-id2261693"><term>linear function</term> <meaning id="fs-id2261697">a function with a constant rate of change that is a polynomial of degree 1, and whose graph is a straight line</meaning></definition>

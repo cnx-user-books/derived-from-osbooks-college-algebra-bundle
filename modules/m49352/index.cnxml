@@ -1333,7 +1333,7 @@ and <m:math>
 
 
 <figure id="Figure_03_08_005" class="medium">
-<media id="fs-id1165137532798" alt="Two graphs of f(x)=(x-4)^2 where the first is when x>=4 and the second is when x&lt;=4.">
+<media id="fs-id1165137532798" alt="Two graphs of f(x)=(x-4)^2 where the first is when x&gt;=4 and the second is when x&lt;=4.">
 <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_08_005.jpg"/>
 </media>
 </figure>

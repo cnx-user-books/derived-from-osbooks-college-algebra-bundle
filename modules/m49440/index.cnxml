@@ -88,7 +88,7 @@ Standard form
  <m:math>
 <m:mrow>
 <m:mi>a</m:mi>
-<m:mo>></m:mo>
+<m:mo>&gt;</m:mo>
 <m:mn>0</m:mn>
 </m:mrow>
 </m:math>
@@ -106,7 +106,7 @@ down
  <m:math>
 <m:mrow>
 <m:mi>a</m:mi>
-<m:mo>></m:mo>
+<m:mo>&gt;</m:mo>
 <m:mn>0</m:mn>
 </m:mrow>
 </m:math>
@@ -685,7 +685,7 @@ Standard form
  <m:math>
 <m:mrow>
 <m:mi>a</m:mi>
-<m:mo>></m:mo>
+<m:mo>&gt;</m:mo>
 <m:mn>0</m:mn>
 </m:mrow>
 </m:math>
@@ -703,7 +703,7 @@ left
  <m:math>
 <m:mrow>
 <m:mi>a</m:mi>
-<m:mo>></m:mo>
+<m:mo>&gt;</m:mo>
 <m:mn>0</m:mn>
 </m:mrow>
 </m:math>
@@ -1720,7 +1720,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
 
       <caption>(a) When <m:math>
           <m:mrow>
-            <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+            <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
           </m:mrow>
         </m:math> and the axis of symmetry is the <emphasis effect="italics">x</emphasis>-axis, the parabola opens right. (b) When <m:math>
           <m:mrow>
@@ -1728,7 +1728,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
           </m:mrow>
         </m:math> and the axis of symmetry is the <emphasis effect="italics">x</emphasis>-axis, the parabola opens left. (c) When <m:math>
           <m:mrow>
-            <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+            <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
           </m:mrow>
         </m:math> and the axis of symmetry is the <emphasis effect="italics">y</emphasis>-axis, the parabola opens up. (d) When <m:math>
  <m:mrow>
@@ -1788,7 +1788,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
             </m:mrow>
         </m:math> If <m:math>
             <m:mrow>
-               <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+               <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
             </m:mrow>
         </m:math> the parabola opens right. If <m:math>
             <m:mrow>
@@ -1862,7 +1862,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
             </m:mrow>
         </m:math> If <m:math>
             <m:mrow>
-               <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+               <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
             </m:mrow>
         </m:math> the parabola opens up. If <m:math>
             <m:mrow>
@@ -1946,7 +1946,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
                 </m:mrow>
             </m:math> Since <m:math>
                 <m:mrow>
-                    <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+                    <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
                 </m:mrow>
             </m:math> the parabola opens right</item>
             <item>the coordinates of the focus are <m:math>
@@ -2591,7 +2591,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
 
       <caption>(a) When <m:math>
           <m:mrow>
-            <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+            <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
           </m:mrow>
         </m:math> the parabola opens right. (b) When <m:math>
           <m:mrow>
@@ -2599,7 +2599,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
           </m:mrow>
         </m:math> the parabola opens left. (c) When <m:math>
           <m:mrow>
-            <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+            <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
           </m:mrow>
         </m:math> the parabola opens up. (d) When <m:math>
           <m:mrow>
@@ -2712,7 +2712,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
           </m:mrow>
         </m:math> If <m:math>
           <m:mrow>
-            <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+            <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
           </m:mrow>
         </m:math> the parabola opens right. If <m:math>
           <m:mrow>
@@ -2835,7 +2835,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
           </m:mrow>
         </m:math> If <m:math>
           <m:mrow>
-            <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+            <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
           </m:mrow>
         </m:math> the parabola opens up. If <m:math>
           <m:mrow>
@@ -3265,7 +3265,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
           </item>
           <item>since <m:math>
             <m:mrow>
-              <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+              <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
             </m:mrow>
           </m:math> and so the parabola opens up</item>
           <item>the coordinates of the focus are <m:math>
@@ -3443,7 +3443,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
             </m:mrow>
           </m:math> where <m:math>
             <m:mrow>
-              <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+              <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
             </m:mrow>
           </m:math> The igniter, which is the focus, is 1.7 inches above the vertex of the dish. Thus we have <m:math>
             <m:mrow>
@@ -3776,7 +3776,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
         </m:mrow>
       </m:math> and the <emphasis effect="italics">x</emphasis>-axis as its axis of symmetry can be used to graph the parabola. If <m:math>
         <m:mrow>
-          <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+          <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
         </m:mrow>
       </m:math> the parabola opens right. If <m:math>
         <m:mrow>
@@ -3793,7 +3793,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
         </m:mrow>
       </m:math> and the <emphasis effect="italics">y</emphasis>-axis as its axis of symmetry can be used to graph the parabola. If <m:math>
         <m:mrow>
-          <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+          <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
         </m:mrow>
       </m:math> the parabola opens up. If <m:math>
         <m:mrow>
@@ -3811,7 +3811,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
         </m:mrow>
       </m:math> and axis of symmetry parallel to the <emphasis effect="italics">x</emphasis>-axis can be used to graph the parabola. If <m:math>
         <m:mrow>
-          <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+          <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
         </m:mrow>
       </m:math> the parabola opens right. If <m:math>
         <m:mrow>
@@ -3828,7 +3828,7 @@ on the directrix is the difference of the <emphasis effect="italics">y</emphasis
         </m:mrow>
       </m:math> and axis of symmetry parallel to the <emphasis effect="italics">y</emphasis>-axis can be used to graph the parabola. If <m:math>
         <m:mrow>
-          <m:mi>p</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+          <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
         </m:mrow>
       </m:math> the parabola opens up. If <m:math>
         <m:mrow>

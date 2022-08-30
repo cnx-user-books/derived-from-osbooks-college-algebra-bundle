@@ -1017,7 +1017,7 @@ A corequisite course in mathematics is designed to provide support to a student 
 </m:math> 
  assuming  <m:math>
  <m:mrow>
-<m:mi>x</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
  </m:mrow>
 </m:math>
 </para></problem>

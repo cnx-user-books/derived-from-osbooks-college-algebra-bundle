@@ -19,9 +19,9 @@
 
 </list></section><section id="eip-744"><title>Objective 1: Draw and interpret scatter diagrams (linear, exponential, logarithmic). (CA 4.3.1)</title><note id="eip-117"><title>Vocabulary and Concept Check</title><para id="eip-idm379121104">Draw and interpret scatter diagrams (linear, exponential, logarithmic).</para><para id="eip-416">Fill in the blanks and match the description with the graphs a, b, or c</para><para id="eip-493">A ________ function has equation <m:math><m:mi>f</m:mi><m:mfenced><m:mi>x</m:mi></m:mfenced><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:math> and has a basic shape ________.<newline/>
 
-A ________ function has equation <m:math><m:mi>f</m:mi><m:mfenced><m:mi>x</m:mi></m:mfenced><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>,</m:mo><m:mo> </m:mo><m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn></m:math> and has a basic shape ________.<newline/>
+A ________ function has equation <m:math><m:mi>f</m:mi><m:mfenced><m:mi>x</m:mi></m:mfenced><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>,</m:mo><m:mo> </m:mo><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn></m:math> and has a basic shape ________.<newline/>
 
-A ________ function has equation <m:math><m:mi>f</m:mi><m:mfenced><m:mi>x</m:mi></m:mfenced><m:mo>=</m:mo><m:msub><m:mi>log</m:mi><m:mi>a</m:mi></m:msub><m:mi>x</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:math> and has a basic shape ________.</para>
+A ________ function has equation <m:math><m:mi>f</m:mi><m:mfenced><m:mi>x</m:mi></m:mfenced><m:mo>=</m:mo><m:msub><m:mi>log</m:mi><m:mi>a</m:mi></m:msub><m:mi>x</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:math> and has a basic shape ________.</para>
 <media id="c" alt="graph">
 <image mime-type="image/png" src="../../media/CNX_Coreq_Figure_06_08_001.jpg"/>
 </media></note><para id="eip-76">A <term id="term-00001">Scatter Plot</term> is a graph of plotted points that may show a relationship between the variables in a set of data.</para>
@@ -377,7 +377,7 @@ We determined in the second practice problem,  earlier in this section, that the
  </m:mrow>
 </m:math> (assume <m:math>
  <m:mrow>
-  <m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>:</m:mo>
+  <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>:</m:mo>
  </m:mrow>
 </m:math> </para>
 <list id="fs-id1694862" list-type="bulleted">
@@ -393,7 +393,7 @@ We determined in the second practice problem,  earlier in this section, that the
 </m:math>
 <list id="fs-id1305009" list-type="bulleted" bullet-style="open-circle"><item>If <m:math>
  <m:mrow>
-<m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+<m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the function models exponential growth. As <m:math>
  <m:mrow>
@@ -455,7 +455,7 @@ We determined in the second practice problem,  earlier in this section, that the
 </m:math> must be non-negative.</item>
 <item>when <m:math>
  <m:mrow>
-<m:mi>b</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+<m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> we have an exponential growth model.</item>
 <item>when <m:math>
@@ -816,7 +816,7 @@ We determined in the second practice problem,  earlier in this section, that the
 </m:math> is on the graph of the model.</item>
 <item>If <m:math>
  <m:mrow>
-  <m:mi>b</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+  <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the model is increasing. Growth increases rapidly at first and then steadily slows over time.</item>
 <item>If <m:math>
@@ -843,7 +843,7 @@ We determined in the second practice problem,  earlier in this section, that the
 </m:math> must be non-negative.</item>
 <item>when <m:math>
  <m:mrow>
-  <m:mi>b</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+  <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the model is increasing.</item>
 <item>when <m:math>
@@ -1160,7 +1160,7 @@ We determined in the second practice problem,  earlier in this section, that the
 </m:math> is the initial value of the model.</item>
 <item>when <m:math>
  <m:mrow>
-  <m:mi>b</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+  <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the model increases rapidly at first until it reaches its point of maximum growth rate, <m:math>
  <m:mrow>
@@ -3988,7 +3988,7 @@ About 25
 <solution id="fs-id1701034">
 <para id="fs-id1701036">Domain: <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>;</m:mo>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>;</m:mo>
  </m:mrow>
 </m:math> Vertical asymptote: <m:math>
  <m:mrow>

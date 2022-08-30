@@ -1307,12 +1307,12 @@ Find the zeros of the function algebraically. Check by graphing a function on a 
   </para><note id="fs-id1165135693782"><title>The Fundamental Theorem of Algebra</title>
    <para id="eip-id2164365">The <term id="term-00015">Fundamental Theorem of Algebra</term> states that, if <m:math>
     <m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
-   </m:math> is a polynomial of degree <emphasis effect="italics">n > 0</emphasis>, then <m:math>
+   </m:math> is a polynomial of degree <emphasis effect="italics">n &gt; 0</emphasis>, then <m:math>
     <m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
    </m:math> has at least one complex zero.</para><para id="fs-id1165135409342">We can use this theorem to argue that, if <m:math>
     <m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
    </m:math> is a polynomial of degree <m:math>
-     <m:mrow><m:mi>n</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
+     <m:mrow><m:mi>n</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
     </m:math> and <m:math>
      <m:mrow><m:mi>a</m:mi></m:mrow>
     </m:math>

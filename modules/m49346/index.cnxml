@@ -2986,7 +2986,7 @@ and as <m:math>
  <m:mrow>
   <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mmultiscripts>
    <m:mrow/>
-   <m:mprescripts/>
+   <m:none/><m:none/><m:mprescripts/>
    <m:none/>
    <m:mn>4</m:mn>
   </m:mmultiscripts>

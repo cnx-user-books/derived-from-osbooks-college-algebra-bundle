@@ -221,7 +221,7 @@ in pounds per square inch (PSI) on the diver in <link target-id="CNX_Precalc_Fig
 <para id="fs-id1165134085973">The slope determines if the function is an <term id="term-00007">increasing linear function</term>, a <term id="term-00008">decreasing linear function</term>, or a constant function.</para>
 <list id="eip-643" list-type="bulleted" bullet-style="none"><item> <m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mtext> is an increasing function if </m:mtext><m:mi>m</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mtext> is an increasing function if </m:mtext><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
  </m:mrow>
 </m:math> </item>
 <item> <m:math>
@@ -666,7 +666,7 @@ and <m:math>
 </m:mrow>
 </m:math> The function is increasing because <m:math>
 <m:mrow>
-<m:mi>m</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+<m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
 </m:mrow>
 </m:math>
 </para>
@@ -3838,7 +3838,7 @@ is the monthly charge, in dollars. Find and interpret the rate of change and ini
 
 <definition id="fs-id1165137863356">
 <term>increasing linear function</term>
-<meaning id="fs-id1165135188274">a function with a positive slope: If <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext>then</m:mtext><m:mspace width="0.5em"/><m:mi>m</m:mi><m:mo>></m:mo><m:mn>0.</m:mn></m:mrow></m:math> </meaning>
+<meaning id="fs-id1165135188274">a function with a positive slope: If <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext>then</m:mtext><m:mspace width="0.5em"/><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn></m:mrow></m:math> </meaning>
 </definition>
 
 <definition id="fs-id1165135429388">

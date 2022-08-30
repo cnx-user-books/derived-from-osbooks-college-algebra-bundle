@@ -3258,7 +3258,7 @@ Find the sum: <m:math><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>
 </equation></item>
 <item> <span class="token">ⓓ</span>The formula is exponential, so the series is geometric, but <m:math>
  <m:mrow>
-  <m:mi>r</m:mi><m:mo>></m:mo><m:mn>1.</m:mn>
+  <m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mn>1.</m:mn>
  </m:mrow>
 </m:math> The sum does not exist.</item>
 </list></solution>
@@ -5271,7 +5271,7 @@ to <m:math>
     <m:mi>n</m:mi>
    </m:munderover>
    <m:mrow>
-    <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>k</m:mi><m:mo>–</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>></m:mo><m:mn>100.</m:mn>
+    <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>k</m:mi><m:mo>–</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mn>100.</m:mn>
    </m:mrow>
   </m:mstyle>
  </m:mrow>

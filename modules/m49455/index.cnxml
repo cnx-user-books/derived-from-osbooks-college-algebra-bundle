@@ -3487,7 +3487,7 @@
      </m:mtd>
      <m:mtd columnalign="left">
       <m:mrow>
-       <m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn>
+       <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn>
       </m:mrow>
      </m:mtd>
     </m:mtr>
@@ -6848,7 +6848,7 @@
                     </m:mtd>
                     <m:mtd columnalign="left">
                         <m:mrow>
-                            <m:mi>x</m:mi><m:mo>></m:mo><m:mn>1</m:mn>
+                            <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn>
                         </m:mrow>
                     </m:mtd>
                 </m:mtr>
@@ -6998,7 +6998,7 @@
     <m:mtr>
      <m:mtd>
       <m:mrow>
-       <m:mi>x</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+       <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
       </m:mrow>
      </m:mtd>
     </m:mtr>
@@ -7055,7 +7055,7 @@
     <m:mtr>
      <m:mtd>
       <m:mrow>
-       <m:mi>x</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+       <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
       </m:mrow>
      </m:mtd>
     </m:mtr>
@@ -7982,7 +7982,7 @@
      </m:mtd>
      <m:mtd columnalign="left">
       <m:mrow>
-       <m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn>
+       <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn>
       </m:mrow>
      </m:mtd>
     </m:mtr>
@@ -8100,7 +8100,7 @@
      </m:mtd>
      <m:mtd columnalign="left">
       <m:mrow>
-       <m:mi>x</m:mi><m:mo>></m:mo><m:mn>1</m:mn>
+       <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn>
       </m:mrow>
      </m:mtd>
     </m:mtr>

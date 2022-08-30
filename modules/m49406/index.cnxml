@@ -2246,7 +2246,7 @@
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
     <m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi></m:mrow>
-  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>θ</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>θ</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
 </m:math> move in a counterclockwise direction from the polar axis by an angle of <m:math>
  <m:mrow>
   <m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow>
@@ -2564,7 +2564,7 @@
 
 <para id="fs-id1165131961716">For the following exercises, convert the given Cartesian coordinates to polar coordinates with <m:math>
  <m:mrow>
-  <m:mi>r</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo></m:mrow>
+  <m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo></m:mrow>
 </m:math> Remember to consider the quadrant in which the given point is located.</para>
 
 <exercise id="fs-id1165134312061">
@@ -3770,7 +3770,7 @@ line</para>
 <problem id="fs-id1165135424587">
 <para id="fs-id1165135424589">Describe the graph of <m:math>
  <m:mrow>
-  <m:mi>r</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>sec</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>;</m:mo><m:mi>a</m:mi><m:mo>></m:mo><m:mn>0.</m:mn></m:mrow>
+  <m:mi>r</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>sec</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>;</m:mo><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn></m:mrow>
 </m:math>
 </para></problem>
 </exercise>
@@ -3791,7 +3791,7 @@ line</para>
 <problem id="fs-id1165135618286">
 <para id="fs-id1165131968582">Describe the graph of <m:math>
  <m:mrow>
-  <m:mi>r</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>csc</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>;</m:mo><m:mi>a</m:mi><m:mo>></m:mo><m:mn>0.</m:mn></m:mrow>
+  <m:mi>r</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>csc</m:mi><m:mspace width="0.3em"/><m:mi>θ</m:mi><m:mo>;</m:mo><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn></m:mrow>
 </m:math>
 </para></problem>
 </exercise>

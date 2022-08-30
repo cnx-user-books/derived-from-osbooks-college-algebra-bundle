@@ -762,7 +762,7 @@ Identify conic sections by their equations.
    <m:mi>y</m:mi>
    <m:mn>2</m:mn>
   </m:msup>
-  <m:mo>+</m:mo><m:mi>D</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>E</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>A</m:mi><m:mo>≠</m:mo><m:mi>C</m:mi><m:mspace width="0.5em"/><m:mtext>and </m:mtext><m:mi>A</m:mi><m:mi>C</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mo>+</m:mo><m:mi>D</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>E</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext/><m:mi>A</m:mi><m:mo>≠</m:mo><m:mi>C</m:mi><m:mspace width="0.5em"/><m:mtext>and </m:mtext><m:mi>A</m:mi><m:mi>C</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math>
        </entry>
@@ -1081,7 +1081,7 @@ when A and B are positive does not represent a graph at all, since there are no 
       </m:mrow>
      </m:math> Because <m:math>
       <m:mrow>
-      <m:mi>A</m:mi><m:mi>C</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+      <m:mi>A</m:mi><m:mi>C</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
       </m:mrow>
      </m:math> and <m:math>
       <m:mrow>
@@ -2817,7 +2817,7 @@ when A and B are positive does not represent a graph at all, since there are no 
 
   <list id="fs-id2132367"><item>	If <m:math>
     <m:mrow>
-     <m:mi>cot</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+     <m:mi>cot</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
     </m:mrow>
    </m:math> then <m:math>
     <m:mrow>
@@ -5714,7 +5714,7 @@ when A and B are positive does not represent a graph at all, since there are no 
    	 </m:math> the conic section is a parabola</item>
    	 <item> <m:math>
    	  <m:mrow>
-   	   <m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+   	   <m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
    	  </m:mrow>
    	 </m:math> the conic section is a hyperbola</item>
    	</list></note><example id="Example_10_04_05"><exercise id="fs-id2138546">
@@ -6270,7 +6270,7 @@ when A and B are positive does not represent a graph at all, since there are no 
       <m:mi>B</m:mi>
       <m:mn>2</m:mn>
      </m:msup>
-     <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>A</m:mi><m:mi>C</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+     <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>A</m:mi><m:mi>C</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
     </m:mrow>
    </m:math> what can we conclude?</para></problem>
    <solution id="fs-id1691753">
@@ -6290,7 +6290,7 @@ when A and B are positive does not represent a graph at all, since there are no 
     </m:mrow>
    </m:math> what can we conclude if <m:math>
     <m:mrow>
-     <m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>?</m:mo>
+     <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>?</m:mo>
     </m:mrow>
    </m:math>
    </para></problem></exercise>
@@ -6425,7 +6425,7 @@ when A and B are positive does not represent a graph at all, since there are no 
     <solution id="fs-id1277151">
      <para id="fs-id1277153"> <m:math>
       <m:mrow>
-       <m:mi>A</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+       <m:mi>A</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
       </m:mrow>
      </m:math> ellipse</para></solution></exercise>
    <exercise id="fs-id1277179"><problem id="fs-id1277180"><para id="fs-id1277181"> <m:math>
@@ -7932,7 +7932,7 @@ when A and B are positive does not represent a graph at all, since there are no 
      <m:mrow>
       <m:mn>2</m:mn><m:mi>θ</m:mi>
      </m:mrow>
-     <m:mo>)</m:mo></m:mrow><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+     <m:mo>)</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
    </m:mrow>
   </m:math> then <m:math>
    <m:mrow>

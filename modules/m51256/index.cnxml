@@ -2993,7 +2993,7 @@ The following chart summarizes the factoring methods and outlines a strategy you
    <m:mi>b</m:mi>
    <m:mn>2</m:mn>
   </m:msup>
-  <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
+  <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
 </m:math> perfect square</entry>
 <entry align="center">Two rational solutions</entry>
 </row>
@@ -3004,7 +3004,7 @@ The following chart summarizes the factoring methods and outlines a strategy you
    <m:mi>b</m:mi>
    <m:mn>2</m:mn>
   </m:msup>
-  <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
+  <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
 </m:math> not a perfect square</entry>
 <entry align="center">Two irrational solutions</entry>
 </row>

@@ -3483,7 +3483,7 @@
    </m:mrow>
    <m:mn>6</m:mn>
   </m:mfrac>
-  <m:mo>></m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+  <m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
  </m:mrow>
 </m:math> so this value for <m:math>
  <m:mrow>
@@ -3680,7 +3680,7 @@
    </m:mrow>
    <m:mn>6</m:mn>
   </m:mfrac>
-  <m:mo>></m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+  <m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
  </m:mrow>
 </m:math> so this value for <m:math>
  <m:mrow>

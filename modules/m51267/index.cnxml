@@ -595,7 +595,7 @@ Absolute value functions have a “V” shaped graph. If scanning this function 
   <m:mi>−A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mo>,</m:mo></m:mrow>
   </m:math> assuming <m:math>
      <m:mrow>
-      <m:mi>B</m:mi><m:mo>></m:mo><m:mn>0.</m:mn></m:mrow>
+      <m:mi>B</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn></m:mrow>
     </m:math>
   </item>
     <item>Solve for <m:math>

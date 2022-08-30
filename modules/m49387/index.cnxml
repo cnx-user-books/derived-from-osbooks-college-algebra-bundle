@@ -461,7 +461,7 @@
  </m:mrow>
 </m:math> When this occurs, we call the smallest such horizontal shift with <m:math>
  <m:mrow>
-  <m:mi>P</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mi>P</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math> the <term class="no-emphasis" id="term-00005">period</term> of the function. <link target-id="Figure_06_01_005"/> shows several periods of the sine and cosine functions.</para>
 
@@ -589,7 +589,7 @@ Now we can clearly see this property from the graph.</para><figure id="Figure_06
  </m:mrow>
 </m:math> If <m:math>
  <m:mrow>
-  <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+  <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> then the period is less than <m:math>
  <m:mrow>
@@ -868,7 +868,7 @@ Now we can clearly see this property from the graph.</para><figure id="Figure_06
  </m:mrow>
 </m:math> in this case, the midline is the <emphasis effect="italics">x</emphasis>-axis. The local minima will be the same distance below the midline. If <m:math>
  <m:mrow>
-  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the function is stretched. For example, the amplitude of <m:math>
  <m:mrow>
@@ -1083,7 +1083,7 @@ Now we can clearly see this property from the graph.</para><figure id="Figure_06
  </m:mrow>
 </m:math> for a sinusoidal function is called the <emphasis>phase shift</emphasis>, or the horizontal displacement of the basic sine or <term class="no-emphasis" id="term-00012">cosine function</term>. If <m:math>
  <m:mrow>
-  <m:mi>C</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+  <m:mi>C</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the graph shifts to the right. If <m:math>
  <m:mrow>
@@ -1977,7 +1977,7 @@ Now we can clearly see this property from the graph.</para><figure id="Figure_06
  </m:mrow>
 </m:math> there is a local maximum for <m:math>
  <m:mrow>
-  <m:mi>A</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mi>A</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math> or a minimum for <m:math>
  <m:mrow>
@@ -2001,7 +2001,7 @@ Now we can clearly see this property from the graph.</para><figure id="Figure_06
 </m:math> </item>
 <item>There is a local minimum for <m:math>
  <m:mrow>
-  <m:mi>A</m:mi><m:mo>></m:mo><m:mn>0</m:mn>
+  <m:mi>A</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math> (maximum for <m:math>
  <m:mrow>
@@ -2945,7 +2945,7 @@ The constant 3 causes a vertical stretch of the <emphasis effect="italics">y</em
  </m:mrow>
 </m:math> represents amplitude. If <m:math>
  <m:mrow>
-  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the function is stretched, whereas if <m:math>
  <m:mrow>
@@ -3066,7 +3066,7 @@ to obtain <m:math>
 <title>Graphical</title>
 <para id="fs-id1165137742733">For the following exercises, graph two full periods of each function and state the amplitude, period, and midline. State the maximum and minimum <emphasis effect="italics">y</emphasis>-values and their corresponding <emphasis effect="italics">x</emphasis>-values on one period for <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
  </m:mrow>
 </m:math> Round answers to two decimal places if necessary.</para><exercise id="fs-id1165137570454">
 <problem id="fs-id1165137570456"><para id="fs-id1165137570457"> <m:math>
@@ -3468,7 +3468,7 @@ to obtain <m:math>
  </m:mrow>
 </m:math> For each function, state the amplitude, period, and midline. State the maximum and minimum <emphasis effect="italics">y</emphasis>-values and their corresponding <emphasis effect="italics">x</emphasis>-values on one period for <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mn>0.</m:mn>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
  </m:mrow>
 </m:math> State the phase shift and vertical translation, if applicable. Round answers to two decimal places if necessary.</para><exercise id="fs-id1165135154308">
 <problem id="fs-id1165137694190"><para id="fs-id1165137694191"> <m:math>

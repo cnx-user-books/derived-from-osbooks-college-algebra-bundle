@@ -164,7 +164,7 @@
  </m:mrow>
 </m:math> from the right ( <m:math>
  <m:mrow>
-  <m:mi>x</m:mi><m:mo>></m:mo><m:mi>a</m:mi>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi>
  </m:mrow>
 </m:math> but close to <m:math>
  <m:mrow>
@@ -859,7 +859,7 @@
     <m:mn>220</m:mn>
    </m:mrow>
   </m:mfrac>
-  <m:mo>≈</m:mo><m:mn>0.08</m:mn><m:mo>></m:mo><m:mfrac>
+  <m:mo>≈</m:mo><m:mn>0.08</m:mn><m:mo>&gt;</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mrow>
     <m:mn>20</m:mn>
@@ -1419,7 +1419,7 @@ There are 1,200 first-year and 1,500 second-year students at a rally at noon. Af
 
 <section id="fs-id1165134222349"><title>Identifying Horizontal Asymptotes of Rational Functions</title><para id="fs-id1165135501072">While vertical asymptotes describe the behavior of a graph as the <emphasis effect="italics">output</emphasis> gets very large or very small, horizontal asymptotes help describe the behavior of a graph as the <emphasis effect="italics">input</emphasis> gets very large or very small. Recall that a polynomial’s end behavior will mirror that of the leading term. Likewise, a rational function’s end behavior will mirror that of the ratio of the leading terms of the numerator and denominator functions.</para>
 <para id="fs-id1165137503143">There are three distinct outcomes when checking for horizontal asymptotes:</para>
-<para id="fs-id1165137503146"><emphasis>Case 1:</emphasis> If the degree of the denominator > degree of the numerator, there is a <term class="no-emphasis" id="term-00009">horizontal asymptote</term> at <m:math>
+<para id="fs-id1165137503146"><emphasis>Case 1:</emphasis> If the degree of the denominator &gt; degree of the numerator, there is a <term class="no-emphasis" id="term-00009">horizontal asymptote</term> at <m:math>
  <m:mrow>
   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
  </m:mrow>
@@ -1588,7 +1588,7 @@ There are 1,200 first-year and 1,500 second-year students at a rally at noon. Af
  </m:mrow>
 </m:math> where degree of <m:math>
  <m:mrow>
-  <m:mi>p</m:mi><m:mo>></m:mo><m:mtext>degree of </m:mtext><m:mi>q</m:mi><m:mspace width="0.5em"/><m:mtext>by</m:mtext><m:mspace width="0.5em"/><m:mtext>1</m:mtext><m:mtext>.</m:mtext>
+  <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mtext>degree of </m:mtext><m:mi>q</m:mi><m:mspace width="0.5em"/><m:mtext>by</m:mtext><m:mspace width="0.5em"/><m:mtext>1</m:mtext><m:mtext>.</m:mtext>
  </m:mrow>
 </m:math>
 
@@ -1931,7 +1931,7 @@ There are 1,200 first-year and 1,500 second-year students at a rally at noon. Af
  </m:mrow>
 </m:math> Since <m:math>
  <m:mrow>
-  <m:mi>p</m:mi><m:mo>></m:mo><m:mi>q</m:mi>
+  <m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mi>q</m:mi>
  </m:mrow>
 </m:math> by 1, there is a slant asymptote found at <m:math>
  <m:mrow>
@@ -5498,7 +5498,7 @@ There are 1,200 first-year and 1,500 second-year students at a rally at noon. Af
  <m:mrow>
   <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mi>x</m:mi>
-  <m:mo>)</m:mo></m:mrow><m:mo>></m:mo><m:mn>0.</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
  </m:mrow>
 </m:math> </para>
 <exercise id="fs-id1165137761769">

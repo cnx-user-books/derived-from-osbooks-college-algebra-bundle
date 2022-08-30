@@ -810,7 +810,7 @@
 </m:math> </item>
 <item>For <m:math>
  <m:mrow>
- <m:mi>A</m:mi><m:mi>B</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+ <m:mi>A</m:mi><m:mi>B</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
  </m:mrow>
 </m:math> the graph approaches the left asymptote at negative output values and the right asymptote at positive output values (reverse for <m:math>
  <m:mrow>
